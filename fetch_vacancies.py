@@ -3,11 +3,9 @@
 Fetches real-time food testing laboratory vacancy postings in India.
 
 Sources (all via Google News RSS - no API keys required, ToS-safe):
+  - General news/notification coverage of lab hiring
   - site: filters over major job portals (Naukri, Indeed, Shine, TimesJobs)
   - site: filters over LinkedIn job posts and public govt/FSSAI/NABL notices
-
-Only results with hiring-specific keywords in the title are kept, so
-general news/inspection/enforcement stories are filtered out.
 
 Output: vacancies.json — a deduped, sorted list ready for the website widget.
 
@@ -26,6 +24,7 @@ import xml.etree.ElementTree as ET
 
 OUTPUT_FILE = "vacancies.json"
 MAX_ITEMS = 150
+MAX_AGE_DAYS = 30  # drop anything older than this
 
 # Each entry: (label shown in UI, google-news search query)
 # Every query is phrased around hiring/recruitment terms specifically,
@@ -45,6 +44,160 @@ QUERIES = [
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; VacancyBot/1.0)"}
+
+# Direct career pages of food testing labs / certification & inspection
+# bodies. Each page is checked directly (not via Google) for signs of an
+# active opening, since these are the most authoritative source.
+LAB_CAREER_PAGES = [
+    "https://qcin.org/work-with-us/",
+    "https://www.indianspices.com/opportunities.html",
+    "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+    "https://mpeda.gov.in/?page_id=1155",
+    "https://apeda.gov.in/recruitment-appointment",
+    "https://fssai.gov.in/jobs@fssai.php",
+    "https://www.eicindia.gov.in/WebApp1/pages/menuInfo/recruitments.xhtml",
+    "https://recruitmentcoffeeboard2025.in/",
+    "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+    "https://dmi.gov.in/Recruitment.aspx",
+    "https://ppqs.gov.in/en/internship",
+    "https://abctechnolab.com/careers/",
+    "https://accuratelaboratory.in/career/",
+    "https://www.aeslabs.com/index.php/career/",
+    "https://alexstewartindia.com/career/",
+    "https://www.alsglobal.com/en/careers",
+    "https://anaconlaboratories.com/careers/",
+    "https://srigomuki.com/",
+    "https://arbropharma.com/careers/",
+    "https://ashwamedh.net/careers/",
+    "https://ltfoods.com/career",
+    "https://audenteslabs.com/",
+    "https://avonfoodlab.com/careers/",
+    "https://www.bureauveritas.co.in/working-bureau-veritas",
+    "https://www.mettexlab.com/careers",
+    "https://cultivatorphytolab.com/careers/",
+    "https://www.delhitesthouse.com/",
+    "https://www.einfrac.in/career",
+    "https://ecogreenlabsindia.com/career/",
+    "https://efrac.org/work-with-us/",
+    "https://envirocarelabs.com/open-positions/",
+    "https://envirocarelabs.com/jobs/",
+    "https://www.equinoxlab.com/",
+    "https://eurekaserv.com/careers/",
+    "https://careers.eurofins.com/in",
+    "https://farelabs.com/careers/",
+    "https://fhhl.in/",
+    "https://recruit.zohopublic.com/recruit/Portal.na?iframe=false&digest=90Y5ckZZcfEcDAzew9pW.XGAUnkE7bVo.a85bxdBEmQ-",
+    "https://geochem.net.in/en/careers",
+    "https://hthlabs.com/careers/",
+    "https://www.ifl.in/careers/",
+    "https://www.itclabs.com/career-with-us/",
+    "https://www.intertek.com/careers/",
+    "https://www.irclass.org/careers/",
+    "https://kiitincubator.in/career/",
+    "https://www.merieuxnutrisciences.com/in/careers-at-merieux-nutrisciences/",
+    "https://www.multanilabs.com/Food-Testing",
+    "https://ncml.com/career/",
+    "http://www.piouslabs.com/job-vacancy/page-48899349",
+    "https://www.sealab.in/index.php",
+    "https://www.sgs.com/en/our-company/careers-at-sgs/job-opportunities",
+    "https://www.shivaanalyticals.com/en/about/careers-at-shiva-analyticals",
+    "https://www.shriraminstitute.org/career/",
+    "https://smsla.global/careers-at-sms-labs/",
+    "https://www.simalab.net/",
+    "https://www.niist.res.in/opportunities-and-careers/permanent-positions",
+    "https://www.niist.res.in/opportunities-and-careers/temporary-position",
+    "https://www.tuv-nord.com/in/en/career-with-us/",
+    "https://vimta.com/careers/",
+]
+
+# Known display names for the bigger/well-known organizations. Anything not
+# listed here falls back to an auto-generated name from the domain.
+KNOWN_NAMES = {
+    "qcin.org": "Quality Council of India",
+    "indianspices.com": "Spices Board India",
+    "teaboard.gov.in": "Tea Board India",
+    "mpeda.gov.in": "MPEDA",
+    "apeda.gov.in": "APEDA",
+    "fssai.gov.in": "FSSAI",
+    "eicindia.gov.in": "Export Inspection Council",
+    "recruitmentcoffeeboard2025.in": "Coffee Board",
+    "nddb.coop": "NDDB",
+    "dmi.gov.in": "Directorate of Marketing & Inspection",
+    "ppqs.gov.in": "PPQS",
+    "alsglobal.com": "ALS Global",
+    "bureauveritas.co.in": "Bureau Veritas",
+    "careers.eurofins.com": "Eurofins",
+    "intertek.com": "Intertek",
+    "irclass.org": "IRClass",
+    "merieuxnutrisciences.com": "Merieux NutriSciences",
+    "sgs.com": "SGS",
+    "tuv-nord.com": "TUV Nord",
+    "vimta.com": "Vimta Labs",
+}
+
+
+def display_name_for(url: str) -> str:
+    netloc = urllib.parse.urlparse(url).netloc.lower()
+    netloc = netloc[4:] if netloc.startswith("www.") else netloc
+    for domain, name in KNOWN_NAMES.items():
+        if domain in netloc:
+            return name
+    core = netloc.split(".")[0]
+    core = re.sub(r"[-_]+", " ", core)
+    return core.title()
+
+
+# Phrases that indicate a career page currently shows active openings.
+LAB_PAGE_POSITIVE = [
+    "vacancy", "vacancies", "current opening", "current openings",
+    "job opening", "job openings", "we are hiring", "we're hiring",
+    "apply now", "apply online", "open position", "open positions",
+    "career opportunit", "job opportunit", "walk-in", "walk in interview",
+]
+
+# Phrases that indicate there are explicitly NO current openings.
+LAB_PAGE_NEGATIVE = [
+    "no current openings", "no current vacancies", "no vacancies at this time",
+    "no open positions", "currently no openings", "no openings available",
+]
+
+
+def fetch_lab_page(url: str) -> str:
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        raw = resp.read()
+    try:
+        return raw.decode("utf-8", errors="ignore")
+    except Exception:
+        return raw.decode("latin-1", errors="ignore")
+
+
+def check_lab_pages():
+    items = []
+    for url in LAB_CAREER_PAGES:
+        try:
+            html = fetch_lab_page(url).lower()
+        except Exception as e:
+            print(f"[warn] lab page failed: {url} ({e})")
+            continue
+
+        if any(neg in html for neg in LAB_PAGE_NEGATIVE):
+            continue
+        if not any(pos in html for pos in LAB_PAGE_POSITIVE):
+            continue
+
+        name = display_name_for(url)
+        items.append(
+            {
+                "title": f"Openings currently listed — {name}",
+                "link": url,
+                "source": name,
+                "category": "Lab Career Pages",
+                "published": datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT"),
+            }
+        )
+        time.sleep(0.5)
+    return items
 
 # A result's title must contain at least one of these to be treated as an
 # actual job posting...
@@ -117,6 +270,15 @@ def to_epoch(pub_date: str) -> float:
         return 0
 
 
+def is_within_age_limit(pub_date: str, max_age_days: int) -> bool:
+    epoch = to_epoch(pub_date)
+    if epoch == 0:
+        # If we can't parse a date, keep it rather than silently dropping it.
+        return True
+    age_seconds = time.time() - epoch
+    return age_seconds <= max_age_days * 86400
+
+
 def dedupe(items):
     seen = set()
     out = []
@@ -139,7 +301,11 @@ def main():
             print(f"[warn] query failed: {query!r} ({e})")
         time.sleep(1)  # be polite to Google's endpoint
 
+    print("Checking direct lab career pages...")
+    all_items.extend(check_lab_pages())
+
     all_items = dedupe(all_items)
+    all_items = [it for it in all_items if is_within_age_limit(it["published"], MAX_AGE_DAYS)]
     all_items.sort(key=lambda x: to_epoch(x["published"]), reverse=True)
     all_items = all_items[:MAX_ITEMS]
 
