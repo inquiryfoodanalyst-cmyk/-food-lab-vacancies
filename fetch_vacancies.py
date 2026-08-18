@@ -172,32 +172,110 @@ def fetch_lab_page(url: str) -> str:
         return raw.decode("latin-1", errors="ignore")
 
 
+# Words that suggest a line of text is actually a job title, not just
+# mention of "careers" in a nav menu or footer.
+JOB_TITLE_HINTS = [
+    "analyst", "chemist", "technician", "officer", "executive", "engineer",
+    "supervisor", "manager", "coordinator", "trainee", "intern",
+    "microbiologist", "scientist", "assistant", "associate", "specialist",
+    "inspector", "auditor", "chemist", "quality", "lab technician",
+    "food safety", "sample collector", "qa ", "qc ", "chemist trainee",
+]
+
+# Boilerplate that shows up in nav/footer text and should never be treated
+# as a job title even if it happens to contain a hint word.
+JUNK_LINE_MARKERS = [
+    "cookie", "privacy", "terms of", "©", "all rights reserved",
+    "subscribe", "newsletter", "follow us", "contact us", "sitemap",
+    "javascript", "please enable",
+]
+
+
+def extract_job_snippets(html: str, max_snippets: int = 3):
+    """Best-effort extraction of individual job-title-looking lines from a
+    career page. Works well on server-rendered listing pages; on JS-rendered
+    (React/Angular) pages it will typically find nothing, which is fine —
+    the caller falls back to a generic 'openings listed' item."""
+    # Pull anchor text first — job titles are very often clickable links.
+    anchor_texts = re.findall(r"<a\b[^>]*>(.*?)</a>", html, flags=re.I | re.S)
+
+    # Strip remaining tags/scripts/styles to get plain body text too.
+    no_script = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.I | re.S)
+    plain = re.sub(r"<[^>]+>", "\n", no_script)
+    plain_lines = plain.splitlines()
+
+    candidates = []
+    for raw_line in anchor_texts + plain_lines:
+        line = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", raw_line)).strip()
+        if not (6 <= len(line) <= 90):
+            continue
+        low = line.lower()
+        if any(j in low for j in JUNK_LINE_MARKERS):
+            continue
+        if not any(h in low for h in JOB_TITLE_HINTS):
+            continue
+        # Skip generic nav items like "Careers" or "Current Openings" alone.
+        if low.strip() in ("careers", "career", "current openings", "vacancies",
+                            "open positions", "job openings", "apply now"):
+            continue
+        candidates.append(line)
+
+    # De-dupe while preserving order.
+    seen = set()
+    unique = []
+    for c in candidates:
+        key = c.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(c)
+
+    return unique[:max_snippets]
+
+
 def check_lab_pages():
     items = []
     for url in LAB_CAREER_PAGES:
         try:
-            html = fetch_lab_page(url).lower()
+            raw_html = fetch_lab_page(url)
         except Exception as e:
             print(f"[warn] lab page failed: {url} ({e})")
             continue
 
-        if any(neg in html for neg in LAB_PAGE_NEGATIVE):
+        html_lower = raw_html.lower()
+        if any(neg in html_lower for neg in LAB_PAGE_NEGATIVE):
             continue
-        if not any(pos in html for pos in LAB_PAGE_POSITIVE):
+        if not any(pos in html_lower for pos in LAB_PAGE_POSITIVE):
             continue
 
         name = display_name_for(url)
-        items.append(
-            {
-                "title": f"Openings currently listed — {name}",
-                "link": url,
-                "source": name,
-                "category": "Lab Career Pages",
-                "published": datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT"),
-            }
-        )
+        now_str = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+        snippets = extract_job_snippets(raw_html)
+
+        if snippets:
+            for snippet in snippets:
+                items.append(
+                    {
+                        "title": f"{snippet} — {name}",
+                        "link": url,
+                        "source": name,
+                        "category": "Lab Career Pages",
+                        "published": now_str,
+                    }
+                )
+        else:
+            items.append(
+                {
+                    "title": f"Openings currently listed — {name}",
+                    "link": url,
+                    "source": name,
+                    "category": "Lab Career Pages",
+                    "published": now_str,
+                }
+            )
         time.sleep(0.5)
     return items
+
 
 # A result's title must contain at least one of these to be treated as an
 # actual job posting...
