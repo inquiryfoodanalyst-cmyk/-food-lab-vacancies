@@ -300,6 +300,7 @@ function render() {
   const items = activeCategory === "All" ? allItems : allItems.filter(i => i.category === activeCategory);
   if (!items.length) {
     feed.innerHTML = '<div class="empty">No listings in this category right now — check back soon.</div>';
+    reportHeight();
     return;
   }
   feed.innerHTML = items.map((it, idx) => {
@@ -318,6 +319,18 @@ function render() {
       </div>
     </div>`;
   }).join("");
+  reportHeight();
+}
+
+// Tells the parent page (if this is embedded in an iframe) how tall the
+// content actually is, so the parent can resize the iframe to fit exactly
+// — avoiding a scrollbar-inside-a-scrollbar situation.
+function reportHeight() {
+  if (window.parent === window) return; // not embedded, nothing to do
+  requestAnimationFrame(() => {
+    const height = document.documentElement.scrollHeight;
+    window.parent.postMessage({ type: "vacancy-feed-height", height: height }, "*");
+  });
 }
 
 function renderStats() {
@@ -359,7 +372,11 @@ fetch(DATA_URL, { cache: "no-store" })
   .catch(() => {
     document.getElementById("updated-text").textContent = "Feed unavailable";
     document.getElementById("feed").innerHTML = '<div class="empty">Could not load vacancies.json — has fetch_vacancies.py run yet?</div>';
+    reportHeight();
   });
+
+window.addEventListener("resize", reportHeight);
+window.addEventListener("load", reportHeight);
 </script>
 </body>
 </html>
