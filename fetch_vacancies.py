@@ -3,9 +3,11 @@
 Fetches real-time food testing laboratory vacancy postings in India.
 
 Sources (all via Google News RSS - no API keys required, ToS-safe):
-  - General news/notification coverage of lab hiring
   - site: filters over major job portals (Naukri, Indeed, Shine, TimesJobs)
   - site: filters over LinkedIn job posts and public govt/FSSAI/NABL notices
+
+Only results with hiring-specific keywords in the title are kept, so
+general news/inspection/enforcement stories are filtered out.
 
 Output: vacancies.json — a deduped, sorted list ready for the website widget.
 
@@ -26,11 +28,12 @@ OUTPUT_FILE = "vacancies.json"
 MAX_ITEMS = 150
 
 # Each entry: (label shown in UI, google-news search query)
+# Every query is phrased around hiring/recruitment terms specifically,
+# to bias results toward postings rather than general news coverage.
 QUERIES = [
-    ("News & Notices", 'food testing laboratory vacancy India'),
-    ("News & Notices", 'food safety officer recruitment India'),
-    ("FSSAI / Govt", 'FSSAI recruitment food analyst'),
-    ("FSSAI / Govt", 'NABL food testing lab recruitment'),
+    ("FSSAI / Govt", 'FSSAI recruitment food analyst vacancy'),
+    ("FSSAI / Govt", 'NABL food testing lab recruitment vacancy'),
+    ("FSSAI / Govt", 'food safety officer recruitment India vacancy'),
     ("Job Portals", 'food testing laboratory vacancy site:naukri.com'),
     ("Job Portals", 'food analyst chemist job site:indeed.co.in'),
     ("Job Portals", 'food testing lab job site:shine.com'),
@@ -42,6 +45,31 @@ QUERIES = [
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; VacancyBot/1.0)"}
+
+# A result's title must contain at least one of these to be treated as an
+# actual job posting...
+INCLUDE_KEYWORDS = [
+    "vacancy", "vacancies", "recruitment", "hiring", "walk-in", "walk in",
+    "job opening", "job openings", "apply now", "recruit", "post of",
+    "posts of", "requires", "wanted", "career", "openings", "job alert",
+]
+
+# ...and must NOT contain any of these, which signal it's ordinary news
+# coverage rather than a hiring notice.
+EXCLUDE_KEYWORDS = [
+    "raid", "seized", "seizure", "fine", "penalty", "penalised", "penalized",
+    "banned", "ban on", "warns", "warning", "adulterat", "contamina",
+    "poisoning", "shut down", "shuts down", "license cancel", "fssai license",
+    "food safety index", "inspection drive", "notice to", "show cause",
+    "court", "case against", "fir against", "arrested", "fake food",
+]
+
+
+def is_relevant(title: str) -> bool:
+    t = title.lower()
+    if any(bad in t for bad in EXCLUDE_KEYWORDS):
+        return False
+    return any(good in t for good in INCLUDE_KEYWORDS)
 
 
 def fetch_rss(query: str) -> str:
@@ -65,7 +93,7 @@ def parse_items(xml_bytes: bytes, category: str):
         pub_date = (item.findtext("pubDate") or "").strip()
         source_el = item.find("source")
         source = source_el.text.strip() if source_el is not None and source_el.text else "Google News"
-        if not title or not link:
+        if not title or not link or not is_relevant(title):
             continue
         items.append(
             {
