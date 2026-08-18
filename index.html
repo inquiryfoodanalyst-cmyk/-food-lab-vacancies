@@ -5,59 +5,67 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Food Testing Lab Vacancies — India Live Feed</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper: #F6F4EC;
+    --navy: #1E3A5F;
+    --navy-deep: #142A47;
+    --cream: #F6E4BE;
+    --paper: #FBF5E9;
     --surface: #FFFFFF;
-    --ink: #1E2A24;
-    --teal: #2F6F5E;
-    --teal-deep: #234F42;
-    --teal-dim: #E4EEEA;
-    --amber: #C97A2B;
-    --amber-dim: #F5E6D3;
-    --sage: #8B9A93;
-    --hairline: #E1DBC9;
+    --ink: #1B2733;
+    --amber: #E8952F;
+    --amber-deep: #C97A16;
+    --amber-dim: #FCEAD1;
+    --muted: #7C8B9A;
+    --hairline: #E7DFC9;
+
+    /* category colors */
+    --c-govt: #2F6FBD;      --c-govt-bg: #E6EEF9;
+    --c-portals: #7B5FC7;   --c-portals-bg: #EFE9FA;
+    --c-linkedin: #0A66C2;  --c-linkedin-bg: #E3EEFA;
+    --c-twitter: #111827;   --c-twitter-bg: #E9EAEC;
+    --c-lab: #E8952F;       --c-lab-bg: #FCEAD1;
+    --c-default: #3E8E7E;   --c-default-bg: #E4F1EE;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    background:
-      radial-gradient(circle at 100% 0%, rgba(47,111,94,0.06), transparent 45%),
-      var(--paper);
+    background: var(--paper);
     color: var(--ink);
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap {
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 32px 20px 70px;
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 0 60px; }
+
+  /* ---- Hero header, navy-to-cream like the site ---- */
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 55%, #2A4A6E 100%);
+    color: #fff;
+    padding: 34px 24px 30px;
+    border-radius: 0 0 14px 14px;
   }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 18px;
-    margin-bottom: 22px;
-    gap: 16px;
-    flex-wrap: wrap;
-  }
-  .title-block h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    margin: 0 0 5px;
-    letter-spacing: -0.01em;
-  }
-  .title-block p {
-    margin: 0;
+  .eyebrow {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px;
-    color: var(--sage);
+    font-size: 11px;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
+    color: var(--amber);
+    margin-bottom: 8px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 14px;
+  }
+  .hero h1 .accent { color: var(--amber); }
+  .hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
   }
   .live-tag {
     display: flex;
@@ -66,45 +74,49 @@
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--teal-deep);
-    background: var(--teal-dim);
+    letter-spacing: 0.06em;
+    color: #fff;
+    background: rgba(255,255,255,0.12);
     padding: 7px 13px;
-    border-radius: 4px;
-    white-space: nowrap;
+    border-radius: 20px;
   }
   .dot {
     width: 7px; height: 7px;
     border-radius: 50%;
-    background: var(--teal);
+    background: var(--amber);
     animation: pulse 1.6s infinite;
   }
   @keyframes pulse {
-    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(47,111,94,0.4); }
-    50% { opacity: 0.6; box-shadow: 0 0 0 5px rgba(47,111,94,0); }
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(232,149,47,0.5); }
+    50% { opacity: 0.6; box-shadow: 0 0 0 6px rgba(232,149,47,0); }
   }
+
+  /* ---- Stats strip ---- */
   .stats-row {
     display: flex;
-    gap: 22px;
-    margin-bottom: 22px;
+    gap: 30px;
+    padding: 20px 24px;
     flex-wrap: wrap;
   }
-  .stat {
-    font-family: 'IBM Plex Mono', monospace;
-  }
   .stat .num {
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--ink);
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--amber-deep);
     display: block;
     line-height: 1.1;
   }
   .stat .lbl {
-    font-size: 10px;
-    color: var(--sage);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.06em;
   }
+
+  .content { padding: 0 24px; }
+
+  /* ---- Filters, colorful pills ---- */
   .filters {
     display: flex;
     gap: 8px;
@@ -112,108 +124,84 @@
     margin-bottom: 22px;
   }
   .filter-chip {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11.5px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding: 7px 13px;
-    border: 1px solid var(--hairline);
-    border-radius: 4px;
-    background: var(--surface);
-    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12.5px;
+    padding: 8px 15px;
+    border: 1.5px solid transparent;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.15s ease;
+    background: var(--chip-bg, var(--c-default-bg));
+    color: var(--chip-fg, var(--c-default));
   }
-  .filter-chip:hover { border-color: var(--teal); color: var(--teal-deep); }
+  .filter-chip:hover { filter: brightness(0.96); }
   .filter-chip.active {
-    background: var(--ink);
-    border-color: var(--ink);
-    color: var(--paper);
+    background: var(--chip-fg, var(--c-default));
+    color: #fff;
   }
+
+  /* ---- Feed cards ---- */
   .feed { display: flex; flex-direction: column; gap: 11px; }
   .card {
     position: relative;
     background: var(--surface);
     border: 1px solid var(--hairline);
-    border-left: 3px solid var(--teal);
-    border-radius: 3px;
+    border-left: 4px solid var(--chip-fg, var(--c-default));
+    border-radius: 8px;
     padding: 15px 20px 15px 17px;
     display: grid;
-    grid-template-columns: 84px 1fr;
-    gap: 15px;
+    grid-template-columns: 1fr auto;
+    gap: 10px 15px;
     align-items: start;
-    transition: transform 0.15s ease, box-shadow 0.15s ease, border-left-color 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
   .card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(30,42,36,0.08);
-    border-left-color: var(--amber);
-  }
-  .card::after {
-    content: "";
-    position: absolute;
-    top: -1px; right: -1px;
-    width: 14px; height: 14px;
-    background: var(--paper);
-    border-left: 1px solid var(--hairline);
-    border-bottom: 1px solid var(--hairline);
-    clip-path: polygon(0 0, 100% 0, 100% 100%);
-  }
-  .spec-id {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10.5px;
-    color: var(--sage);
-    line-height: 1.5;
-    padding-top: 2px;
-  }
-  .spec-id b {
-    display: block;
-    color: var(--ink);
-    font-size: 12.5px;
+    box-shadow: 0 8px 20px rgba(30,58,95,0.10);
   }
   .card-body a {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     font-size: 15.5px;
     color: var(--ink);
     text-decoration: none;
     line-height: 1.38;
   }
-  .card-body a:hover { color: var(--teal-deep); text-decoration: underline; }
+  .card-body a:hover { color: var(--amber-deep); text-decoration: underline; }
   .meta-row {
     display: flex;
     gap: 8px;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 9px;
     flex-wrap: wrap;
   }
   .chip {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     font-size: 10.5px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    padding: 3px 9px;
-    border-radius: 3px;
-    background: var(--amber-dim);
-    color: var(--amber);
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--chip-bg, var(--c-default-bg));
+    color: var(--chip-fg, var(--c-default));
   }
-  .chip.fresh {
-    background: var(--teal-dim);
-    color: var(--teal-deep);
-  }
+  .chip.fresh { background: var(--amber); color: #fff; }
   .when {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
-    color: var(--sage);
+    color: var(--muted);
   }
   .empty, .loading {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 13px;
-    color: var(--sage);
+    color: var(--muted);
     text-align: center;
     padding: 70px 20px;
     border: 1px dashed var(--hairline);
-    border-radius: 4px;
+    border-radius: 8px;
+    background: var(--surface);
   }
   footer {
     margin-top: 30px;
@@ -221,33 +209,48 @@
     border-top: 1px solid var(--hairline);
     font-family: 'IBM Plex Mono', monospace;
     font-size: 10.5px;
-    color: var(--sage);
+    color: var(--muted);
     text-align: center;
     line-height: 1.6;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <div class="title-block">
-      <h1>Food Testing Lab Vacancies</h1>
-      <p>Live sample log — India</p>
+  <div class="hero">
+    <div class="eyebrow">Career Hub · Food Testing Laboratory</div>
+    <h1>Food Lab <span class="accent">Vacancies</span> &amp; Careers</h1>
+    <div class="hero-meta">
+      <div class="live-tag"><span class="dot"></span><span id="updated-text">Loading…</span></div>
     </div>
-    <div class="live-tag"><span class="dot"></span><span id="updated-text">Loading…</span></div>
-  </header>
+  </div>
 
   <div class="stats-row" id="stats"></div>
-  <div class="filters" id="filters"></div>
-  <div class="feed" id="feed"><div class="loading">Pulling the latest samples…</div></div>
 
-  <footer>Auto-refreshed from news, job portals, and direct lab career pages · Refreshes every few hours</footer>
+  <div class="content">
+    <div class="filters" id="filters"></div>
+    <div class="feed" id="feed"><div class="loading">Pulling the latest samples…</div></div>
+    <footer>Auto-refreshed from news, job portals, and direct lab career pages · Refreshes every few hours</footer>
+  </div>
 </div>
 
 <script>
-const DATA_URL = "vacancies.json"; // same-folder JSON produced by fetch_vacancies.py
+const DATA_URL = "vacancies.json";
 let allItems = [];
 let activeCategory = "All";
+
+const CATEGORY_STYLE = {
+  "FSSAI / Govt":       { fg: "var(--c-govt)",     bg: "var(--c-govt-bg)" },
+  "Job Portals":        { fg: "var(--c-portals)",  bg: "var(--c-portals-bg)" },
+  "LinkedIn":           { fg: "var(--c-linkedin)", bg: "var(--c-linkedin-bg)" },
+  "Twitter / X":        { fg: "var(--c-twitter)",  bg: "var(--c-twitter-bg)" },
+  "Lab Career Pages":   { fg: "var(--c-lab)",      bg: "var(--c-lab-bg)" },
+};
+function styleFor(cat) {
+  return CATEGORY_STYLE[cat] || { fg: "var(--c-default)", bg: "var(--c-default-bg)" };
+}
 
 function timeAgo(pubDate) {
   if (!pubDate) return "recently";
@@ -275,15 +278,16 @@ function render() {
     feed.innerHTML = '<div class="empty">No listings in this category right now — check back soon.</div>';
     return;
   }
-  feed.innerHTML = items.map((it, idx) => {
+  feed.innerHTML = items.map((it) => {
     const fresh = isFresh(it.published);
+    const s = styleFor(it.category);
     return `
-    <div class="card">
-      <div class="spec-id">SPEC<b>#${String(idx + 1).padStart(4, "0")}</b></div>
+    <div class="card" style="--chip-fg:${s.fg}; --chip-bg:${s.bg};">
       <div class="card-body">
         <a href="${it.link}" target="_blank" rel="noopener">${it.title}</a>
         <div class="meta-row">
-          <span class="chip ${fresh ? 'fresh' : ''}">${fresh ? 'New · ' : ''}${it.category}</span>
+          <span class="chip">${it.category}</span>
+          ${fresh ? '<span class="chip fresh">New</span>' : ''}
           <span class="when">${timeAgo(it.published)}</span>
         </div>
       </div>
@@ -297,17 +301,20 @@ function renderStats() {
   const freshCount = allItems.filter(i => isFresh(i.published)).length;
   const catCount = new Set(allItems.map(i => i.category)).size;
   stats.innerHTML = `
-    <div class="stat"><span class="num">${total}</span><span class="lbl">Total Listed</span></div>
+    <div class="stat"><span class="num">${total}</span><span class="lbl">Live Listings</span></div>
     <div class="stat"><span class="num">${freshCount}</span><span class="lbl">New (24h)</span></div>
     <div class="stat"><span class="num">${catCount}</span><span class="lbl">Sources Tracked</span></div>
+    <div class="stat"><span class="num">Free</span><span class="lbl">Always</span></div>
   `;
 }
 
 function renderFilters() {
   const cats = ["All", ...new Set(allItems.map(i => i.category))];
-  document.getElementById("filters").innerHTML = cats.map(c =>
-    `<button class="filter-chip ${c === activeCategory ? 'active' : ''}" data-cat="${c}">${c}</button>`
-  ).join("");
+  document.getElementById("filters").innerHTML = cats.map(c => {
+    const s = c === "All" ? { fg: "var(--navy)", bg: "var(--cream)" } : styleFor(c);
+    const active = c === activeCategory ? "active" : "";
+    return `<button class="filter-chip ${active}" style="--chip-fg:${s.fg}; --chip-bg:${s.bg};" data-cat="${c}">${c}</button>`;
+  }).join("");
   document.querySelectorAll(".filter-chip").forEach(btn => {
     btn.addEventListener("click", () => {
       activeCategory = btn.dataset.cat;
