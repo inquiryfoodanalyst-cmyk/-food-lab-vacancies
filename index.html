@@ -38,8 +38,9 @@
   }
   .wrap { max-width: 900px; margin: 0 auto; padding: 0 0 60px; }
 
-  /* ---- Hero header, navy-to-cream like the site ---- */
+  /* ---- Hero header ---- */
   .hero {
+    position: relative;
     background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 55%, #2A4A6E 100%);
     color: #fff;
     padding: 34px 24px 30px;
@@ -52,38 +53,42 @@
     text-transform: uppercase;
     color: var(--amber);
     margin-bottom: 8px;
+    padding-right: 170px; /* keep clear of the corner timestamp */
   }
   .hero h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 34px;
     line-height: 1.15;
-    margin: 0 0 14px;
+    margin: 0;
+    padding-right: 170px;
   }
   .hero h1 .accent { color: var(--amber); }
-  .hero-meta {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
+
+  /* Updated date/time pinned to the top-right corner */
   .live-tag {
+    position: absolute;
+    top: 22px;
+    right: 20px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 7px;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
+    font-size: 10.5px;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     color: #fff;
     background: rgba(255,255,255,0.12);
-    padding: 7px 13px;
+    padding: 7px 12px;
     border-radius: 20px;
+    text-align: right;
+    white-space: nowrap;
   }
   .dot {
     width: 7px; height: 7px;
     border-radius: 50%;
     background: var(--amber);
+    flex: none;
     animation: pulse 1.6s infinite;
   }
   @keyframes pulse {
@@ -94,15 +99,15 @@
   /* ---- Stats strip ---- */
   .stats-row {
     display: flex;
-    gap: 30px;
+    gap: 34px;
     padding: 20px 24px;
     flex-wrap: wrap;
   }
   .stat .num {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
     font-weight: 700;
-    color: var(--amber-deep);
+    color: #000000;
     display: block;
     line-height: 1.1;
   }
@@ -112,6 +117,13 @@
     color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.06em;
+  }
+
+  /* Contrast divider bar under the stats row */
+  .contrast-bar {
+    height: 6px;
+    background: linear-gradient(90deg, var(--amber) 0%, var(--amber-deep) 100%);
+    margin-bottom: 22px;
   }
 
   .content { padding: 0 24px; }
@@ -149,16 +161,24 @@
     border: 1px solid var(--hairline);
     border-left: 4px solid var(--chip-fg, var(--c-default));
     border-radius: 8px;
-    padding: 15px 20px 15px 17px;
+    padding: 15px 20px 15px 16px;
     display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 10px 15px;
+    grid-template-columns: 34px 1fr;
+    gap: 4px 14px;
     align-items: start;
     transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
   .card:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(30,58,95,0.10);
+  }
+  .sno {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.4;
+    padding-top: 1px;
   }
   .card-body a {
     font-family: 'Inter', sans-serif;
@@ -215,19 +235,23 @@
     padding-left: 24px;
     padding-right: 24px;
   }
+
+  @media (max-width: 520px) {
+    .live-tag { position: static; margin-top: 14px; display: inline-flex; }
+    .eyebrow, .hero h1 { padding-right: 0; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="hero">
+    <div class="live-tag"><span class="dot"></span><span id="updated-text">Loading…</span></div>
     <div class="eyebrow">Career Hub · Food Testing Laboratory</div>
     <h1>Food Lab <span class="accent">Vacancies</span> &amp; Careers</h1>
-    <div class="hero-meta">
-      <div class="live-tag"><span class="dot"></span><span id="updated-text">Loading…</span></div>
-    </div>
   </div>
 
   <div class="stats-row" id="stats"></div>
+  <div class="contrast-bar"></div>
 
   <div class="content">
     <div class="filters" id="filters"></div>
@@ -278,11 +302,12 @@ function render() {
     feed.innerHTML = '<div class="empty">No listings in this category right now — check back soon.</div>';
     return;
   }
-  feed.innerHTML = items.map((it) => {
+  feed.innerHTML = items.map((it, idx) => {
     const fresh = isFresh(it.published);
     const s = styleFor(it.category);
     return `
     <div class="card" style="--chip-fg:${s.fg}; --chip-bg:${s.bg};">
+      <div class="sno">${idx + 1}.</div>
       <div class="card-body">
         <a href="${it.link}" target="_blank" rel="noopener">${it.title}</a>
         <div class="meta-row">
@@ -299,12 +324,9 @@ function renderStats() {
   const stats = document.getElementById("stats");
   const total = allItems.length;
   const freshCount = allItems.filter(i => isFresh(i.published)).length;
-  const catCount = new Set(allItems.map(i => i.category)).size;
   stats.innerHTML = `
     <div class="stat"><span class="num">${total}</span><span class="lbl">Live Listings</span></div>
     <div class="stat"><span class="num">${freshCount}</span><span class="lbl">New (24h)</span></div>
-    <div class="stat"><span class="num">${catCount}</span><span class="lbl">Sources Tracked</span></div>
-    <div class="stat"><span class="num">Free</span><span class="lbl">Always</span></div>
   `;
 }
 
