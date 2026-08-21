@@ -137,8 +137,32 @@
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .location-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin-bottom: 22px;
   }
+  .location-row label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12.5px;
+    color: var(--navy);
+  }
+  .location-row select {
+    font-family: 'Inter', sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 7px 12px;
+    border: 1.5px solid var(--hairline);
+    border-radius: 20px;
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .location-row select:focus { outline: 2px solid var(--amber); }
   .filter-chip {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -212,6 +236,7 @@
     color: var(--chip-fg, var(--c-default));
   }
   .chip.fresh { background: var(--amber); color: #fff; }
+  .chip.loc-chip { background: var(--paper); color: var(--navy); border: 1px solid var(--hairline); }
   .when {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
@@ -259,6 +284,10 @@
 
   <div class="content">
     <div class="filters" id="filters"></div>
+    <div class="location-row">
+      <label for="location-filter">📍 Location:</label>
+      <select id="location-filter"><option value="All">All Locations</option></select>
+    </div>
     <div class="feed" id="feed"><div class="loading">Pulling the latest samples…</div></div>
     <footer>Disclaimer: Job information published on The Food Analyst is collected from various available sources and is provided for informational purposes only. Candidates are advised to verify the vacancy and eligibility directly on the company/laboratory's official website and apply through the official recruitment channel. The foodanalyst.in and its team is not responsible for any loss, damage, or consequences arising from reliance on this information.</footer>
   </div>
@@ -268,9 +297,10 @@
 const DATA_URL = "vacancies.json";
 let allItems = [];
 let activeCategory = "All";
+let activeLocation = "All";
 
 const CATEGORY_STYLE = {
-  "FSSAI / Govt":       { fg: "var(--c-govt)",     bg: "var(--c-govt-bg)" },
+  "Govt Jobs":          { fg: "var(--c-govt)",     bg: "var(--c-govt-bg)" },
   "Job Portals":        { fg: "var(--c-portals)",  bg: "var(--c-portals-bg)" },
   "LinkedIn":           { fg: "var(--c-linkedin)", bg: "var(--c-linkedin-bg)" },
   "Twitter / X":        { fg: "var(--c-twitter)",  bg: "var(--c-twitter-bg)" },
@@ -301,15 +331,19 @@ function isFresh(pubDate) {
 
 function render() {
   const feed = document.getElementById("feed");
-  const items = activeCategory === "All" ? allItems : allItems.filter(i => i.category === activeCategory);
+  let items = activeCategory === "All" ? allItems : allItems.filter(i => i.category === activeCategory);
+  if (activeLocation !== "All") {
+    items = items.filter(i => (i.location || "India") === activeLocation);
+  }
   if (!items.length) {
-    feed.innerHTML = '<div class="empty">No listings in this category right now — check back soon.</div>';
+    feed.innerHTML = '<div class="empty">No listings match this filter right now — check back soon.</div>';
     reportHeight();
     return;
   }
   feed.innerHTML = items.map((it, idx) => {
     const fresh = isFresh(it.published);
     const s = styleFor(it.category);
+    const loc = it.location || "India";
     return `
     <div class="card" style="--chip-fg:${s.fg}; --chip-bg:${s.bg};">
       <div class="sno">${idx + 1}.</div>
@@ -317,6 +351,7 @@ function render() {
         <a href="${it.link}" target="_blank" rel="noopener">${it.title}</a>
         <div class="meta-row">
           <span class="chip">${it.category}</span>
+          <span class="chip loc-chip">📍 ${loc}</span>
           ${fresh ? '<span class="chip fresh">New</span>' : ''}
           <span class="when">${timeAgo(it.published)}</span>
         </div>
@@ -363,6 +398,17 @@ function renderFilters() {
   });
 }
 
+function renderLocationFilter() {
+  const select = document.getElementById("location-filter");
+  const locs = [...new Set(allItems.map(i => i.location || "India"))].sort();
+  select.innerHTML = '<option value="All">All Locations</option>' +
+    locs.map(l => `<option value="${l}" ${l === activeLocation ? "selected" : ""}>${l}</option>`).join("");
+  select.onchange = () => {
+    activeLocation = select.value;
+    render();
+  };
+}
+
 fetch(DATA_URL, { cache: "no-store" })
   .then(r => r.json())
   .then(data => {
@@ -371,6 +417,7 @@ fetch(DATA_URL, { cache: "no-store" })
       "Updated " + new Date(data.generated_at).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" });
     renderStats();
     renderFilters();
+    renderLocationFilter();
     render();
   })
   .catch(() => {
