@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
 
 OUTPUT_FILE = "vacancies.json"
+FIRST_SEEN_FILE = "first_seen.json"
 MAX_ITEMS = 150
 MAX_AGE_DAYS = 30  # drop anything older than this
 
@@ -148,17 +149,26 @@ def display_name_for(url: str) -> str:
 
 
 # Phrases that indicate a career page currently shows active openings.
+# Deliberately broad — a career page that loads successfully and isn't
+# explicitly saying "no openings" is treated as worth listing, since
+# under-showing is worse here than over-showing (the person can always
+# click through to check).
 LAB_PAGE_POSITIVE = [
     "vacancy", "vacancies", "current opening", "current openings",
     "job opening", "job openings", "we are hiring", "we're hiring",
     "apply now", "apply online", "open position", "open positions",
     "career opportunit", "job opportunit", "walk-in", "walk in interview",
+    "career", "careers", "job", "jobs", "position", "positions",
+    "recruitment", "recruit", "opportunit", "join us", "join our team",
+    "current requirement", "requirement", "employment", "work with us",
+    "internship", "apply", "opening",
 ]
 
 # Phrases that indicate there are explicitly NO current openings.
 LAB_PAGE_NEGATIVE = [
     "no current openings", "no current vacancies", "no vacancies at this time",
     "no open positions", "currently no openings", "no openings available",
+    "no positions available", "no jobs available", "not hiring at this time",
 ]
 
 
@@ -178,8 +188,11 @@ JOB_TITLE_HINTS = [
     "analyst", "chemist", "technician", "officer", "executive", "engineer",
     "supervisor", "manager", "coordinator", "trainee", "intern",
     "microbiologist", "scientist", "assistant", "associate", "specialist",
-    "inspector", "auditor", "chemist", "quality", "lab technician",
-    "food safety", "sample collector", "qa ", "qc ", "chemist trainee",
+    "inspector", "auditor", "lab technician", "sample collector",
+    "chemist trainee", "quality analyst", "quality executive",
+    "quality officer", "quality manager", "quality engineer",
+    "qa executive", "qa officer", "qa manager", "qc executive",
+    "qc officer", "qc manager", "qc chemist", "food safety officer",
 ]
 
 # Boilerplate that shows up in nav/footer text and should never be treated
@@ -278,21 +291,26 @@ def check_lab_pages():
 
 
 # A result's title must contain at least one of these to be treated as an
-# actual job posting...
+# actual job posting. Broadened from the first pass — real postings often
+# use words like "posts," "positions," or "notification" instead of the
+# word "vacancy" itself.
 INCLUDE_KEYWORDS = [
     "vacancy", "vacancies", "recruitment", "hiring", "walk-in", "walk in",
     "job opening", "job openings", "apply now", "recruit", "post of",
-    "posts of", "requires", "wanted", "career", "openings", "job alert",
+    "posts of", "requires", "wanted", "career", "openings", "opening",
+    "job alert", "post", "posts", "position", "positions", "notification",
+    "jobs", "job", "employment", "apply", "join", "requirement",
 ]
 
-# ...and must NOT contain any of these, which signal it's ordinary news
-# coverage rather than a hiring notice.
+# ...and must NOT contain any of these, which signal it's ordinary
+# enforcement/incident news rather than a hiring notice. Trimmed down from
+# the first pass — some earlier entries (like "court") were too broad and
+# were blocking legitimate postings such as "High Court Recruitment."
 EXCLUDE_KEYWORDS = [
-    "raid", "seized", "seizure", "fine", "penalty", "penalised", "penalized",
-    "banned", "ban on", "warns", "warning", "adulterat", "contamina",
-    "poisoning", "shut down", "shuts down", "license cancel", "fssai license",
-    "food safety index", "inspection drive", "notice to", "show cause",
-    "court", "case against", "fir against", "arrested", "fake food",
+    "raid", "seized", "seizure", "fine imposed", "penalty imposed",
+    "penalised", "penalized", "banned", "ban on", "adulterat", "contamina",
+    "poisoning", "shut down", "shuts down", "license cancel",
+    "food safety index", "arrested", "fake food", "fir against",
 ]
 
 
@@ -369,6 +387,50 @@ def dedupe(items):
     return out
 
 
+def load_first_seen() -> dict:
+    try:
+        with open(FIRST_SEEN_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_first_seen(store: dict):
+    with open(FIRST_SEEN_FILE, "w", encoding="utf-8") as f:
+        json.dump(store, f, ensure_ascii=False, indent=2)
+
+
+def stable_key(item: dict) -> str:
+    return hashlib.md5((item["title"].lower().strip() + "|" + item["link"]).encode()).hexdigest()
+
+
+def apply_first_seen_dates(items: list, store: dict) -> list:
+    """For items whose date we invented ourselves (lab career pages, where
+    the site gives no real publish date), replace the timestamp with the
+    date we FIRST detected that exact listing — so it only counts as "new"
+    once, instead of resetting to "just now" on every scheduled run."""
+    now_str = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+    for it in items:
+        if it["category"] != "Lab Career Pages":
+            continue
+        key = stable_key(it)
+        if key in store:
+            it["published"] = store[key]
+        else:
+            store[key] = now_str
+            it["published"] = now_str
+    return items
+
+
+def prune_first_seen(store: dict, active_items: list):
+    """Drop entries from the store once a listing has aged past the max
+    window, so the file doesn't grow forever."""
+    active_keys = {stable_key(it) for it in active_items if it["category"] == "Lab Career Pages"}
+    for key in list(store.keys()):
+        if key not in active_keys:
+            del store[key]
+
+
 def main():
     all_items = []
     for category, query in QUERIES:
@@ -383,9 +445,16 @@ def main():
     all_items.extend(check_lab_pages())
 
     all_items = dedupe(all_items)
+
+    first_seen_store = load_first_seen()
+    all_items = apply_first_seen_dates(all_items, first_seen_store)
+
     all_items = [it for it in all_items if is_within_age_limit(it["published"], MAX_AGE_DAYS)]
     all_items.sort(key=lambda x: to_epoch(x["published"]), reverse=True)
     all_items = all_items[:MAX_ITEMS]
+
+    prune_first_seen(first_seen_store, all_items)
+    save_first_seen(first_seen_store)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
