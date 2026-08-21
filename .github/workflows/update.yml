@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "vacancy-bot"
           git config user.email "vacancy-bot@users.noreply.github.com"
-          git add vacancies.json
+          git add vacancies.json first_seen.json
           git diff --quiet --cached || git commit -m "Auto-update vacancy feed"
           git push
 
