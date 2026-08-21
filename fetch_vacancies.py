@@ -27,13 +27,77 @@ FIRST_SEEN_FILE = "first_seen.json"
 MAX_ITEMS = 150
 MAX_AGE_DAYS = 30  # drop anything older than this
 
+# ---------------------------------------------------------------------
+# Location handling: tag postings with an Indian city/state where we can
+# detect one, and filter out anything that's clearly for a role abroad.
+# ---------------------------------------------------------------------
+
+INDIA_LOCATIONS = [
+    "Delhi", "New Delhi", "Mumbai", "Navi Mumbai", "Bengaluru", "Bangalore",
+    "Chennai", "Kolkata", "Hyderabad", "Pune", "Ahmedabad", "Surat",
+    "Jaipur", "Lucknow", "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal",
+    "Visakhapatnam", "Vizag", "Patna", "Vadodara", "Baroda", "Ghaziabad",
+    "Ludhiana", "Agra", "Nashik", "Faridabad", "Meerut", "Rajkot",
+    "Varanasi", "Srinagar", "Aurangabad", "Dhanbad", "Amritsar",
+  	"Prayagraj", "Allahabad", "Ranchi", "Howrah", "Coimbatore", "Jabalpur",
+    "Gwalior", "Vijayawada", "Jodhpur", "Madurai", "Raipur", "Kota",
+    "Guwahati", "Chandigarh", "Mysuru", "Mysore", "Tiruchirappalli",
+    "Bareilly", "Aligarh", "Tiruppur", "Moradabad", "Jalandhar",
+    "Bhubaneswar", "Salem", "Warangal", "Guntur", "Noida", "Gurugram",
+    "Gurgaon", "Jamshedpur", "Bhilai", "Cuttack", "Kochi", "Cochin",
+    "Nellore", "Bhavnagar", "Dehradun", "Durgapur", "Asansol", "Kolhapur",
+    "Ajmer", "Udaipur", "Kozhikode", "Calicut", "Kurnool", "Thiruvananthapuram",
+    "Trivandrum", "Mangalore", "Mangaluru", "Panaji", "Goa", "Shimla",
+    "Manesar", "Rewari", "Sonipat", "Panipat", "Karnal", "Bhilwara",
+    "Rourkela", "Baddi", "Ankleshwar", "Anand",
+    # states / union territories (helps catch "location: Punjab" style text)
+    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh",
+    "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand",
+    "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur",
+    "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan",
+    "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh",
+    "Uttarakhand", "West Bengal", "Puducherry", "Jammu", "Kashmir",
+    "Pan India", "All India",
+]
+# Longer names first so "Navi Mumbai" matches before "Mumbai", etc.
+INDIA_LOCATIONS_SORTED = sorted(INDIA_LOCATIONS, key=len, reverse=True)
+_INDIA_LOCATION_PATTERNS = [
+    (loc, re.compile(r"\b" + re.escape(loc) + r"\b", re.I)) for loc in INDIA_LOCATIONS_SORTED
+]
+
+# Countries/cities that signal a role is abroad, not in India. If any of
+# these appear, the posting is dropped rather than shown.
+ABROAD_MARKERS = [
+    "dubai", "abu dhabi", "sharjah", "u.a.e", "uae", "saudi arabia", "saudi",
+    "riyadh", "jeddah", "qatar", "doha", "oman", "muscat", "kuwait",
+    "bahrain", "gulf country", "gulf countries", "gcc country", "singapore",
+    "malaysia", "kuala lumpur", "usa", "u.s.a", "united states", "america",
+    "uk", "united kingdom", "london", "canada", "toronto", "vancouver",
+    "australia", "sydney", "melbourne", "nigeria", "kenya", "africa",
+    "germany", "france", "italy", "spain", "netherlands", "switzerland",
+    "japan", "china", "hong kong", "ireland", "new zealand", "philippines",
+    "vietnam", "thailand", "indonesia", "abroad", "overseas", "europe",
+]
+_ABROAD_PATTERNS = [re.compile(r"\b" + re.escape(m) + r"\b", re.I) for m in ABROAD_MARKERS]
+
+
+def find_india_location(text: str):
+    for loc, pattern in _INDIA_LOCATION_PATTERNS:
+        if pattern.search(text):
+            return loc
+    return None
+
+
+def mentions_abroad(text: str) -> bool:
+    return any(p.search(text) for p in _ABROAD_PATTERNS)
+
 # Each entry: (label shown in UI, google-news search query)
 # Every query is phrased around hiring/recruitment terms specifically,
 # to bias results toward postings rather than general news coverage.
 QUERIES = [
-    ("FSSAI / Govt", 'FSSAI recruitment food analyst vacancy'),
-    ("FSSAI / Govt", 'NABL food testing lab recruitment vacancy'),
-    ("FSSAI / Govt", 'food safety officer recruitment India vacancy'),
+    ("Govt Jobs", 'FSSAI recruitment food analyst vacancy'),
+    ("Govt Jobs", 'NABL food testing lab recruitment vacancy'),
+    ("Govt Jobs", 'food safety officer recruitment India vacancy'),
     ("Job Portals", 'food testing laboratory vacancy site:naukri.com'),
     ("Job Portals", 'food analyst chemist job site:indeed.co.in'),
     ("Job Portals", 'food testing lab job site:shine.com'),
@@ -61,6 +125,9 @@ LAB_CAREER_PAGES = [
     "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
     "https://dmi.gov.in/Recruitment.aspx",
     "https://ppqs.gov.in/en/internship",
+    "https://recruitment.cftri.res.in/",
+    "https://niftem.ac.in/career/jobs?tab=openings",
+    "https://www.bis.gov.in/career-opportunities/?lang=en",
     "https://abctechnolab.com/careers/",
     "https://accuratelaboratory.in/career/",
     "https://www.aeslabs.com/index.php/career/",
@@ -124,7 +191,10 @@ KNOWN_NAMES = {
     "recruitmentcoffeeboard2025.in": "Coffee Board",
     "nddb.coop": "NDDB",
     "dmi.gov.in": "Directorate of Marketing & Inspection",
-    "ppqs.gov.in": "PPQS",
+    "ppqs.gov.in": "PPQS / CIBRC",
+    "cftri.res.in": "CFTRI (CSIR)",
+    "niftem.ac.in": "NIFTEM",
+    "bis.gov.in": "Bureau of Indian Standards (BIS)",
     "alsglobal.com": "ALS Global",
     "bureauveritas.co.in": "Bureau Veritas",
     "careers.eurofins.com": "Eurofins",
@@ -183,7 +253,9 @@ def fetch_lab_page(url: str) -> str:
 
 
 # Words that suggest a line of text is actually a job title, not just
-# mention of "careers" in a nav menu or footer.
+# mention of "careers" in a nav menu or footer. Matched as whole words
+# (via regex) so "intern" doesn't false-match inside "International" or
+# "Internal" — a bug that showed up on government site navigation menus.
 JOB_TITLE_HINTS = [
     "analyst", "chemist", "technician", "officer", "executive", "engineer",
     "supervisor", "manager", "coordinator", "trainee", "intern",
@@ -194,13 +266,23 @@ JOB_TITLE_HINTS = [
     "qa executive", "qa officer", "qa manager", "qc executive",
     "qc officer", "qc manager", "qc chemist", "food safety officer",
 ]
+JOB_TITLE_HINT_PATTERNS = [re.compile(r"\b" + re.escape(h) + r"\b", re.I) for h in JOB_TITLE_HINTS]
 
 # Boilerplate that shows up in nav/footer text and should never be treated
-# as a job title even if it happens to contain a hint word.
+# as a job title even if it happens to contain a hint word. Government
+# sites in particular have a lot of standard nav items that coincidentally
+# contain words like "manager" or "committee."
 JUNK_LINE_MARKERS = [
     "cookie", "privacy", "terms of", "©", "all rights reserved",
     "subscribe", "newsletter", "follow us", "contact us", "sitemap",
-    "javascript", "please enable",
+    "javascript", "please enable", "committee", "web information manager",
+    "annual report", "right to information", "tender", "circular",
+    "gallery", "downloads", "disclaimer", "accessibility",
+    "screen reader", "public grievance", "citizen charter", "budget",
+    "acts and rules", "press release", "feedback", "e-governance",
+    "vision and mission", "organisation chart", "board members",
+    "international agencies", "collaborative projects", "rti act",
+    "hindi", "site map", "help desk", "faq", "notice board",
 ]
 
 
@@ -225,7 +307,7 @@ def extract_job_snippets(html: str, max_snippets: int = 3):
         low = line.lower()
         if any(j in low for j in JUNK_LINE_MARKERS):
             continue
-        if not any(h in low for h in JOB_TITLE_HINTS):
+        if not any(p.search(line) for p in JOB_TITLE_HINT_PATTERNS):
             continue
         # Skip generic nav items like "Careers" or "Current Openings" alone.
         if low.strip() in ("careers", "career", "current openings", "vacancies",
@@ -246,6 +328,41 @@ def extract_job_snippets(html: str, max_snippets: int = 3):
     return unique[:max_snippets]
 
 
+# Sites where title-extraction is too unreliable to attempt — mostly
+# government/board sites with heavy, generic navigation menus that produce
+# false-positive "job titles." These always fall back to a single clean
+# "Openings currently listed" entry instead.
+GENERIC_ONLY_DOMAINS = [
+    "gov.in", "nddb.coop", "recruitmentcoffeeboard2025.in",
+    "qcin.org", "indianspices.com", "cftri.res.in", "niftem.ac.in",
+]
+
+# These are all government / quasi-government bodies — used to route their
+# listings into the dedicated "Govt Jobs" tab instead of "Lab Career Pages".
+GOVT_DOMAINS = GENERIC_ONLY_DOMAINS
+
+# Multinational companies whose /careers page isn't India-specific — a
+# generic "Openings listed" message here could easily be wrong (the
+# opening might be in another country entirely). For these, only show a
+# listing if we can actually confirm India relevance in the extracted text.
+AMBIGUOUS_GLOBAL_DOMAINS = ["alsglobal.com", "intertek.com", "sgs.com"]
+
+
+def is_generic_only(url: str) -> bool:
+    netloc = urllib.parse.urlparse(url).netloc.lower()
+    return any(d in netloc for d in GENERIC_ONLY_DOMAINS)
+
+
+def is_govt(url: str) -> bool:
+    netloc = urllib.parse.urlparse(url).netloc.lower()
+    return any(d in netloc for d in GOVT_DOMAINS)
+
+
+def is_ambiguous_global(url: str) -> bool:
+    netloc = urllib.parse.urlparse(url).netloc.lower()
+    return any(d in netloc for d in AMBIGUOUS_GLOBAL_DOMAINS)
+
+
 def check_lab_pages():
     items = []
     for url in LAB_CAREER_PAGES:
@@ -262,8 +379,16 @@ def check_lab_pages():
             continue
 
         name = display_name_for(url)
+        category = "Govt Jobs" if is_govt(url) else "Lab Career Pages"
         now_str = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-        snippets = extract_job_snippets(raw_html)
+        snippets = [] if is_generic_only(url) else extract_job_snippets(raw_html)
+        # Drop any snippet that clearly names a role abroad.
+        snippets = [s for s in snippets if not mentions_abroad(s)]
+
+        ambiguous = is_ambiguous_global(url)
+        if ambiguous:
+            # Only keep snippets we can confirm are India-relevant.
+            snippets = [s for s in snippets if find_india_location(s) or "india" in s.lower()]
 
         if snippets:
             for snippet in snippets:
@@ -272,20 +397,26 @@ def check_lab_pages():
                         "title": f"{snippet} — {name}",
                         "link": url,
                         "source": name,
-                        "category": "Lab Career Pages",
+                        "category": category,
                         "published": now_str,
+                        "location": find_india_location(snippet) or "India",
                     }
                 )
-        else:
+        elif not ambiguous:
+            # Safe to show the generic fallback — this domain is known to
+            # be India-specific (or we already skipped extraction for it).
             items.append(
                 {
                     "title": f"Openings currently listed — {name}",
                     "link": url,
                     "source": name,
-                    "category": "Lab Career Pages",
+                    "category": category,
                     "published": now_str,
+                    "location": "India",
                 }
             )
+        # else: ambiguous global page with no confirmed India snippet —
+        # skip it entirely rather than risk showing a foreign role.
         time.sleep(0.5)
     return items
 
@@ -344,13 +475,17 @@ def parse_items(xml_bytes: bytes, category: str):
         source = source_el.text.strip() if source_el is not None and source_el.text else "Google News"
         if not title or not link or not is_relevant(title):
             continue
+        if mentions_abroad(title):
+            continue
+        clean_title = re.sub(r"\s+-\s+[^-]+$", "", title)  # strip trailing " - Source"
         items.append(
             {
-                "title": re.sub(r"\s+-\s+[^-]+$", "", title),  # strip trailing " - Source"
+                "title": clean_title,
                 "link": link,
                 "source": source,
                 "category": category,
                 "published": pub_date,
+                "location": find_india_location(clean_title) or "India",
             }
         )
     return items
