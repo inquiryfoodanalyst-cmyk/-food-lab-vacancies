@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-08-24T14:30:49.293403+00:00",
-  "count": 139,
+  "generated_at": "2026-08-24T17:09:26.757600+00:00",
+  "count": 125,
   "items": [
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Mon, 24 Aug 2026 17:05:28 GMT",
+      "location": "India"
+    },
     {
       "title": "Openings currently listed — NIFTEM",
       "link": "https://niftem.ac.in/career/jobs?tab=openings",
       "source": "NIFTEM",
       "category": "Govt Jobs",
-      "published": "Mon, 24 Aug 2026 14:28:29 GMT",
+      "published": "Mon, 24 Aug 2026 17:05:25 GMT",
       "location": "India"
     },
     {
@@ -15,7 +23,31 @@
       "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
       "source": "NDDB",
       "category": "Govt Jobs",
-      "published": "Mon, 24 Aug 2026 14:28:16 GMT",
+      "published": "Mon, 24 Aug 2026 17:05:08 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Mon, 24 Aug 2026 17:04:48 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Mon, 24 Aug 2026 17:04:40 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Mon, 24 Aug 2026 17:04:34 GMT",
       "location": "India"
     },
     {
@@ -23,15 +55,7 @@
       "link": "https://www.indianspices.com/opportunities.html",
       "source": "Spices Board India",
       "category": "Govt Jobs",
-      "published": "Mon, 24 Aug 2026 14:26:51 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Intern — Abctechnolab",
-      "link": "https://abctechnolab.com/careers/",
-      "source": "Abctechnolab",
-      "category": "Lab Career Pages",
-      "published": "Mon, 24 Aug 2026 03:36:39 GMT",
+      "published": "Mon, 24 Aug 2026 17:04:32 GMT",
       "location": "India"
     },
     {
@@ -67,62 +91,6 @@
       "location": "India"
     },
     {
-      "title": "Manager Lab — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Mon, 24 Aug 2026 03:36:39 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Sr. Analyst — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Mon, 24 Aug 2026 03:36:39 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Environment Chemist — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Mon, 24 Aug 2026 03:36:39 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Technical Manager — Accuratelaboratory",
-      "link": "https://accuratelaboratory.in/career/",
-      "source": "Accuratelaboratory",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Quality Manager — Accuratelaboratory",
-      "link": "https://accuratelaboratory.in/career/",
-      "source": "Accuratelaboratory",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Quality Assurance Executive — Accuratelaboratory",
-      "link": "https://accuratelaboratory.in/career/",
-      "source": "Accuratelaboratory",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Srigomuki",
-      "link": "https://srigomuki.com/",
-      "source": "Srigomuki",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
       "title": "Business Development Executive — Ashwamedh",
       "link": "https://ashwamedh.net/careers/",
       "source": "Ashwamedh",
@@ -134,70 +102,6 @@
       "title": "Techno-Commercial Manager – Single Point of Contact — Ashwamedh",
       "link": "https://ashwamedh.net/careers/",
       "source": "Ashwamedh",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Einfrac",
-      "link": "https://www.einfrac.in/career",
-      "source": "Einfrac",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Analytical Chemist / Senior Analytical Chemist — Eurekaserv",
-      "link": "https://eurekaserv.com/careers/",
-      "source": "Eurekaserv",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Fresher / Trainee — Farelabs",
-      "link": "https://farelabs.com/careers/",
-      "source": "Farelabs",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Scientist C &#8211; Trainee — Farelabs",
-      "link": "https://farelabs.com/careers/",
-      "source": "Farelabs",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Scientist C &#8211; Trainee &#8211; Ph. D. Chemistry — Farelabs",
-      "link": "https://farelabs.com/careers/",
-      "source": "Farelabs",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Junior analyst-2 years experience — Ifl",
-      "link": "https://www.ifl.in/careers/",
-      "source": "Ifl",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Senior chemist-5 years experience — Ifl",
-      "link": "https://www.ifl.in/careers/",
-      "source": "Ifl",
-      "category": "Lab Career Pages",
-      "published": "Sun, 23 Aug 2026 21:48:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Junior microbiologist-2 years — Ifl",
-      "link": "https://www.ifl.in/careers/",
-      "source": "Ifl",
       "category": "Lab Career Pages",
       "published": "Sun, 23 Aug 2026 21:48:30 GMT",
       "location": "India"
@@ -233,6 +137,14 @@
       "category": "LinkedIn",
       "published": "Sat, 22 Aug 2026 13:50:11 GMT",
       "location": "India"
+    },
+    {
+      "title": "Technical Service Lab Executive Job in BEMCON ENGINEERING PRIVATE LIMITED at Assam",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFJRTFZrQ05aR3l3Rl9fdlJLSm9YdDJEdXRkU2dkbHFKTDU0UmJhSDNjcV80VmdrN3czbDFSQXdaMV9oVk5SQXBQaVZUa2h1eUhCdDhDc2loSVR1dFNLajZvQmM5Vk9hREliS0pVM2VxOWwtVng1aXVOWExjUWM5dXZnSWRaZ005Uk90NkVxRFo5b2FOUDI5c2N0TW1rS2xsUlM1dQ?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Sat, 22 Aug 2026 13:23:44 GMT",
+      "location": "Assam"
     },
     {
       "title": "1. Marketing Executive (Marketing & Sampling) — Sealab",
@@ -273,14 +185,6 @@
       "category": "Job Portals",
       "published": "Fri, 21 Aug 2026 23:37:24 GMT",
       "location": "Mumbai"
-    },
-    {
-      "title": "Technical Service Lab Executive Job in BEMCON ENGINEERING PRIVATE LIMITED at Assam",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFJRTFZrQ05aR3l3Rl9fdlJLSm9YdDJEdXRkU2dkbHFKTDU0UmJhSDNjcV80VmdrN3czbDFSQXdaMV9oVk5SQXBQaVZUa2h1eUhCdDhDc2loSVR1dFNLajZvQmM5Vk9hREliS0pVM2VxOWwtVng1aXVOWExjUWM5dXZnSWRaZ005Uk90NkVxRFo5b2FOUDI5c2N0TW1rS2xsUlM1dQ?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Fri, 21 Aug 2026 13:23:44 GMT",
-      "location": "Assam"
     },
     {
       "title": "Openings currently listed — Anaconlaboratories",
@@ -539,28 +443,12 @@
       "location": "India"
     },
     {
-      "title": "Manager, Lab Ops & QA/QC Job in DEMOLISH at Bangalore",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHbmcwaGhvSk9FRHdwaXhRdkFucmt4Q29WNVB5QVZJWU80NzFKX2E0WkdlNXQyMjBHdDFOYkw4RlQtUUxrOWgwazY1S1c3eDgzYWRwMmZEdGJTbzdzaWZfYVo5U2xZd1J2UWczZDdnRm9velhh?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Fri, 21 Aug 2026 03:55:11 GMT",
-      "location": "Bangalore"
-    },
-    {
       "title": "Quality Control Chemist / Quality Control Microbiologist Job in APD Foods India at Bhiwandi",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakowOWFVNG1zNFBBVXBYUFZjZkdteUFnTVJVSHpXS2dINE5YTW1wc2tzbHdYZmdPb24xTFlPdUZrZlJOc0hWXzh3bXhSTDRjd2JNOFhOcXhMcHpMYjhJWFEyTDQxOXlRb05RUmtnYU9fNmVhZWhZaTBvaTVuRTA0ekhERUNEOXBsd1d0cTJWMk5QbkxkMG1nM0RrQ3ZUZzVSbXZHWExuY1VVQQ?oc=5",
       "source": "shine.com",
       "category": "Job Portals",
       "published": "Fri, 21 Aug 2026 03:28:40 GMT",
       "location": "India"
-    },
-    {
-      "title": "Principal ETL Engineer (ADF) (Bengaluru) Job in Eurofins at Bangalore",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMnJUT1hkVGI4REFQLUd2aFpZUEdTTU5OSXRfMjZzbnhNOG5XNTl1X3RGYl9NYXZRM3Fta0FOOFgxM3RETk9uVW1QNzhsRUtrRHpnM1FpdGhicVB1YVNBYVVGMEhDb0lEZ195TTJkci0yMmJPS1dzRDFfZnpJS3NESmdJZjlMVVZP?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Fri, 21 Aug 2026 00:09:40 GMT",
-      "location": "Bengaluru"
     },
     {
       "title": "Technical Manager (Food) Job in Aarvi Encon at Jaipur",
@@ -747,6 +635,14 @@
       "location": "Maharashtra"
     },
     {
+      "title": "Page 278 - 5,651 Jobs | Lab Technician",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZRlhGWVFzdGhwZHlhZnR1R2RuNXdnS21qbE5ucnEtR241UnhFWUZpdlhydHVJaHN4UlJJbGgxUy1FTldpTnVhVWFhMXZOSm5RM1BNaEZtaUJWS0JRYjNyN0x5TWd2Nm8?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Tue, 18 Aug 2026 06:52:01 GMT",
+      "location": "India"
+    },
+    {
       "title": "Page 27 - 767 Jobs | Food Quality Controlling Internship | Chennai",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeV9wMzlVdmc3TTRwZEJQS3c1N1U2WWtXUDR1a0c1RUdNLWV4ZjVUaFpDWnFoeGhkbHNPRUFxc2R6V1pFWGlldFV0Nm5RNXZTNEJvaTNlTHY3S3ZkWU1QcXpFV2FubUVLYmN0T21ZTEwwSi1NaFNKdEs1MTNpQjBGb045WVB6RDRNd1hqbEFxUFg?oc=5",
       "source": "shine.com",
@@ -923,14 +819,6 @@
       "location": "Howrah"
     },
     {
-      "title": "Principal Engineer (.Net +Angular) (Bengaluru) Job in Recognized at Bangalore",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWmpHMjNIRjFQaWtTS2dZU2xxLTYtQkhCaTNXZ2lOWHE3bWJLQUdfWG9jbzVMQ0VSanAzLWY4c0FNdmZMUHg0MkpFQkdxbWwyeV9TbnA1Z3k4eFdxMWo5QW45ejR6TkE4WlV1WjFab1M3QmZndkhVa0tXUW5YUUpmbTZPZGtnOW5PRUVpV19XSUg?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sun, 09 Aug 2026 15:02:15 GMT",
-      "location": "Bengaluru"
-    },
-    {
       "title": "Britannia Industries Limited Job in Space Food Club at Mumbai City",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaEZUdFAwd1UtN1lWZjJnMDBlVEZjSEk0QmxWRmxXLTlEc3BSY2xKY1cwZEJDQWNvUC1QVVlzN3hRV1lfMmo4X1VwV0dxMFNEUVNXeEtFMVNpRG9jRjM0ckdONWFQY2tsaW9RZkNRY0NfZ1dmeE1qei1kWEdHQVZaS1Z0M0lTTGc?oc=5",
       "source": "shine.com",
@@ -991,7 +879,7 @@
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNGdGRWt6a3ZtSFN4ZTBpOGNBRWlPX3BSQkpOZ3lLelBNeV82c0RRdFZVNWk3ZjA4am5Cb0pRdEpsWXRwdjBDazdiNTN6ZjgtUFdFWEM3UXNiQmNFYVc4cXNOekl1WXJndjZOQUZwRFlBaXUtV3Z4WUI5ZTk1UXJOdUVoQWg5SEUyVEhwYlR1SXBwOGFnM2tGakVxRUtseUctMEE2V0c5dUFVS1QyeFB3cm90UkVVcVZCVUtlaEtPSXo4OUtIUjJTX2F4QjQ2VENyNmJF?oc=5",
       "source": "LinkedIn",
       "category": "LinkedIn",
-      "published": "Thu, 06 Aug 2026 12:25:20 GMT",
+      "published": "Thu, 06 Aug 2026 07:00:00 GMT",
       "location": "India"
     },
     {
@@ -1027,12 +915,12 @@
       "location": "All India"
     },
     {
-      "title": "Sales Manager Passive Fire Testing Solutions Job in Eurofins at Mumbai City",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYU5lS21zUk1ub19hVURCRHIyYnk5cjJCbkpacFNtc1h0SVZkb01PbFNES05yZmJvcklhc3JHTXNuZ2hFTkJ4UDI1ZkVTVlprdjEyZU5XZ0pNMWFvTzdJMGhFX0tOYlJHQllmUktSN2Z6Mm5aNjE0M1hqQlo5RHJ1ZVF0SHM1OENkU280MGl0bTdWS1U?oc=5",
+      "title": "Principal ETL Engineer (ADF) (Bengaluru) Job in Eurofins at Bangalore",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMnJUT1hkVGI4REFQLUd2aFpZUEdTTU5OSXRfMjZzbnhNOG5XNTl1X3RGYl9NYXZRM3Fta0FOOFgxM3RETk9uVW1QNzhsRUtrRHpnM1FpdGhicVB1YVNBYVVGMEhDb0lEZ195TTJkci0yMmJPS1dzRDFfZnpJS3NESmdJZjlMVVZP?oc=5",
       "source": "shine.com",
       "category": "Job Portals",
-      "published": "Mon, 03 Aug 2026 06:57:52 GMT",
-      "location": "Mumbai"
+      "published": "Sun, 02 Aug 2026 22:48:54 GMT",
+      "location": "Bengaluru"
     },
     {
       "title": "QA/QC Intern Job in Equinox Labs at Thane",
@@ -1083,6 +971,14 @@
       "location": "Maharashtra"
     },
     {
+      "title": "Manager, Lab Ops & QA/QC Job in DEMOLISH at Bangalore",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHbmcwaGhvSk9FRHdwaXhRdkFucmt4Q29WNVB5QVZJWU80NzFKX2E0WkdlNXQyMjBHdDFOYkw4RlQtUUxrOWgwazY1S1c3eDgzYWRwMmZEdGJTbzdzaWZfYVo5U2xZd1J2UWczZDdnRm9velhh?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Wed, 29 Jul 2026 00:02:03 GMT",
+      "location": "Bangalore"
+    },
+    {
       "title": "Quality Assurance Hardlines & Homesoft (Delhi) Job in Eurofins India Product Testing at Delhi",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMDl4NEMwQ016SmZzWnNieFg0NDF1THFTaEM1T1pxel9JazlMdGh1Yjh4VDl0aEliTnFMazZXSnhpSnBGRzNib3l2V3VJSF9rUnpTSHEzTldycjhqaVc0bFNtX1plc0Zsc3FlZk00XzFSRG53aVpUVm9DWmp2QkRmZ0tOZV90RTBJWDBGd0NsdlFIUG9lNG5HaVgwalpuRGlpUWRfWmMzcHhwUjFqYUE?oc=5",
       "source": "shine.com",
@@ -1105,14 +1001,6 @@
       "category": "Job Portals",
       "published": "Sun, 26 Jul 2026 00:48:05 GMT",
       "location": "Delhi"
-    },
-    {
-      "title": "Junior Chemist (Baramati) Job in Baramati Agro at Baramati",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05eHhWZTlnd3R6VGtjTXd6TXlnRnBZNWp5b0xrQ0p5TExuSXhjTW5HWjlIalpXWVRqWjd3VlBtaXEyTjZmTllPaEs5RUlFUzhRYlNpbWtxMFY4QmZEQVVmemVVSjBLc0I1VDBXaEp3ZkVOajlWXzVidVRfaURSQQ?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sat, 25 Jul 2026 23:19:18 GMT",
-      "location": "India"
     }
   ]
 }
