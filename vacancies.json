@@ -1,21 +1,13 @@
 {
-  "generated_at": "2026-09-02T09:14:53.871670+00:00",
+  "generated_at": "2026-09-02T12:18:37.132323+00:00",
   "count": 121,
   "items": [
-    {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Wed, 02 Sep 2026 09:13:01 GMT",
-      "location": "India"
-    },
     {
       "title": "Openings currently listed — NIFTEM",
       "link": "https://niftem.ac.in/career/jobs?tab=openings",
       "source": "NIFTEM",
       "category": "Govt Jobs",
-      "published": "Wed, 02 Sep 2026 09:12:38 GMT",
+      "published": "Wed, 02 Sep 2026 12:16:31 GMT",
       "location": "India"
     },
     {
@@ -23,7 +15,7 @@
       "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
       "source": "NDDB",
       "category": "Govt Jobs",
-      "published": "Wed, 02 Sep 2026 09:12:32 GMT",
+      "published": "Wed, 02 Sep 2026 12:16:25 GMT",
       "location": "India"
     },
     {
@@ -31,7 +23,7 @@
       "link": "https://apeda.gov.in/recruitment-appointment",
       "source": "APEDA",
       "category": "Govt Jobs",
-      "published": "Wed, 02 Sep 2026 09:12:25 GMT",
+      "published": "Wed, 02 Sep 2026 12:16:18 GMT",
       "location": "India"
     },
     {
@@ -39,7 +31,7 @@
       "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
       "source": "Tea Board India",
       "category": "Govt Jobs",
-      "published": "Wed, 02 Sep 2026 09:12:07 GMT",
+      "published": "Wed, 02 Sep 2026 12:16:00 GMT",
       "location": "India"
     },
     {
@@ -47,7 +39,7 @@
       "link": "https://www.indianspices.com/opportunities.html",
       "source": "Spices Board India",
       "category": "Govt Jobs",
-      "published": "Wed, 02 Sep 2026 09:12:05 GMT",
+      "published": "Wed, 02 Sep 2026 12:15:58 GMT",
       "location": "India"
     },
     {
@@ -443,12 +435,12 @@
       "location": "India"
     },
     {
-      "title": "Microbiology Manager- at EFRAC Lab — Barasat, West Bengal, India | LinkedIn Jobs",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1FoZkJPZFplYk5rb3VwUmF1VjlOd0R2QXZBaXM1ejlwR3JVemNyeEVMTV9yV2Q1R09xbFVwc3hVMkVaTTVESDFGX1owWHF6T0dLS3JFZHlOWFFUZ01Ra3JFTkRFdjVkamVGa05WN2JUcVRESVZLQzQ1cWxZeDNVdm50Qi0?oc=5",
-      "source": "LinkedIn India",
+      "title": "IDEXX hiring Molecular PCR Laboratory Technician in Columbia, MO",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTVlqRnZhc0Z5dzVydEFUNjZ5Nl9GMHhLVHpNd2swMU0tWWpFbUdJX2ZyM2psQ3BxQ3lRaXl5T2ltUWVIQzRuVTJTQ1lTR0lNUVFNMGN6Rl9Sc2tQZzNKVG9FUC1ScEFqZFo1RC1hcWhERldsQnNqR2JyQUp5QzZrT2ZJZDVHVTltU0ZNN2FObEtaLU4z?oc=5",
+      "source": "LinkedIn",
       "category": "LinkedIn",
-      "published": "Wed, 26 Aug 2026 06:10:28 GMT",
-      "location": "West Bengal"
+      "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "location": "India"
     },
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Technician in Des Moines, IA",
@@ -488,6 +480,14 @@
       "source": "LinkedIn India",
       "category": "LinkedIn",
       "published": "Tue, 25 Aug 2026 07:54:27 GMT",
+      "location": "West Bengal"
+    },
+    {
+      "title": "Microbiology Manager- at EFRAC Lab — Barasat, West Bengal, India | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1FoZkJPZFplYk5rb3VwUmF1VjlOd0R2QXZBaXM1ejlwR3JVemNyeEVMTV9yV2Q1R09xbFVwc3hVMkVaTTVESDFGX1owWHF6T0dLS3JFZHlOWFFUZ01Ra3JFTkRFdjVkamVGa05WN2JUcVRESVZLQzQ1cWxZeDNVdm50Qi0?oc=5",
+      "source": "LinkedIn India",
+      "category": "LinkedIn",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
       "location": "West Bengal"
     },
     {
@@ -765,7 +765,7 @@
     {
       "title": "In major relief to job aspirants, Jharkhand HC stays state govt’s decision to cancel recruitment exams",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOa2dsSndXdXgyOF8wMDMyeW9qWm9kcGQ3SVM3RG1kU0w3cEI3NHcyUkkxc0Rwb24ybGUxOEVDdll0OWw5bDNPZ3ZUU1ZoUEtreTBuTVg4OVp6ekVPSkJ3MzRvOXdpVU1ScFhyS3hMVXVKNzdOUUk1eWJvOUk3WjNBUUFyNDc1dkY3Y1d6X0Q1T292Sk5GWnp0dVY3aWQ5SGJQeF9ISTNxTWJEQkF5SkNLbE81RVV5eDBwd1E3WUd3WjRlZXpsa0FiT1lCa1NfTml1WWJZY21xd9IB3AFBVV95cUxOdGVkd0hJX3ZIYWgwbFd1dlp0a1hGcmdZQ3I2RHFPb2ttNHhTenR2eTdzWktYb0JhZUI2UjB5SURPS19mWFR6REFKaDQzS2gtWl8wdUd4Zlh1M0kwVjNVbWtpUjRDa2hMOU8xNC0zUWNGVENiMnA2TER5NjRoSzZDU2xaWW5XOTFOQVFpZ0Nqb0Z6d2JTNjNNQ3I3RG9XT1JaNDBwdjBudEo4eWVDT3hkYUhBUWFNQ1dMTDdoNktpN19aODV1eUF0RExGU1lqTzVxbXhKTWI1cWwwVkxI?oc=5",
-      "source": "News9live",
+      "source": "news9live.com",
       "category": "Govt Jobs",
       "published": "Thu, 20 Aug 2026 11:45:02 GMT",
       "location": "Jharkhand"
@@ -773,7 +773,7 @@
     {
       "title": "Jharkhand HC stays job exam cancellation: What happens to candidates now?",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSDQ5UmVPNi00Y1J2cjZGNVVUTy1EdjMyLVRIckg3cDZzMUk5eXRPUjJxWmM4dWM2amIxcFI0aWhGVmVxNGY1WVNvZ2Fjd3VTM0RkRTc1ZlJGcVhXTXA0N1B4RDFuaUlzSE81S2d2ajVZdXU3cndyMnJLeDNSc3BiWnRhZVZ2cTg1dThjcTBGY2RSaDlMU1ozV25B0gGgAUFVX3lxTE15eFJIU2J2MGxMbEk2OGswekxFSEk0ckFLcVRwUmd3VHczUXNMd1Izb0JoeTZlbkRPTldGRFpINk9Kby1YN2lNUmF6YWh6S0ZzSWxpOHF2NnhsWDRsTmdLb0N6OW1wTEIzWTI0S01NQ1Y1S3c1NWpHZ19CUVJrYjR4dWw3bzljTmQ2VmxGR1B4VGtBUWNpX0J1M3djXzNSRmo?oc=5",
-      "source": "The Indian Express",
+      "source": "indianexpress.com",
       "category": "Govt Jobs",
       "published": "Thu, 20 Aug 2026 07:00:00 GMT",
       "location": "Jharkhand"
