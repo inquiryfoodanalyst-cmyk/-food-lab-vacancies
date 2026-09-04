@@ -1,13 +1,141 @@
 {
-  "generated_at": "2026-09-04T09:15:07.422545+00:00",
-  "count": 109,
+  "generated_at": "2026-09-04T12:18:28.145954+00:00",
+  "count": 116,
   "items": [
     {
-      "title": "Openings currently listed — Abctechnolab",
+      "title": "Intern — Abctechnolab",
       "link": "https://abctechnolab.com/careers/",
       "source": "Abctechnolab",
       "category": "Lab Career Pages",
-      "published": "Fri, 04 Sep 2026 09:15:07 GMT",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Business Development Executive — Ashwamedh",
+      "link": "https://ashwamedh.net/careers/",
+      "source": "Ashwamedh",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Techno-Commercial Manager – Single Point of Contact — Ashwamedh",
+      "link": "https://ashwamedh.net/careers/",
+      "source": "Ashwamedh",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Senior Executive — Avonfoodlab",
+      "link": "https://avonfoodlab.com/careers/",
+      "source": "Avonfoodlab",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Executive Reporting — Avonfoodlab",
+      "link": "https://avonfoodlab.com/careers/",
+      "source": "Avonfoodlab",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Analyst GC-MS/MS / GLC — Avonfoodlab",
+      "link": "https://avonfoodlab.com/careers/",
+      "source": "Avonfoodlab",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Grievance Officer — Efrac",
+      "link": "https://efrac.org/work-with-us/",
+      "source": "Efrac",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "1. Marketing Executive (Marketing & Sampling) — Sealab",
+      "link": "https://www.sealab.in/index.php",
+      "source": "Sealab",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Sales Executive - Ahmedabad / Chennai / Noida — TUV Nord",
+      "link": "https://www.tuv-nord.com/in/en/career-with-us/",
+      "source": "TUV Nord",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "Ahmedabad"
+    },
+    {
+      "title": "Assistant Manager / Deputy Manager -Business Development (Material Testing) — TUV Nord",
+      "link": "https://www.tuv-nord.com/in/en/career-with-us/",
+      "source": "TUV Nord",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Common Resource Pool Manager - Inspection Services — TUV Nord",
+      "link": "https://www.tuv-nord.com/in/en/career-with-us/",
+      "source": "TUV Nord",
+      "category": "Lab Career Pages",
+      "published": "Fri, 04 Sep 2026 12:18:28 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Fri, 04 Sep 2026 12:16:35 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Fri, 04 Sep 2026 12:16:31 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Fri, 04 Sep 2026 12:16:24 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Fri, 04 Sep 2026 12:16:17 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Fri, 04 Sep 2026 12:15:59 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Fri, 04 Sep 2026 12:15:57 GMT",
       "location": "India"
     },
     {
@@ -16,86 +144,6 @@
       "source": "Aeslabs",
       "category": "Lab Career Pages",
       "published": "Fri, 04 Sep 2026 09:15:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Ashwamedh",
-      "link": "https://ashwamedh.net/careers/",
-      "source": "Ashwamedh",
-      "category": "Lab Career Pages",
-      "published": "Fri, 04 Sep 2026 09:15:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Avonfoodlab",
-      "link": "https://avonfoodlab.com/careers/",
-      "source": "Avonfoodlab",
-      "category": "Lab Career Pages",
-      "published": "Fri, 04 Sep 2026 09:15:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Efrac",
-      "link": "https://efrac.org/work-with-us/",
-      "source": "Efrac",
-      "category": "Lab Career Pages",
-      "published": "Fri, 04 Sep 2026 09:15:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Sealab",
-      "link": "https://www.sealab.in/index.php",
-      "source": "Sealab",
-      "category": "Lab Career Pages",
-      "published": "Fri, 04 Sep 2026 09:15:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Shriraminstitute",
-      "link": "https://www.shriraminstitute.org/career/",
-      "source": "Shriraminstitute",
-      "category": "Lab Career Pages",
-      "published": "Fri, 04 Sep 2026 09:15:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Fri, 04 Sep 2026 09:12:46 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Fri, 04 Sep 2026 09:12:40 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Fri, 04 Sep 2026 09:12:32 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Fri, 04 Sep 2026 09:12:14 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Fri, 04 Sep 2026 09:12:11 GMT",
       "location": "India"
     },
     {
@@ -403,6 +451,14 @@
       "location": "All India"
     },
     {
+      "title": "Certified Group hiring Microbiology Technician in Springdale, AR",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcjdGY2h1a3BDejFDVDVmUldoZkJDbVp5M0loZXJKQlNyd3hwbmgtNVFjUXQ3bFNocWtraXh2MGYycTNQd25fX20zRm5DTW5tQk5oTk5OR3pDQ1F0QXkzd1FDMGlLOUNkZHM3ZmZYZ1E4VkxYeko2M3l6MmlZNFRESWZORnJsOWJKRWpYa1lKZjNHdw?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Wed, 26 Aug 2026 18:20:55 GMT",
+      "location": "India"
+    },
+    {
       "title": "Openings currently listed — Simalab",
       "link": "https://www.simalab.net/",
       "source": "Simalab",
@@ -440,14 +496,6 @@
       "source": "LinkedIn",
       "category": "LinkedIn",
       "published": "Tue, 25 Aug 2026 19:50:34 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Assistant in Lancaster, PA",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX25fdk9qeWR1aVBWOTA3bDMxX25fei1RN2puaTZUbTFLRTNRMjNlYlFxQUtuYWxra3RiaXRNZHdlZWFybzFUUkVWUXNhaU5Rbkp1QzNXTlh6b0lLM2VPbklWaWtTcXZGYmFrcmkyQjhIa0VDeXpxYlZQX0dwQXNiZ0d3VEFiUHg5NC1EenNQWjZVVmhzOGJxaEpuZ0NEZGV5eVhPSXpvb2REdGthUENR?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
       "location": "India"
     },
     {
@@ -717,6 +765,14 @@
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Technician l in Lancaster, PA",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnpOSm5oR0FtVTE4YjlaQTVwNkY5MkNIRnBGS1lQQmdzSnFxQ3RNRGp5c2tvZUE3OXBXVVlKQml6R2NXamwxRUtVQ04yNjBRclhGcnRvd21WTHo1TzFIUE5LajJ1dXNRczRwZjBrdTRJeUhLeFE3eF9vdWJJNFRXd1VoY1lQT0h6dy1lRUZsaDdyZnlnd3JxOWl2eTBzZ1R0OUcxUzM5aUZheU8tWGV4WTNtaw?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Assistant in Lancaster, PA",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX25fdk9qeWR1aVBWOTA3bDMxX25fei1RN2puaTZUbTFLRTNRMjNlYlFxQUtuYWxra3RiaXRNZHdlZWFybzFUUkVWUXNhaU5Rbkp1QzNXTlh6b0lLM2VPbklWaWtTcXZGYmFrcmkyQjhIa0VDeXpxYlZQX0dwQXNiZ0d3VEFiUHg5NC1EenNQWjZVVmhzOGJxaEpuZ0NEZGV5eVhPSXpvb2REdGthUENR?oc=5",
       "source": "LinkedIn",
       "category": "LinkedIn",
       "published": "Wed, 19 Aug 2026 07:00:00 GMT",
