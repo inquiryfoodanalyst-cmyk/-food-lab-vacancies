@@ -1,7 +1,63 @@
 {
-  "generated_at": "2026-09-19T22:45:12.851116+00:00",
-  "count": 121,
+  "generated_at": "2026-09-20T03:51:31.046721+00:00",
+  "count": 119,
   "items": [
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:50 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:45 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:39 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:32 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:29 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:26 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 03:48:25 GMT",
+      "location": "India"
+    },
     {
       "title": "Technical Manager — Accuratelaboratory",
       "link": "https://accuratelaboratory.in/career/",
@@ -32,86 +88,6 @@
       "source": "Anaconlaboratories",
       "category": "Lab Career Pages",
       "published": "Sat, 19 Sep 2026 22:45:12 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Manager Lab — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sat, 19 Sep 2026 22:45:12 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Sr. Analyst — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sat, 19 Sep 2026 22:45:12 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Environment Chemist — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sat, 19 Sep 2026 22:45:12 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:43:09 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:43:02 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:42:57 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:42:46 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:42:43 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:42:40 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Sat, 19 Sep 2026 22:42:38 GMT",
       "location": "India"
     },
     {
@@ -275,17 +251,17 @@
       "location": "India"
     },
     {
-      "title": "Laboratory Technician at Actalent — St Louis, MO | LinkedIn Jobs",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPem1QV0UzYlh6dGZoeENqS01ZSm9wWndJV3E0ZGU4dUtDVEdtbXlJVHZ0Nk5fV1ZyeVRmR3otZmV3d1FaZm1xQ3JpX0oxNERxeEVRblBYSmVYdk5qLVcxelNFWGJFVzFKRjVPS2tmUkFYVE9XY1VmNmt3TlZjeEI4SEM5S3YzQQ?oc=5",
-      "source": "LinkedIn",
+      "title": "Microbac Laboratories, Inc. hiring Analytical Chemist, Food Department in Warrendale, PA",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc1ZqaTBEWDMxZUFvQVRLTDVac1pDWVhNOGc0Y1lET1lmU1V4RndlTFhZc2F4T1JhdE1lWHJET2VBcUhWRjZlNGUyWUgwQTcwSERfMElJRk1CeDk4bmlybXdITXowZ3Z5b0M1YkUzY0J6VzhXV0c2WkdldkhrN2hRWHRVQ1dlX0M4ZlVTRnp0Z3Vqb3J0TS1tdXhhQW1yM3JzbGV5QlBUMnY4OXJfVmc?oc=5",
+      "source": "linkedin.com",
       "category": "LinkedIn",
-      "published": "Fri, 18 Sep 2026 21:51:56 GMT",
+      "published": "Sat, 19 Sep 2026 16:12:31 GMT",
       "location": "India"
     },
     {
       "title": "Certified Group hiring Lab Analyst in Grand Island, NE",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTkVOeFJXSHJBem0zVk1QSmNZNFlKRHBoV3lSVkp4dlBZNkN2eUFZemRuUzNWZDZhNmRSd1ZmczB1ejdfdHdlTTVhTUxCMWs5Skx1dlM0TFBYdEhHLUF3UTh5SFRUYXVwaWZ6MEFyQlVNRk8yN016ZklqMWZ1cGZ1UTl3?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Fri, 18 Sep 2026 21:24:32 GMT",
       "location": "India"
@@ -333,7 +309,7 @@
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Machine Safety Engineer in Houston, TX",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOFQzR0pySVNBRnAxdWVjbGpla0pndnd2MmZjdVJOeDNFUVNCcFNocnk2bHBlbjk0a0lFYUhSNmdhWmQxVGk3aDA1RGU0NUhpNzFpWW9wd01tOVRqd2dpX3ZtTU1Va3BLV3BUblhNZ0R1Nk9VRHQxZEJvNTIzRzVXdllPa2NIMUhfN3NidDZwUG9FQ0NSM0diZWp2NlhqbG5LcTI1NHpRaHhrdjRLbDhacV9KYw?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Thu, 17 Sep 2026 14:49:21 GMT",
       "location": "India"
@@ -341,7 +317,7 @@
     {
       "title": "Laboratory Technician l (3rd-Shift) at Eurofins US Food, Feed, & Supplement Testing — New Berlin, WI | LinkedIn Jobs",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT2ZzdUJqc2lINi1DWUVYV0U2ZWVwb2ZTVzlLNzZwTHF2QUhJbjczdzNSajdfOGlKVUl0N3NJRnh0R1h1UHd6eFliU25CQ2RwSVEwVld2ZjBUdGNMb2UtdVpObTRaWk5yb3B6cENROHRtdVowMWVGeXNrZ21pNVF3UHNFTFVFNkU2U0N4ejk0T0ZSSEtsLXpGNG5NajhZdkVOM1FyOFJ1di1tQklET2tiSkM4SGFLaVVaVzQ5ZFpBSWk?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Thu, 17 Sep 2026 14:46:55 GMT",
       "location": "India"
@@ -349,18 +325,18 @@
     {
       "title": "Food Lab Technician at SANY - Nutrition Group LLC — Jonesboro, AR | LinkedIn Jobs",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObGtBdTdlY2Y1dEN2SW9EUnVEU0pXckpBbmFueU9pVm5oNFJWNmhoLTZYdHEyZ0xrWHZYdTFLcTB3cHN0d29jTkxWRjk3ZDlfSFE3Wkp5Mm5hZUxYM0d1VlJqb3FUbm9QcldvNzZVT05fLWpjWUFaeFlzT1gwTG1HSnI2Q084MU1MUFdhWGFuZTBDUkhKY3NYWg?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Thu, 17 Sep 2026 12:53:12 GMT",
       "location": "India"
     },
     {
-      "title": "Geo-Chem India hiring Executive / Sr.Executive - Food Testing Sales in Kerala, India",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVJLTm4tWnh4QUNESElGMlI2MUJpRDFYbk1jekZTNzNMaDlnckNGRUg5MmFsWS1jVGdHXzFBMmpKeUVmVTdpM2dmal95dWh1QTVkUzFPYUVTcTYxWkdBTEdQUFdhZHJrR2s4ZHMwRkl3eDBNYVRLZlFzQkhHWEs3eDFzS3pXNU1HU0RKOG1fN2pRTUxXWnpsU0ZIaWhwYkhJdjJBX2lobw?oc=5",
-      "source": "LinkedIn India",
+      "title": "🚨 URGENT HIRING: Dairy Plant Openings (Hathras, U.P.) 🚨 Hey everyone, During my Food Safety & Auditing training at SN Milk Products (Madhav Brand), Hathras, plant management shared urgent openings for freshers & experienced talent. 👉 Positions Ava",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWpRSWFZRW1sd0tnWm9UZXFNNXlFemZra2wyV2hlZGZ1ZFJZclA4Ykd4QUhhb25GTUMyV3JhZW5VME92VDJwcG5FbjRwWHIwOFkwcDVUVDU5RVQzN3A1eW1CeEhCY3ZFSkpOME1QazRaeC1fVlVTYTRsSDN1NldKZmoxVkVQOFdLc3c0cGpOTU5XZlM0S0o4MGJacmhrQVVVck8xX3prT19oTGlpR0d2ZVVycWU3Zw?oc=5",
+      "source": "linkedin.com",
       "category": "LinkedIn",
-      "published": "Thu, 17 Sep 2026 08:55:00 GMT",
-      "location": "Kerala"
+      "published": "Thu, 17 Sep 2026 11:34:45 GMT",
+      "location": "India"
     },
     {
       "title": "Food Lcms Jobs - 23418 Food Lcms Job Vacancies In September 2026",
@@ -381,7 +357,7 @@
     {
       "title": "Certified Group hiring Chemistry Lab Technician in Melville, NY",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU0JwZV9VcnNrRS1hX2w5YnpYSzIwenFrVVVkaktrMm9YblVqZzlRdkdGUFlsc3FoQzByTjVTVzlPRnlLVDMyX0E4NXZyQ2xBcEFUbHNYR0dYMmR0VWZzb3NUMjBaRHljbG9CZ3FIZmxuUHJoVFlsQktOd1ZnVDY2c3BGdVotaEZWc0NpVGlFS2dEYjA?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Wed, 16 Sep 2026 14:08:00 GMT",
       "location": "India"
@@ -401,14 +377,6 @@
       "category": "Job Portals",
       "published": "Wed, 16 Sep 2026 08:32:29 GMT",
       "location": "Chennai"
-    },
-    {
-      "title": "Diaita Foods hiring Food Technologist in Dwarka, Delhi, India",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSWR1aXlDbUszTjNsRkVZd0h5SG13c21nNTc0YkFMVERFdUFBTklDODlKLTZYejlJZWtWTTJJN1BEa0M2SG5ZME5CdDFsRkRUMUpQdjllVkw2cnVHaEwwbnVxblkza2EzLU9abVNLUUw3RWMwcTlOMHZKZ3U2bkpVLUQtZVc?oc=5",
-      "source": "LinkedIn India",
-      "category": "LinkedIn",
-      "published": "Wed, 16 Sep 2026 07:32:18 GMT",
-      "location": "Delhi"
     },
     {
       "title": "Manager - Metallurgist Click to view or download document --> Open PDF &nearr; — Alexstewartindia",
@@ -437,7 +405,7 @@
     {
       "title": "Certified Group hiring Micro Lab Tech in Phoenix, AZ",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVU16czhPYnhJNmpXT2htLXhGMC1WM2ZQdldEVHFWajkxd29ySjYtLXVFWlRqTHdjelVISnZBY2pvY05ZUkdvRmFTc0wyWUwtUVpsZGIxRkpXeU9GZVlsa3hpLWlWZF9GN0xkOXdVYkxYYU0tYml2UnZqNHJCR1U4WWRNekNndw?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Tue, 15 Sep 2026 16:51:41 GMT",
       "location": "India"
@@ -445,7 +413,7 @@
     {
       "title": "WISEcode Labs hiring Vice President - Food testing Laboratory Operations in Kannapolis, NC",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQjIwanVTd0tyOGdsV3JaMXJOOGNKZjRhNmhyMS11SWh3S3FfN21jOS1weHBSUXp5dDVPQnEzTHJGS3FlMkVWWUlQVmpDenpWUTRrYkpJZXRibHd6TkNUMG93UkhhNnVIeWtjdlJNVGt0V1QxMEdKUl94bWNYYWs4STlQWWZvVDVFX1lkZk50amZJVWw3aWYwNlpmS1h6U3pfVjNqZzAxSkZuZFZXc2JEVGlR?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Tue, 15 Sep 2026 07:00:00 GMT",
       "location": "India"
@@ -469,7 +437,7 @@
     {
       "title": "Projects Manager -Retail Compliance at Eurofins US Food, Feed, & Supplement Testing — Madison, WI | LinkedIn Jobs",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTEtWaDZvTGNqSy1rUkR4ZkJtVGFUZ2RZMEcyQmFoWFZ0OHN2YzNHMExtb2pZRmhfSWQzYVBWcnRJbllXRTZPVUhkNzNuc2ozemxGaTJLR2tMdllhN0UxcHI1VEpXMFRCczRhRnBCdUMyaXFkN0x6SG9fMWtPYVU0XzY5SVVuTlNNaVlsMUw1b3FqcXpKblctbF9lMGFZeFdBa0lxaERfOUNxc0U2eHFJNC1XeFAtQzItNlJocUc5RUxKZw?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Mon, 14 Sep 2026 07:00:00 GMT",
       "location": "India"
@@ -477,7 +445,7 @@
     {
       "title": "Actalent hiring Laboratory Technician in St Louis, MO",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjlaNGtKbk9hUFJxM29mR205b2dlX2ExQVFwVVMwbW9XVFg1UnY5VlhtQjlIZjBZU0QtLU1sLXNuVlBhWXVkZzNON1NKTlpIWUlQWUp6R3VMd2xKOTdfdmpXWWFtU0F0NmRyMDdzVmxtdm0wQW9tV2NISTFsb21qT2FKcGR5dw?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Sat, 12 Sep 2026 13:49:58 GMT",
       "location": "India"
@@ -485,17 +453,9 @@
     {
       "title": "Element Materials Technology hiring Department Supervisor (Microbiology and Food Testing) in Fort Wayne, IN",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWGxVSmtUQW5WTFM2Z2tUTE5OWWVXQmxQOW1SRGMtLVd6TWZPU055NF9PYWVTRGt1eWtQdlB4ZmVYXzY3Q1doeW51QnkxQmh5cU8wamxQS3dncHIxRXJfd3Z5Qm1DdkNXMVBLWXVYYUMxQjY4SFlXaDRnUG5rUmFlMWtuQ181T1RWSHlfYnZOT1o1cGJYUUNBTVYyeGpYTUQ5aDg3Um5CZG1OTHhoQlNsOG1nSGR0NmNlUUxzSWhVQTVWVXY2N294Ug?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Fri, 11 Sep 2026 16:53:16 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Biotech Research and Innovation Ecosystem in India Join Prof K VijayRaghavan, National Centre for Biological Sciences, Tata Institute of Fundamental Research, in conversation with @neutranino, Science Editor, The Hindu. https://t.co/CHZ9DMo7Lg @Bhara",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiaXFwUDBxd1U1UnJtV2g4SEktWHEwUTVYa0s3UXFSS2pSZEtaOUt4MnNfc3p1VjR0ZHo1TkhQb0JnRmhvcUpVdGtTRUhhdi1WV3dJNFdUN1VfTERVanA4?oc=5",
-      "source": "x.com",
-      "category": "Twitter / X",
-      "published": "Fri, 11 Sep 2026 11:17:57 GMT",
       "location": "India"
     },
     {
@@ -507,17 +467,9 @@
       "location": "India"
     },
     {
-      "title": "Laboratory Technologist at Rubix Foods — Jacksonville, FL | LinkedIn Jobs",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMExWalh1R0hWNEEwTkREbFp0d2dDX2ZHczlXb25lYVllaE5RTC1xV2RLVHMtYzEwWG4xM3JxV1VRSks5dE02emFETkFZRVhEZmgyekRFQUVpY2NleHVBNmZCT0ZReFo3eF9leWl0WFdFcW5qWmtQRGhzSHhrbnktRkt5R0N0U0EyMk5JdA?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Fri, 11 Sep 2026 07:00:00 GMT",
-      "location": "India"
-    },
-    {
       "title": "“2026 Food & Beverages Ingredients Hiring Trends\" 🚀 FOOD & BEVERAGE RECRUITMENT IS CHANGING — ARE YOUR SKILLS READY? 1️⃣ F&B companies are increasingly hiring business leaders who combine Commercial + Technical + Digital skills. 2",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWpTUzVrVWtnZG1TdHE3UzFZQmp4d1o2RXk2YnYwQ25lUVRERmMtYjhRYnJRMFhvSVl4N3dGZ25NR3h6MnlLMTAwcjRpQ2ZpUUZVUUdSZmJtcDQyWkZqNEN1Y3U2VVNUZ3VNeldrN2FvS0szMVV0c2pLZ2xxWXloa1FiV0tWcnlpa2Y2RVBVekN1QW1wWnh0cE42bzlZZG8tN0JBTmdrVDJZck5EeHI2Yk10X3pmOWd4?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Fri, 11 Sep 2026 07:00:00 GMT",
       "location": "India"
@@ -525,7 +477,7 @@
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Grain Inspector - Full-Time Afternoon in Blair, NE",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ2FKNE50Z3VPR1Q0QjNEMTNqZmZzS24ySG8tbnEwMEFTbEplUS1xODFCODA2eWZuVldFbGlQOGtKSHhVaG9UUGo5aG85M3JYYm1Cd3diVVkzV0xmVTlORlpxVENlLVp2aC10aHdxWkJOTWZFVHJYV1J4Z2pISTN0Y1cyQy1NLUY4Q0V5SE9UT1JhODl3aFRPeUx2Vm40ME9lSGlKZE13YUpUeG9HOEFzcXRRdlcyUngzSnRGZjJ1QWpHSWs?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Thu, 10 Sep 2026 22:44:51 GMT",
       "location": "India"
@@ -533,7 +485,7 @@
     {
       "title": "🚨 We’re Hiring | Analyst – Instrumentation (LC-MS/MS) Cali Labs Pvt. Ltd., Bhopal is looking for a skilled and motivated Analyst – Instrumentation (LC-MS/MS) to join our laboratory team. If you have experience in LC-MS/MS analysis, food testing, and analytical",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM053TGNmYXdLcjZMQzl3SHBkSmdhYW9nbEloUDQtVmR4Qi03N2NrSDlUcW1SMkRNc0wwVmkxUkI2MzJhcURuX3RmdmxkcWY0Wm1LRTFXVUJ2MEVWZDNGNW1qbVdOMVhIc3JxRDZaSUxmUHZBRWs1Wmw2VEUzbndvY0R3aEFUbjJPb3Q1dUJKcW5oQl9FczBVb0czTXRhVzRGLTJz?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Thu, 10 Sep 2026 07:43:11 GMT",
       "location": "Bhopal"
@@ -541,7 +493,7 @@
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Full Time Laboratory Technician I in DeSoto, TX",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObGJiZVhaRDRRQ0RjdENrVFVlNlE5VXlhUi1QTUhBYXlJOW9CNzBWRXdLVmFSenJfNDZMMWhMWElrQTd0YkNwRERUY29EWVNqNXgzSjJ3TzZOLUJ1N1QyMENqblN2amFxZ3EwUUNvT3BMaWFhRVBOQUpCVDFkMFJfV2V3dkhvME5PVHE0T2hXOGhUdFNqX1RmVVZkN2EwTkN0WkZiN2pBcnk3cWVjSEo5TXBCMS1ObkdVRVV3aUs0TEs?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Wed, 09 Sep 2026 15:49:44 GMT",
       "location": "India"
@@ -549,7 +501,7 @@
     {
       "title": "Recruiter Referrals – Nilgiris Location We are looking for Recruiter referrals from the Nilgiris region. If you know any recruiters who are interested in working from: Preferred candidates are from the Native of below regions. 📍 Ooty 📍 Coonoor 📍 Kotagiri with the f",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeHB3OGRzZUg4Uk1LblQ3cURYelhYZXRsX0U5cVlWaEJoaFltWkEtb3dHZFRCb2pURjIxRnUwZTFCdVozWjZmZzNNWlZXX1d3a1NLRjhYdzRscERYSzh6VkZXSkcxY00xWkJPdmRBQ1Jsbkdsck9TRkdyalpsN1k2VThSRS1RX1B5UE9ockZ5QW94TUFVMFZtdjZSdnIweXdzTWdxSUZVNUwwRVpuNk5YV3A4bXhpSkkxWmczTllwSQ?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Wed, 09 Sep 2026 10:29:54 GMT",
       "location": "India"
@@ -557,7 +509,7 @@
     {
       "title": "PRI Global hiring Laboratory Technician in Hershey, PA",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNWtqMVlPRXQxcFZNWkpCWHBQaW51OGhYTlNwTzJBZnR1Wmh6VHNyZl9CUUlOblZ1MlRZbW01cnFmNEJFWHVvRnZwMHFUYUtReGJfQkJlYnVlWm9iaENGWEdwQnRhcHJLMWFuVXlvRjh6NDlvQlhXZGd2d1pMOVVyQUYtWWRVenJn?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Wed, 09 Sep 2026 07:00:00 GMT",
       "location": "India"
@@ -565,7 +517,7 @@
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Assistant in Lancaster, PA",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQME1oX1doNTFtTEVZck5sQnlsUjBtbUNzSEl5QU9NV3phdDhiang4VTE3UlIwaDk5a29vLVBPd3BrUHdNai1BNk5UZm9IRGQzQkNwOEtpSElqd2dFSWpvVnhWM3pyOGEySW5vaHhkaUF0X05IcS03MW90a0JoVzJNZTVyYVJDNGQyaDdISWlmNi1DV1JXVklpR3JxUE50ckFUTVpHRnduU0VIZXQ3TGRr?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Tue, 08 Sep 2026 22:32:44 GMT",
       "location": "India"
@@ -581,7 +533,7 @@
     {
       "title": "CEO Inc. hiring Laboratory Manager – Masterbatch in Charlotte, NC",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMncyY0ExR19JeE16TV9JdWw1czRrSHpINUZtY25vMlp4dHdGTFJibzk1ZjR4ZnFiZnN3XzdqcGtKYzNNQTFmM1Y5YS1yLWR2TThPREFGbTBwSTNKMXByTzBSYnh1c01tdjhXNWtoN3ZlQmt6T1ZPVWJqcUw4UXNkcG02QjNvdXN2eXNld25SbXEtcmFpTjIwNW9nb1psZw?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Tue, 08 Sep 2026 12:07:14 GMT",
       "location": "India"
@@ -589,7 +541,7 @@
     {
       "title": "Haidri Beverages Jobs – Management Trainee Officer Haidri Beverages Pvt. Ltd. – PepsiCola International Franchise is hiring a Management Trainee Officer – Bulk Water in Islamabad. The role involves bulk water dispatch, sales activities, customer relationsh",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHByU1Y3VGdoZVZxdkd2NHo0UXNya1lpeDBpSHFPNk9kN2stY2h4TWtNODUtTkIwMFFMUTlPc0JQM2d3ZnBvMzEtYXBVeV9VMVRMZ3BONDNFWGo5OXJBbGdQOW9qTnBrVHpmMFlSWEtUaWpEYmVDOURaRFlfSEJuY3BzN2t2N19mSDAxamloamlYWl9maEpoVTNTR3VkS2Ftc1UwX3d0Y1NyODN0QUFHU1ZUNUlGcnFhVlo1UENSQnRIdw?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Tue, 08 Sep 2026 07:00:00 GMT",
       "location": "India"
@@ -601,6 +553,14 @@
       "category": "Job Portals",
       "published": "Tue, 08 Sep 2026 03:32:14 GMT",
       "location": "Delhi"
+    },
+    {
+      "title": "Hiring Sales Coordinator For Chandigarh Job in Amminent Analytics Pvt Ltd at Chandigarh",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWlhrMG91NlZKRG5tXzB5eG5uWlBlMmhhSmdFSy1fN3NRWVJac1E3Wl9sUmN5ZW80UWU5Vmg0eTA1SGxhcTZYZ0xuazlOX2JJSDBqd0FlT0xTWWQzOEZvNDY0SFNsbHZNMFk1WnlWU094LWg4UE4xV2pnXzVMLVZqdXBFYlR0ZGtKcWJvUTZKT3BsUThZdWFfWXA0TG05MWxtRkQzag?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Tue, 08 Sep 2026 03:21:46 GMT",
+      "location": "Chandigarh"
     },
     {
       "title": "Lab Technician (Oil & Fat Analysis) Job in Alms Group at Hyderabad",
@@ -627,19 +587,19 @@
       "location": "India"
     },
     {
-      "title": "AI Is Taking Jobs — But India Could Be the Biggest Winner of the Artificial Intelligence Boom - The Raisina Hills",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGt5anJQTEU4T1laaFp6Rm96Z0FrdV9JSXpGaVl0RGhmcU92bXFyS2Vjem03X0dDOTV6cVBHVzcyaTVvd2FuMk9GRXBEZGNGMXZvWlIyT0RvMnB3ZkxJdnV1RmZqQWRLaEZETDhINmhHeUtxSlhtVXREUDlGTUlBMTlVaTU2TVk4aVBBakUzTXd4X2ZmZU9MRjE2dVctZHFnYUdzOU1aTnppWF9DLVFSbTZfRlFyOU1rU20yM01UbmNNaG51Unc?oc=5",
-      "source": "LinkedIn",
+      "title": "Laboratory Technician at Actalent — St Louis, MO | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPem1QV0UzYlh6dGZoeENqS01ZSm9wWndJV3E0ZGU4dUtDVEdtbXlJVHZ0Nk5fV1ZyeVRmR3otZmV3d1FaZm1xQ3JpX0oxNERxeEVRblBYSmVYdk5qLVcxelNFWGJFVzFKRjVPS2tmUkFYVE9XY1VmNmt3TlZjeEI4SEM5S3YzQQ?oc=5",
+      "source": "linkedin.com",
       "category": "LinkedIn",
-      "published": "Sun, 06 Sep 2026 07:00:00 GMT",
+      "published": "Sun, 06 Sep 2026 07:39:42 GMT",
       "location": "India"
     },
     {
-      "title": "Reposts by Jayaprakash Narayan (@JP_LOKSATTA)",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBERmcwU0pvZDBmLWxLR0I3elZZU0hLQXpRVGl2cHhaTExnR25vRGx4cXlCQjFlQnVvLU5Nb1dISmowamgtOWY1SQ?oc=5",
-      "source": "x.com",
-      "category": "Twitter / X",
-      "published": "Sun, 06 Sep 2026 02:20:46 GMT",
+      "title": "AI Is Taking Jobs — But India Could Be the Biggest Winner of the Artificial Intelligence Boom - The Raisina Hills",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTGt5anJQTEU4T1laaFp6Rm96Z0FrdV9JSXpGaVl0RGhmcU92bXFyS2Vjem03X0dDOTV6cVBHVzcyaTVvd2FuMk9GRXBEZGNGMXZvWlIyT0RvMnB3ZkxJdnV1RmZqQWRLaEZETDhINmhHeUtxSlhtVXREUDlGTUlBMTlVaTU2TVk4aVBBakUzTXd4X2ZmZU9MRjE2dVctZHFnYUdzOU1aTnppWF9DLVFSbTZfRlFyOU1rU20yM01UbmNNaG51Unc?oc=5",
+      "source": "linkedin.com",
+      "category": "LinkedIn",
+      "published": "Sun, 06 Sep 2026 07:00:00 GMT",
       "location": "India"
     },
     {
@@ -667,20 +627,20 @@
       "location": "Bangalore"
     },
     {
-      "title": "McCain Foods hiring Microbiology Technician (Temporary) in Appleton, WI",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcXlxSG8wRkxseTg2eUl3WHJUUEdILVdnenpUOTRfbFZwU0JlTnVUejhNM1ZTdWJuU1doaDdSbmF0SmQwaW1JTkhWTW5OX29rU1dIZkVnYmc3eDhTUFdlRTdwQXpubjJPM3JkVDlaUHpuT1FsSElvZ2h3cWJJVXZWR2tfVUZ1dGtyYnhEcjMtaWRsNzZCRlFVQU1UOA?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Fri, 04 Sep 2026 20:00:36 GMT",
-      "location": "India"
-    },
-    {
       "title": "Research and Development Executive (flavours) Job in Savora Flavours at Noida",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOHJPNk96cF9VLUxqaWFxSktNeU1BbEI4VVlzbWU4R215Mlg3YklaUS12TTExdnZ1Y0VKcTFVNDFpZkF2Y2RUX09qSXZkTnRUOFB0a0xPUG51QUMycWVLUTZONVphMjAxc0Z5ZG4zWktnM0ZqSG1WaHRQSHMxTVAwdXlMWWktSktwYlR3WEU1Q1FUbktMdHBBclhobw?oc=5",
       "source": "shine.com",
       "category": "Job Portals",
       "published": "Fri, 04 Sep 2026 18:28:55 GMT",
       "location": "Noida"
+    },
+    {
+      "title": "Lab Supervisor - Monographs at Eurofins US Food, Feed, & Supplement Testing — Madison, WI | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRFIwNnNfYVB4T3ZqZ1BhXzdHR2RwYkhjN1o0OFFBZ3kwbE9ZUjJtVm9lSlZiQ3JfcnJUckVmamc3NWF1SkI3R3hpSXRuWm4yeVBCSlFnWS00V1BDallmN2lKMEEwVHVfb20zUHBoejFRS2VYQWhVWFFlbW56WHBIUTlsX1cxcUx2Q0wzUmRCTWI1d0VLbUJKS3kwaWNUTjRzR0paZVg3WlU1NHREUjV3ODlibXNzQQ?oc=5",
+      "source": "linkedin.com",
+      "category": "LinkedIn",
+      "published": "Fri, 04 Sep 2026 04:45:29 GMT",
+      "location": "India"
     },
     {
       "title": "Applications are invited for the recruitment of the following manpower purely on a contractual basis for deployment at the All India Institute of Ayurveda (AIIA), New Delhi. Interested and eligible candidates are encouraged to apply for the available positions.",
@@ -693,7 +653,7 @@
     {
       "title": "Apex Systems hiring R&D Lab Technician- Food & Beverage in San Leandro, CA",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmNBWnBqYVhpYW1yQnFzQTNneGl2N0ZlQkJnTFhmVS1iUjA0TTNROEpSQU02REZlYkJHS0R3ZnA1R0JBdE5FeC16Y2ZCNDltOGV3TnlVcFAzc19PLXJmc3h3Z29xbXdZWGUxM0Q3VWVjQkhPbUo1THdfME5OU0RkRzYzZ05QWW81WEFfVloyaHhrM0xhOWJnd1F3?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Wed, 02 Sep 2026 22:32:32 GMT",
       "location": "India"
@@ -747,6 +707,14 @@
       "location": "India"
     },
     {
+      "title": "Michelson Laboratories, Inc hiring Food Chemist in Commerce, CA",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZzA1VUczaXhzVDNtRmVEcGtvWmxjVEJpeXI2cGlEb2VzTkI5TmxyZVQ1aWlCenZRVjVSejJndV9VcnNNV2I3Z0g1dFpzYkFwcGZJWWZwTXpkODN0SFFjeE5iQVdCSG5veVlXRFozZWJtZGhSemJ3WGQxdk5aSHJ5d05iaHVTcGhNaU1SMnV3SEo3dw?oc=5",
+      "source": "linkedin.com",
+      "category": "LinkedIn",
+      "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "location": "India"
+    },
+    {
       "title": "Envirocare Labs hiring Senior Analyst - Food in Thane, Maharashtra, India",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdng3ZnNYajhDUEk1UkN0ajMwaU82ak1Xa25ENU9LV0c1dEY3V0NLN2xnaHJwdk96bE1CX3FKQlVPRU1RdnNzU3ZiLVl2U3UyZm1Hdkk2ZTkyRzlyWktGTFVUVkJid1pERVZUU05UZ1JIV3l3bHVOUldBN05GU29nMjRWUTA0bHBtazg0?oc=5",
       "source": "LinkedIn India",
@@ -779,6 +747,14 @@
       "location": "Kolkata"
     },
     {
+      "title": "INSPECTION SALES MANAGER Job in QIMA at All India",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PN1FlNW4wTE5wTk5WVXpjYVFBNmFFeFA0eU5IdWxXV0dZRXBGUUMtQ0M3bk1fdmJHa2NDcmNvZ1BPZ2tiOVliT3pCc3JsZDZVWkkyZ01KelZoMFZLa2JNcGItckhsRlc0Z1JQSXRFSXFfVk0?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Thu, 27 Aug 2026 00:10:17 GMT",
+      "location": "All India"
+    },
+    {
       "title": "Openings currently listed — Simalab",
       "link": "https://www.simalab.net/",
       "source": "Simalab",
@@ -787,20 +763,20 @@
       "location": "India"
     },
     {
+      "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Technician in Des Moines, IA",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU0FIMFFuSnIzclpEZkRtSllGTDc4ZHhKdWlMY3Y2cHBlX1VHMG94ZWFwRWh0cXdmV0pDM2M3WVlIQnRSeklwWkdlUlJZc3ZRMTZVNDBoM1F5YmRwbHpWV01uZjRZbEVMTVB5UGdobUwzSXhTZDk1Qk5wdjhpLVpGcTJBS0dDekc4RFdES0F5NEp2TzYwRjRES3JrR3JQX3ZkaXk3cXY5dUlUWU1TUktXNg?oc=5",
+      "source": "linkedin.com",
+      "category": "LinkedIn",
+      "published": "Wed, 26 Aug 2026 04:47:20 GMT",
+      "location": "India"
+    },
+    {
       "title": "EFRAC Lab hiring Microbiology Manager - Food Testing in Barasat, West Bengal, India",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnVIXzlEdXdmSmxRdldXa0NmQTVXal9CTi1VbVVfZWJNWUhIajE1R3FBYk5XeHZ2Ym45a2F1UlhXVzJ0M0lNZ20wTlFERzR2bEhtT056RDM2bm8xLUxueXdmTlZBWU1SdGlwNGJaMDB4Z1dzQ2t2NDVzMUE2Mnl6NHJxN3VkUlZndU5SV053S0VJVko5WWc?oc=5",
       "source": "LinkedIn India",
       "category": "LinkedIn",
-      "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "published": "Tue, 25 Aug 2026 07:54:27 GMT",
       "location": "West Bengal"
-    },
-    {
-      "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Technician in Des Moines, IA",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU0FIMFFuSnIzclpEZkRtSllGTDc4ZHhKdWlMY3Y2cHBlX1VHMG94ZWFwRWh0cXdmV0pDM2M3WVlIQnRSeklwWkdlUlJZc3ZRMTZVNDBoM1F5YmRwbHpWV01uZjRZbEVMTVB5UGdobUwzSXhTZDk1Qk5wdjhpLVpGcTJBS0dDekc4RFdES0F5NEp2TzYwRjRES3JrR3JQX3ZkaXk3cXY5dUlUWU1TUktXNg?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Wed, 26 Aug 2026 04:47:20 GMT",
-      "location": "India"
     },
     {
       "title": "Microbiology Manager- at EFRAC Lab — Barasat, West Bengal, India | LinkedIn Jobs",
@@ -813,9 +789,17 @@
     {
       "title": "SGS hiring Laboratory Technician, Food - Part-time & Full-Time in North Sioux City, SD",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2w2c1RyN29sXzF4X0VyNThWa2ZBeWZQalEwM3FlaGptN0NQald6VHN6LTBMOFNuVFJuQWZ3cGYxUmlGQV9mVlowQkh4NDlwMjJYZ1dJdDU1M2o2SzluRjFiMVJORjdpOGxWdVp5clZZT1pVM2dqQUhWdmhEOVo0Wjc2OVNvaWRGdE1tUHBvX2puOVl6aWRDMHIxMDRPLUM3?oc=5",
-      "source": "LinkedIn",
+      "source": "linkedin.com",
       "category": "LinkedIn",
       "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Simmons Foods hiring Microbiological Lab Tech in Siloam Springs, AR",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM0w0cWFaNUZyLTE2VjU3T0FFQlhkWEc4ZktRcVlJTVNHdU9GZnNhWUpRVk9fak5VdnJJOEg4TVJsYmFCM2dRRW1icURuZTI2WTVaVXViWFpmNHIycU5DNk5fNTF1aXdQbFFUZGF3REU1dlpfa3ZCdzFBV1BmUnFmLVZKbnBMYXVjclY1Nk5iUmI?oc=5",
+      "source": "linkedin.com",
+      "category": "LinkedIn",
+      "published": "Sat, 22 Aug 2026 00:45:45 GMT",
       "location": "India"
     },
     {
