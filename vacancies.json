@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-09-20T20:29:24.719133+00:00",
-  "count": 124,
+  "generated_at": "2026-09-20T23:05:01.656372+00:00",
+  "count": 129,
   "items": [
+    {
+      "title": "Manager Lab — Hthlabs",
+      "link": "https://hthlabs.com/careers/",
+      "source": "Hthlabs",
+      "category": "Lab Career Pages",
+      "published": "Sun, 20 Sep 2026 23:05:01 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Sr. Analyst — Hthlabs",
+      "link": "https://hthlabs.com/careers/",
+      "source": "Hthlabs",
+      "category": "Lab Career Pages",
+      "published": "Sun, 20 Sep 2026 23:05:01 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Environment Chemist — Hthlabs",
+      "link": "https://hthlabs.com/careers/",
+      "source": "Hthlabs",
+      "category": "Lab Career Pages",
+      "published": "Sun, 20 Sep 2026 23:05:01 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:03:17 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:03:14 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:03:08 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:02:59 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:02:56 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:02:54 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Sun, 20 Sep 2026 23:02:51 GMT",
+      "location": "India"
+    },
     {
       "title": "for the Management Trainee, Engineering trainees and Sales Officer Trainee Programs — Ltfoods",
       "link": "https://ltfoods.com/career",
@@ -144,62 +224,6 @@
       "source": "Smsla",
       "category": "Lab Career Pages",
       "published": "Sun, 20 Sep 2026 20:29:24 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:27:07 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:27:04 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:26:58 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:26:51 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:26:48 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:26:45 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Sun, 20 Sep 2026 20:26:43 GMT",
       "location": "India"
     },
     {
@@ -419,6 +443,14 @@
       "location": "Madhya Pradesh"
     },
     {
+      "title": "Actalent hiring Quality Assurance Lab Technician in Mitchellville, IA",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd0pGWHF3UkVIc1U1WjMwTXBzdl8xSHowQkNwU1EyY2E5X0RhYkV6OWMxNW9UWUpaNEM5clFxVFVxU2pHRGZjUmRHTnV3dUxuQlVndGtYU0dVXzlRUWdkY1NGeWYwU0hzNnJzU2R3ZEtycE9qS0JSQnB5NFllRTl4YjdCY1hBVXNYVmhpdnBTVzMyZm9X?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Sat, 19 Sep 2026 01:49:44 GMT",
+      "location": "India"
+    },
+    {
       "title": "Laboratory Technician at Actalent — St Louis, MO | LinkedIn Jobs",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPem1QV0UzYlh6dGZoeENqS01ZSm9wWndJV3E0ZGU4dUtDVEdtbXlJVHZ0Nk5fV1ZyeVRmR3otZmV3d1FaZm1xQ3JpX0oxNERxeEVRblBYSmVYdk5qLVcxelNFWGJFVzFKRjVPS2tmUkFYVE9XY1VmNmt3TlZjeEI4SEM5S3YzQQ?oc=5",
       "source": "LinkedIn",
@@ -437,7 +469,7 @@
     {
       "title": "HPSC Food Safety Officer (FSO) Recruitment 2026 Notification Out For 45 Posts, Apply Online",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmluOC0xT19IeFhpX1FDaDhRcXNUZ1hic3Z5dUduTUlBNXFLblRfRFNCeW9IMkZKUUdsMzhEYUtrTUhvMFVGejBtSlVackV4TWdmeU11TXFOaGhLQXlMMXhWRFQ3Yy1sNS1PVlFIS0VDU0wxUjNrbm9UQV9RSEpzYzB0MW4zYXVPcjRCWmVn?oc=5",
-      "source": "adda247.com",
+      "source": "Adda247",
       "category": "Govt Jobs",
       "published": "Fri, 18 Sep 2026 12:43:18 GMT",
       "location": "India"
@@ -456,6 +488,14 @@
       "source": "shine.com",
       "category": "Job Portals",
       "published": "Fri, 18 Sep 2026 10:47:15 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Actalent hiring Laboratory Technician in St Louis, MO",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjlaNGtKbk9hUFJxM29mR205b2dlX2ExQVFwVVMwbW9XVFg1UnY5VlhtQjlIZjBZU0QtLU1sLXNuVlBhWXVkZzNON1NKTlpIWUlQWUp6R3VMd2xKOTdfdmpXWWFtU0F0NmRyMDdzVmxtdm0wQW9tV2NISTFsb21qT2FKcGR5dw?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Fri, 18 Sep 2026 07:00:00 GMT",
       "location": "India"
     },
     {
@@ -627,6 +667,14 @@
       "location": "India"
     },
     {
+      "title": "Sales Executive General Lab Instruments Job in SPARK Scientific Private Limited at Hyderabad",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeThxMzB5VHRjeGpCWXd4VUZ6X1NEVWdwLU9PVWJGY2FBQUxlWHp4UEdDU1B5OTVtS3NtTmtGQU9jX3N0bnUyVjJhR3BldDNacS10V0UwWEo1RHlNazhqdS1CQkk5emNULUIzczRvc1JLOUpfNThmaFJtSXFvWXVLTzYwdUw5RWVaU3RCdGpIZ0R6c3FkZnlQOTRfSmk0Y01YRGFmeWRreTN0M1M0?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Tue, 15 Sep 2026 04:02:14 GMT",
+      "location": "Hyderabad"
+    },
+    {
       "title": "Openings currently listed — Fhhl",
       "link": "https://fhhl.in/",
       "source": "Fhhl",
@@ -651,14 +699,6 @@
       "location": "India"
     },
     {
-      "title": "Actalent hiring Laboratory Technician in St Louis, MO",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjlaNGtKbk9hUFJxM29mR205b2dlX2ExQVFwVVMwbW9XVFg1UnY5VlhtQjlIZjBZU0QtLU1sLXNuVlBhWXVkZzNON1NKTlpIWUlQWUp6R3VMd2xKOTdfdmpXWWFtU0F0NmRyMDdzVmxtdm0wQW9tV2NISTFsb21qT2FKcGR5dw?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Sat, 12 Sep 2026 13:49:58 GMT",
-      "location": "India"
-    },
-    {
       "title": "Element Materials Technology hiring Department Supervisor (Microbiology and Food Testing) in Fort Wayne, IN",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWGxVSmtUQW5WTFM2Z2tUTE5OWWVXQmxQOW1SRGMtLVd6TWZPU055NF9PYWVTRGt1eWtQdlB4ZmVYXzY3Q1doeW51QnkxQmh5cU8wamxQS3dncHIxRXJfd3Z5Qm1DdkNXMVBLWXVYYUMxQjY4SFlXaDRnUG5rUmFlMWtuQ181T1RWSHlfYnZOT1o1cGJYUUNBTVYyeGpYTUQ5aDg3Um5CZG1OTHhoQlNsOG1nSGR0NmNlUUxzSWhVQTVWVXY2N294Ug?oc=5",
       "source": "LinkedIn",
@@ -675,12 +715,12 @@
       "location": "India"
     },
     {
-      "title": "“2026 Food & Beverages Ingredients Hiring Trends\" 🚀 FOOD & BEVERAGE RECRUITMENT IS CHANGING — ARE YOUR SKILLS READY? 1️⃣ F&B companies are increasingly hiring business leaders who combine Commercial + Technical + Digital skills. 2",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWpTUzVrVWtnZG1TdHE3UzFZQmp4d1o2RXk2YnYwQ25lUVRERmMtYjhRYnJRMFhvSVl4N3dGZ25NR3h6MnlLMTAwcjRpQ2ZpUUZVUUdSZmJtcDQyWkZqNEN1Y3U2VVNUZ3VNeldrN2FvS0szMVV0c2pLZ2xxWXloa1FiV0tWcnlpa2Y2RVBVekN1QW1wWnh0cE42bzlZZG8tN0JBTmdrVDJZck5EeHI2Yk10X3pmOWd4?oc=5",
+      "title": "🚨 We’re Hiring | Analyst – Instrumentation (LC-MS/MS) Cali Labs Pvt. Ltd., Bhopal is looking for a skilled and motivated Analyst – Instrumentation (LC-MS/MS) to join our laboratory team. If you have experience in LC-MS/MS analysis, food testing, and analytical",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM053TGNmYXdLcjZMQzl3SHBkSmdhYW9nbEloUDQtVmR4Qi03N2NrSDlUcW1SMkRNc0wwVmkxUkI2MzJhcURuX3RmdmxkcWY0Wm1LRTFXVUJ2MEVWZDNGNW1qbVdOMVhIc3JxRDZaSUxmUHZBRWs1Wmw2VEUzbndvY0R3aEFUbjJPb3Q1dUJKcW5oQl9FczBVb0czTXRhVzRGLTJz?oc=5",
       "source": "LinkedIn",
       "category": "LinkedIn",
-      "published": "Fri, 11 Sep 2026 07:00:00 GMT",
-      "location": "India"
+      "published": "Thu, 10 Sep 2026 07:43:11 GMT",
+      "location": "Bhopal"
     },
     {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Full Time Laboratory Technician I in DeSoto, TX",
@@ -701,14 +741,6 @@
     {
       "title": "PRI Global hiring Laboratory Technician in Hershey, PA",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNWtqMVlPRXQxcFZNWkpCWHBQaW51OGhYTlNwTzJBZnR1Wmh6VHNyZl9CUUlOblZ1MlRZbW01cnFmNEJFWHVvRnZwMHFUYUtReGJfQkJlYnVlWm9iaENGWEdwQnRhcHJLMWFuVXlvRjh6NDlvQlhXZGd2d1pMOVVyQUYtWWRVenJn?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Eurofins hiring Laboratory Technician l in Lancaster, PA",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTEJTSE5zckhqMUhib3BYY0JpR1NPOFBRb1VDemFwNzF1YnpzNFNLZzM3SkRfdUdiYlAtSmNMaHBUaDJTeExacTRyY2VleHpNOXFaN3M2VEVRdmlPLVpzUjdYTEN6NnFPdG5oTTRUT2lJTW85cmZYVFNCZFlkcjNjMXhHMnVTQkZJZFVOdU1TZHAycDZFZjRHZmNBYXRuaGpwVUJ6ZkNicENXcnAtUTRJZzlJdTE5NmdUZUxEU19qaElEbGozQ1FiOG8zdEJHem92cjRBOFpseWh3bTN0WnBzY1FLWDRmdTZCVUdqSExmOA?oc=5",
       "source": "LinkedIn",
       "category": "LinkedIn",
       "published": "Wed, 09 Sep 2026 07:00:00 GMT",
@@ -773,7 +805,7 @@
     {
       "title": "FSSAI CFSO Recruitment 2026, Check Expected Exam Date",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10LXNKU1QxSkl1WjVCWDZ3THVVT1J2TmR2dXFMcDZqYWRuTzVQU3BUZ2lCcC1VTHFYaVczT1F3ODExLXpwN2ZmTGM1RlpLek5qalZGYnh2ODBXelhDd0FFWHlwLXlZTzZ4SkNPdkJ6amlHQTJhVDhrdldn?oc=5",
-      "source": "adda247.com",
+      "source": "Adda247",
       "category": "Govt Jobs",
       "published": "Mon, 07 Sep 2026 07:00:00 GMT",
       "location": "India"
@@ -875,6 +907,14 @@
       "location": "India"
     },
     {
+      "title": "Field Environmental Technical Manager Job in Mother Earth Environ Tech Pvt Ltd at Bangalore",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQV9EZjEwdHVUSi1xcC1ycWpRSUZldWhhODZydHFmZkV0WVpNWklUcjY2akpxSm1Ya1VGUXZzbDlldHFwa0Y4VXVhc09HeGQ2N19ycW9FUTBtS1V0OHl6ZFJyUEF0UmRIY2lLdTVfR3FCOU1rZ21KOG9sODZWbDIxWThEOEp0S3kxTE84SVRZLU5Ta05HOGQtbkltMVpJMW1WRHNuYWJtSnNuTjg?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Wed, 02 Sep 2026 15:02:29 GMT",
+      "location": "Bangalore"
+    },
+    {
       "title": "private duty jobs in belize, Belize",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zeDl6c09jUWVaQi00X0hFVUhDeHNzOVZFVmk1bWJpb0t2MmQ3eHZINmRvM0FsMENYdlg4Q2hhUlBzR2wwYnUyejhwcm5vTG14cUNOZlBxVDU3ZHJTX2tZRzNvY0dBOFY5UUN3YUEwSWY?oc=5",
       "source": "shine.com",
@@ -955,20 +995,20 @@
       "location": "India"
     },
     {
+      "title": "EFRAC Lab hiring Microbiology Manager - Food Testing in Barasat, West Bengal, India",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnVIXzlEdXdmSmxRdldXa0NmQTVXal9CTi1VbVVfZWJNWUhIajE1R3FBYk5XeHZ2Ym45a2F1UlhXVzJ0M0lNZ20wTlFERzR2bEhtT056RDM2bm8xLUxueXdmTlZBWU1SdGlwNGJaMDB4Z1dzQ2t2NDVzMUE2Mnl6NHJxN3VkUlZndU5SV053S0VJVko5WWc?oc=5",
+      "source": "LinkedIn India",
+      "category": "LinkedIn",
+      "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "location": "West Bengal"
+    },
+    {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Laboratory Technician in Des Moines, IA",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU0FIMFFuSnIzclpEZkRtSllGTDc4ZHhKdWlMY3Y2cHBlX1VHMG94ZWFwRWh0cXdmV0pDM2M3WVlIQnRSeklwWkdlUlJZc3ZRMTZVNDBoM1F5YmRwbHpWV01uZjRZbEVMTVB5UGdobUwzSXhTZDk1Qk5wdjhpLVpGcTJBS0dDekc4RFdES0F5NEp2TzYwRjRES3JrR3JQX3ZkaXk3cXY5dUlUWU1TUktXNg?oc=5",
       "source": "LinkedIn",
       "category": "LinkedIn",
       "published": "Wed, 26 Aug 2026 04:47:20 GMT",
       "location": "India"
-    },
-    {
-      "title": "EFRAC Lab hiring Microbiology Manager - Food Testing in Barasat, West Bengal, India",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnVIXzlEdXdmSmxRdldXa0NmQTVXal9CTi1VbVVfZWJNWUhIajE1R3FBYk5XeHZ2Ym45a2F1UlhXVzJ0M0lNZ20wTlFERzR2bEhtT056RDM2bm8xLUxueXdmTlZBWU1SdGlwNGJaMDB4Z1dzQ2t2NDVzMUE2Mnl6NHJxN3VkUlZndU5SV053S0VJVko5WWc?oc=5",
-      "source": "LinkedIn India",
-      "category": "LinkedIn",
-      "published": "Tue, 25 Aug 2026 07:54:27 GMT",
-      "location": "West Bengal"
     },
     {
       "title": "Microbiology Manager- at EFRAC Lab — Barasat, West Bengal, India | LinkedIn Jobs",
