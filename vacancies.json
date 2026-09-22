@@ -1,45 +1,125 @@
 {
-  "generated_at": "2026-09-22T03:45:17.105904+00:00",
-  "count": 126,
+  "generated_at": "2026-09-22T11:09:26.439155+00:00",
+  "count": 129,
   "items": [
     {
-      "title": "Openings currently listed — Abctechnolab",
+      "title": "Intern — Abctechnolab",
       "link": "https://abctechnolab.com/careers/",
       "source": "Abctechnolab",
       "category": "Lab Career Pages",
-      "published": "Tue, 22 Sep 2026 03:45:17 GMT",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Ashwamedh",
+      "title": "Business Development Executive — Ashwamedh",
       "link": "https://ashwamedh.net/careers/",
       "source": "Ashwamedh",
       "category": "Lab Career Pages",
-      "published": "Tue, 22 Sep 2026 03:45:17 GMT",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Avonfoodlab",
+      "title": "Techno-Commercial Manager – Single Point of Contact — Ashwamedh",
+      "link": "https://ashwamedh.net/careers/",
+      "source": "Ashwamedh",
+      "category": "Lab Career Pages",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Senior Executive — Avonfoodlab",
       "link": "https://avonfoodlab.com/careers/",
       "source": "Avonfoodlab",
       "category": "Lab Career Pages",
-      "published": "Tue, 22 Sep 2026 03:45:17 GMT",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Efrac",
+      "title": "Executive Reporting — Avonfoodlab",
+      "link": "https://avonfoodlab.com/careers/",
+      "source": "Avonfoodlab",
+      "category": "Lab Career Pages",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Analyst GC-MS/MS / GLC — Avonfoodlab",
+      "link": "https://avonfoodlab.com/careers/",
+      "source": "Avonfoodlab",
+      "category": "Lab Career Pages",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Grievance Officer — Efrac",
       "link": "https://efrac.org/work-with-us/",
       "source": "Efrac",
       "category": "Lab Career Pages",
-      "published": "Tue, 22 Sep 2026 03:45:17 GMT",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Sealab",
+      "title": "1. Marketing Executive (Marketing & Sampling) — Sealab",
       "link": "https://www.sealab.in/index.php",
       "source": "Sealab",
       "category": "Lab Career Pages",
-      "published": "Tue, 22 Sep 2026 03:45:17 GMT",
+      "published": "Tue, 22 Sep 2026 11:09:26 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:41 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:36 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:23 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:16 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:13 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:10 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Tue, 22 Sep 2026 11:06:07 GMT",
       "location": "India"
     },
     {
@@ -51,60 +131,12 @@
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:36 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:29 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:18 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:11 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:09 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:06 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Tue, 22 Sep 2026 03:43:04 GMT",
-      "location": "India"
+      "title": "Laboratory Assistant Job in ReBAT at Bhopal – Shine.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVG5PZE1nUS1maVQ0S3JCVDBad0NibE5PM1drQ1hWSnllcEVPN21ZREtQbGVHWGtPeXZVamZXVTVHd2FZNEZLVjNHS0hmbzlkd2lqX3lKc2FLSE9fRHdvVl95NEU2ZENBWk8xcXVwYy1UdGx2akJLWVBBUUhjVWltY3pscEpLb2dzNXNpVlg1cVA?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Tue, 22 Sep 2026 02:23:35 GMT",
+      "location": "Bhopal"
     },
     {
       "title": "Manager Lab — Hthlabs",
@@ -136,14 +168,6 @@
       "source": "LinkedIn",
       "category": "LinkedIn",
       "published": "Mon, 21 Sep 2026 17:36:32 GMT",
-      "location": "India"
-    },
-    {
-      "title": "PayCruit hiring Lab Technician / Food Science in Atlanta, GA",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTUFuOVo5QW5SZ3dQUlRiUFU5UHdRMEVHOF9KVUhDUDRpMi1ZcDc2VEVXVFpkc0pocm14cjI0bEJPcWJqSUNVTGZ5S2R2UGc5b0hMMU5KaFJKV1ZGMUJIOEdZZm5aQ3hkWkliYTVnSkU5VS1WV1hrVFlIWTVqVXg2Rm85N3VzRTdpdkJzb0hn?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Mon, 21 Sep 2026 16:33:51 GMT",
       "location": "India"
     },
     {
@@ -467,6 +491,14 @@
       "location": "Madhya Pradesh"
     },
     {
+      "title": "QIMA hiring Sales Director - Food Testing in Greater Kolkata Area",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUTZWR1ZMYlJuc0R1SkxoTXRfQ2xqM0JRTFc0TUpzSExzcjlJX2dwT0d5aE8tUHhtN1VjOEhrOWgwZTFBeW5YdXhfT0V2MURMUENCd2FoUzRxbVlTdUFDcW9zWHk2dWltTmpVWk5OVy1va1lscldmeXMzMGdEdEd5MHFsMWdUM1E?oc=5",
+      "source": "LinkedIn India",
+      "category": "LinkedIn",
+      "published": "Sat, 19 Sep 2026 04:34:02 GMT",
+      "location": "Kolkata"
+    },
+    {
       "title": "Laboratory Technician at Actalent — St Louis, MO | LinkedIn Jobs",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPem1QV0UzYlh6dGZoeENqS01ZSm9wWndJV3E0ZGU4dUtDVEdtbXlJVHZ0Nk5fV1ZyeVRmR3otZmV3d1FaZm1xQ3JpX0oxNERxeEVRblBYSmVYdk5qLVcxelNFWGJFVzFKRjVPS2tmUkFYVE9XY1VmNmt3TlZjeEI4SEM5S3YzQQ?oc=5",
       "source": "LinkedIn",
@@ -539,14 +571,6 @@
       "location": "Pune"
     },
     {
-      "title": "ColdSnap hiring Food Science Technologist in Billerica, MA",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa3JNdFM0cW8tbXo5RWt1VzRQYUtRbldHVXU2cnJXckR6dUpuX19RQkIxUF9oYlhETUt5STZpZnR4b05qNS1nRFdjbW5ETXFnQm5lckx0bGwyRTlZVXkxMUhxVkN3dm53TS14dG5naUh0eFl4SmhqUnI1Y2FvdWktTGZIaUJ6bFA4RWJV?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Thu, 17 Sep 2026 15:08:59 GMT",
-      "location": "India"
-    },
-    {
       "title": "Eurofins US Food, Feed, & Supplement Testing hiring Machine Safety Engineer in Houston, TX",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOFQzR0pySVNBRnAxdWVjbGpla0pndnd2MmZjdVJOeDNFUVNCcFNocnk2bHBlbjk0a0lFYUhSNmdhWmQxVGk3aDA1RGU0NUhpNzFpWW9wd01tOVRqd2dpX3ZtTU1Va3BLV3BUblhNZ0R1Nk9VRHQxZEJvNTIzRzVXdllPa2NIMUhfN3NidDZwUG9FQ0NSM0diZWp2NlhqbG5LcTI1NHpRaHhrdjRLbDhacV9KYw?oc=5",
       "source": "LinkedIn",
@@ -589,7 +613,7 @@
     {
       "title": "Food Lcms Jobs - 23418 Food Lcms Job Vacancies In September 2026",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96bGFiLWgwQ3RVbTA3R3ZvQVZ6elBSTUFLdGg4V0hNaU5MSjdjOFFGSlpiQ2d6OXBaY1dwSTMxREQ0eDZsdzJsemx5RldUQQ?oc=5",
-      "source": "naukri.com",
+      "source": "Naukri.com",
       "category": "Job Portals",
       "published": "Thu, 17 Sep 2026 04:08:15 GMT",
       "location": "India"
@@ -664,14 +688,6 @@
       "source": "Alexstewartindia",
       "category": "Lab Career Pages",
       "published": "Wed, 16 Sep 2026 03:14:37 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Certified Group hiring Micro Lab Tech in Phoenix, AZ",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVU16czhPYnhJNmpXT2htLXhGMC1WM2ZQdldEVHFWajkxd29ySjYtLXVFWlRqTHdjelVISnZBY2pvY05ZUkdvRmFTc0wyWUwtUVpsZGIxRkpXeU9GZVlsa3hpLWlWZF9GN0xkOXdVYkxYYU0tYml2UnZqNHJCR1U4WWRNekNndw?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Tue, 15 Sep 2026 16:51:41 GMT",
       "location": "India"
     },
     {
@@ -825,6 +841,14 @@
       "category": "Job Portals",
       "published": "Fri, 04 Sep 2026 20:20:35 GMT",
       "location": "Bangalore"
+    },
+    {
+      "title": "McCain Foods hiring Microbiology Technician (Temporary) in Appleton, WI",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcXlxSG8wRkxseTg2eUl3WHJUUEdILVdnenpUOTRfbFZwU0JlTnVUejhNM1ZTdWJuU1doaDdSbmF0SmQwaW1JTkhWTW5OX29rU1dIZkVnYmc3eDhTUFdlRTdwQXpubjJPM3JkVDlaUHpuT1FsSElvZ2h3cWJJVXZWR2tfVUZ1dGtyYnhEcjMtaWRsNzZCRlFVQU1UOA?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Fri, 04 Sep 2026 20:00:36 GMT",
+      "location": "India"
     },
     {
       "title": "Research and Development Executive (flavours) Job in Savora Flavours at Noida",
