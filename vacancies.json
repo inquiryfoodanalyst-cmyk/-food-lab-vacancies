@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-11-01T12:50:22.041839+00:00",
-  "count": 115,
+  "generated_at": "2026-11-01T19:26:42.500878+00:00",
+  "count": 92,
   "items": [
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:24:02 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:59 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — CFTRI (CSIR)",
+      "link": "https://recruitment.cftri.res.in/",
+      "source": "CFTRI (CSIR)",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:56 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:52 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:45 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:42 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:39 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Sun, 01 Nov 2026 19:23:37 GMT",
+      "location": "India"
+    },
     {
       "title": "Openings currently listed — Bureau Veritas",
       "link": "https://www.bureauveritas.co.in/working-bureau-veritas",
@@ -11,107 +75,11 @@
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:48:18 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:48:15 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — CFTRI (CSIR)",
-      "link": "https://recruitment.cftri.res.in/",
-      "source": "CFTRI (CSIR)",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:48:12 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:48:08 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:48:01 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:47:58 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:47:54 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Sun, 01 Nov 2026 12:47:53 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Senior Research and Development Engineer Job in Croyance Executive Search Pvt. Ltd. at Mumbai City",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNck9YdnlGaUFRd3FDeVQ3bjRkRVg1b2p5cXhzM2lrYXB0VlFkT3lSeldjTWR2ZjJmRURfUHV4aHVZOHotUy1BUktlVzJpT3hpVThlN2w3UEhPc042X2w4RjVyc3lpY1k1XzI4SWZCeU5kZENIb0x0akdveGhMZWdpREdzamtISXI0eXg5NkR4ZWtadno4VURLRm92VDBjNGFCanhIcXJpX0pyTldrUkVr?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sun, 01 Nov 2026 05:28:50 GMT",
-      "location": "Mumbai"
-    },
-    {
       "title": "Lab Assistant Trainee Job in PRIYA IT & HR SOLUTIONS at Ambernath",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeWJuT182dllROEJRdHN6UUF1ekFfUVk3cFhzZDdTSTBBS0xlbVdkSW05ZUsxWWhaNHRlVHRYdlhJdmxaMDdIaElWZ3l1TW4zOTFoNGdBaU9ONmIxVzBCZGc1ZGJvdWZQUFlSRUNNNTVaR1NIMjNtVHVLeGpha1p0TzhxUG83QQ?oc=5",
       "source": "shine.com",
       "category": "Job Portals",
       "published": "Sat, 31 Oct 2026 21:20:22 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Manager Lab — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sat, 31 Oct 2026 21:08:32 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Sr. Analyst — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sat, 31 Oct 2026 21:08:32 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Environment Chemist — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sat, 31 Oct 2026 21:08:32 GMT",
       "location": "India"
     },
     {
@@ -179,14 +147,6 @@
       "location": "Jammu"
     },
     {
-      "title": "Lab Chemist Job in Mother Earth Environ Tech Pvt Ltd at Bangalore",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXRqd3hhSEgtbFl1REcwbEt0X0pJbUNvMlRJa1gydC1sUU4teUR6N1BYMEVRMWZ4emxTellfWERtMGxXRjFrTDdUOGFfYzNwS0ZkWmJhRmNFX0xHZ010cmJVSDJacC1nR1dRM29jY0tVNXh6eE1talF3SmIxazVkMnB5ZnExSnZI?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Wed, 28 Oct 2026 10:15:35 GMT",
-      "location": "Bangalore"
-    },
-    {
       "title": "GSSSB Food Safety Officer Recruitment 2026 – Apply Online",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHVJOVp2cXFEZ3FFdVItRzNhaVVCXzNnSmlCckxWeGhHVnhEaFNBVHV4cjlvTHQtYmE0eEdMZjNCWk1pVUxMZ2dLNnZ3VXNrZ080YlhJVVBFX0JiSW1wZk1Kdk5DaGRDX1FMMXFkdFphbWU1NHkzd0FsMEp4dEU2VllRZWpWU2s0TDhLbWQ5RWpWUHpwdEhCc1hGbmpJM1BQWkhv?oc=5",
       "source": "FreeJobAlert.Com",
@@ -225,22 +185,6 @@
       "category": "Govt Jobs",
       "published": "Tue, 27 Oct 2026 07:00:00 GMT",
       "location": "India"
-    },
-    {
-      "title": "Part-time Quality Inspector (SL)-West India - Maharashtra region (Mumbai) Job in QIMA at All India",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLUtyUmgwaUhGeFdiTFRrSG5JNWJzMUM4MWhBMDl0aG9kUHpoNmtfOU1ncUVwWUx1bFdaajVtd0RsdTQ1eEpHV255RWZFeDd4azdtV3FjamlzZVR3MnhCUnFZbm9yaU9KeDR2NnJRR0QwUVl1c2ltUE82NzhFSkJoNkhSb09aQ2pXRmsxWWVlNFRpZ3lGakdtUlRIWEk4MEJnc2FPbGtTbVNoUTQ4?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "location": "Maharashtra"
-    },
-    {
-      "title": "Key Accounts Executive Fresher Navi Mumbai Job in Equinox Labs at Mumbai City",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTXMwa2VzUkhSMzlHa2RKWmpnandFdWk0cW5UWG5VeDBLY2xkWG9jZEVIcHo0V2tBYmxTMDlfbFlZYXZCYWR0ZGdySTdkZXE5SzJBWkx5eGk4QjBCR1l3eEZ5b215SzdXVXRGTkpITkw4TU51VGxDaWdqWkJMTElxbERlLW1YNlZyOXdFUnoyMW5BZHpPTWc?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Tue, 27 Oct 2026 03:08:09 GMT",
-      "location": "Navi Mumbai"
     },
     {
       "title": "Openings currently listed — Itclabs",
@@ -299,30 +243,6 @@
       "location": "All India"
     },
     {
-      "title": "Quality Trainee Job in Vrv Sattvic Pvt Ltd at Sonipat",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQb3E0WDdlS0FKbVliWjVxTEpkR2MxQ3FUeEh3YUJ2WVZIZHNVcExoczktLWVTamZJb2tiU3NtWGZ0Ym8xMG9JNjV0bFF4WENRUkFjMlVqN2ExVXlsLWI0YWZmT1ZlY0kwTDFSWENSOU1Ca1ctNXBGV2E1WQ?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "location": "Sonipat"
-    },
-    {
-      "title": "ELECTRICAL LAB ASSISTANT Job in International Maritime Institute at Noida – Shine.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZEdGcGhOLWNiQzdZV1Y4Q2dLMjF6MDdUUzBaV0haQWlrVVM4ZWxoNG0wQUxDZUVkY1NTQVd4YVZ6ME9hTFk2M0U4aDQyaUJRX2dtdFg0NDU0X2Voakw1U0hNYVh3UGlJa0MxV1FkeUtSZTNndU9JZm1zWG9uY2kyMGEzMnpoSDd0LWVIRTFia3NTNVFOTnNXUkJwZGxPTWl0UmhYc09EU05QTDdoODc1ODNNdExuYU9NRENyVUR4R3MzZjVm?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "location": "Noida"
-    },
-    {
-      "title": "QA Lab Documentation Fresher Navi Mumbai Job in Equinox Labs at Navi Mumbai",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY19aUEVYMG01Tjd2RGVrMV9FM2lVQzUzemNUcWRpMnNhdGlCUXgwVFFia01UdnFkVi1YQi01V3lSVGdIcTJ5VTZNT0RPNHdfRzhBX0NSY3VZUHh6REpHak0yZ3U5WjdTUGJkaFBHSkdnd3dKTXFIbmtyUHR2R1ZWa2hGemRIZ2x6U0wwVkNmUDktVGM?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Fri, 23 Oct 2026 09:13:31 GMT",
-      "location": "Navi Mumbai"
-    },
-    {
       "title": "Technical Manager — Accuratelaboratory",
       "link": "https://accuratelaboratory.in/career/",
       "source": "Accuratelaboratory",
@@ -355,20 +275,28 @@
       "location": "India"
     },
     {
-      "title": "Senior Microbiologist Job in Yors HR Services Private Limited at Maharashtra",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbzhRanU2WnpLVW9MMXNvQlMxMnlpWnQzQWxwWW5MZ21HelBVd0JLSTBVRnhnR2hVdWtNZUJhQ0ZxQjM0ME9iNFpGTlpyRTc2cTZKLUZnQi03QXBTZ2czUFM1SVBmc3BGUE1xZnd0U05mZk5ocG5JakozUmhuQy1QdW55cVRTQ3ZpSXk1T3hzUWx0WGNC?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Thu, 22 Oct 2026 14:34:40 GMT",
-      "location": "Maharashtra"
-    },
-    {
       "title": "HPSC Food Safety Officer Apply Online 2026 Portal Reopened at hpsc.gov.in.",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZEdkM3dIbDRqNTdKSE02RzFRYjFzM3hNVjB4V3U0cjZ4SE1UZWRabkJqaWF6VkhacmF3TlBzSk1ibHJDTnlESGdPelRuZjRYcmJSd0dQcEJDbGItTzA1UFVDLWt0TGJsNFg1NG1yRTZQdndLR1hwSDNFZzBwVlZhVHZoU0YwRWhY?oc=5",
       "source": "Adda247",
       "category": "Govt Jobs",
       "published": "Thu, 22 Oct 2026 07:00:00 GMT",
       "location": "India"
+    },
+    {
+      "title": "Senior Microbiologist Job in Yors HR Services Private Limited at Maharashtra",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbzhRanU2WnpLVW9MMXNvQlMxMnlpWnQzQWxwWW5MZ21HelBVd0JLSTBVRnhnR2hVdWtNZUJhQ0ZxQjM0ME9iNFpGTlpyRTc2cTZKLUZnQi03QXBTZ2czUFM1SVBmc3BGUE1xZnd0U05mZk5ocG5JakozUmhuQy1QdW55cVRTQ3ZpSXk1T3hzUWx0WGNC?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "location": "Maharashtra"
+    },
+    {
+      "title": "Senior Engineer - Refrigerator Testing Job in Intertek at All India",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd1g3bTExSGMyanlnWko1R1phTDdrSV9FUzFTbS1XbjVmVzBLUDNETkpWOW9obmJvcHIzaTF3dTM5a0FuNmUtZXhRNWtwdWl6SWZCSWtQb3NHa2JoN3lEUWp4X01zLU9KR3pJUHI2YlAtRXhfRUpHQUFwZlk1M3RnaV9xQ0YtSnBu?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "location": "All India"
     },
     {
       "title": "Immediate Hiring Quality Assurance Technician - Entry Level",
@@ -379,28 +307,12 @@
       "location": "India"
     },
     {
-      "title": "Senior Chemist R&D Job in Nk Agro Exports (INDIA) Private Limited at Hyderabad",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOTVqRVFtdzlERTdkeE5mcUZybmNPNWFaX3BjVTlRcGtfX244cG9lRWV1Q0JSY0FLVEJSTjlkRzJWbkM2alFEaXBJOC1vSHQ0ZkFkbWs3eHRIeWRyQXVSa2NRTVJuR2QzRUpoc05MamdyUTg3NjlfZnZHMm5HRm5oWk54ejhHZzUxcU5VcV9UdGl0eHo1S0E?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
-      "location": "Hyderabad"
-    },
-    {
       "title": "METS Laboratories India(METS Lab) hiring ICP-MS ANALYST in Manesar, Haryana, India",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQW5IWXpOdmYtUjkxZnNVcGxhRzlnZm9oSERwSG1ETnBqTk16SHAxM3VweDB1am9LMUJXZ29uak0xcV9DRFdFaDczSEZROGFfNG94bUpKVE5wc0s0T2huOENyX1JxMDlxbi1UZTVaUDFvTmtEcjVTZGxFQjE5akcyUkpzS2lHMWpPM3V0Z2tTSm1RVGdLUHdDQzU1Yw?oc=5",
       "source": "LinkedIn India",
       "category": "LinkedIn",
       "published": "Wed, 21 Oct 2026 11:18:10 GMT",
       "location": "Manesar"
-    },
-    {
-      "title": "Chemical Testing Technician Job in Global Links at Delhi",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQWw0N1NUd25yd0ltZlpJb01fYVBXRXpkQWJWOE55UDhWWjFuMC1tYXNEaDJvLW9YNXJ3b0lOUHUtSFM1elNsZHNrbVlva1NRQ3RhMjZxek55TXJZczhZRnlJNW1ILUlKR0YwLTJQUk82MHdoRnVyLWpWenZJbE9rV2ln?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "location": "Delhi"
     },
     {
       "title": "for the Management Trainee, Engineering trainees and Sales Officer Trainee Programs — Ltfoods",
@@ -515,14 +427,6 @@
       "location": "Thane"
     },
     {
-      "title": "Hiring Service Engineer for Lab Instruments _ Noida Location",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVXJqRDRDY3Jvc3ltemVWQUpiNXhTZ2JXNGp5amhXTTRQZ01UUG9VdTlseWVHUjhmT3daUzNaM2hGWlQ1UlpBSmRWSW02cWkxWGdvQTFrX2ZyZ0RhMkp3cHFuWkhnVmpjeXU2emFRenhsOGZqQ0Rzc3gyeEVTejZpRWM1S2sxRGNIdFNqUFhKSDFSTFktd3kxOTkyT1VYSExVTjVxR3BvbGdnVFpJVV9hNFJtcF8zVU5VQnpkb0o4dGFUR0RYSzFQVUg0dEQ3Z1FscldNRDFJN3Uta0V4aXY4a2M4TEN1T2dkeUllMjhGNlFTdw?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Tue, 20 Oct 2026 07:00:00 GMT",
-      "location": "Noida"
-    },
-    {
       "title": "Grievance Officer — Efrac",
       "link": "https://efrac.org/work-with-us/",
       "source": "Efrac",
@@ -571,14 +475,6 @@
       "location": "India"
     },
     {
-      "title": "Hiring Dy. Manager (Quality Control & Assurance) Job in Seven Consultancy (HR Solution) at Mumbai City",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNmU0N0xvYXR4LUZBd1M4eFliWDVjUjBjTnBaNlNkTktOUFk4ak9nOWtZc3pjdGJDWThoX2tVcVdIeDBpODVZY05teWNrS0VSUnpCSm9RM3BjRlFCMnJxaVZxZU1OMTZfMGRIOXVxYVhQd1VDUmVTRkZ2YkZ0VDI4ajNjWEp6cDFuVkZtU3JPaXBkSzVLSy1VTDAxOWVtZUxrakpjbDZ2RjZlUWg1ZEE?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sat, 17 Oct 2026 07:00:00 GMT",
-      "location": "Mumbai"
-    },
-    {
       "title": "Food Microbiologist Job in Yors HR Services Private Limited at Ahmednagar",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ0E0TVl3bUtBT1I0RDdsb05iZ2ZzdFBmYzFrZTYwTFZZdmtqTkxLSFNZMXhKRUt1ZEc3M3RxOTNBdzFYTkZVS3FydTBCVFFBbFZHMmtJQXMwV2ExcTF2NnpRWFAtRWtJSlp6c3BoRklNN3NBVmZuOTVvcW1jNXd4S2lVYmVwZzhfX0ZDaEVjdUdQZw?oc=5",
       "source": "shine.com",
@@ -593,14 +489,6 @@
       "category": "Job Portals",
       "published": "Fri, 16 Oct 2026 07:00:00 GMT",
       "location": "Ahmedabad"
-    },
-    {
-      "title": "QA/QC Engineer (NDT) Job in Apex Offshore Service at Chennai",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVndEejZUbUdvcFJoTmN5VTdWS05qS2E5UTVFUFktSkplLWYxZFdjS3ZqVGo1d0c0ZG9XQnlwUHVTNHowMDVNRWgwdEk4NzdSaGtVc0FWa1RDRkZabFpENnlveWpIZTlHY3IyVFpCNkVNRFpwODlTQkRubXRxU0NuVGt3?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Fri, 16 Oct 2026 07:00:00 GMT",
-      "location": "Chennai"
     },
     {
       "title": "Section In-Charge/Assistant Manager/ Manager — Smsla",
@@ -675,14 +563,6 @@
       "location": "India"
     },
     {
-      "title": "Lab Product Specialist Job in Vishal Consultants at Ahmedabad",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVlwVlFZMEpLcGlsV2VaSWRGWDVJMTVabS1iNFlpOF9va0V1dWFJQUJ3a3dPbGtxS3ZoSFdYdTdXSmVsM19LMzBXZ0lRU2kxcGlZTDR0dFlkWFVrc3c1bGp0aS1yZ1dFcWx2ZVlTN1YyLTR2ZnZDWFJHSzhXV0VvXzNtdw?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "location": "Ahmedabad"
-    },
-    {
       "title": "🚀 Food Analyst Vacancy – NIFTEM-T, Thanjavur 🏢 Organization : National Institute of Food Technology, Entrepreneurship and Management, Thanjavur (NIFTEM-T) 📍 Location : Thanjavur, Tamil Nadu 💼 Position : Food Analyst – Central Instrumentation Lab 📌",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOWN6UEctYXZjT3pmUnhjT2k3VGJJcmh3R19mQ3hUblNUNW5RcFdXbTFNRTM1Z0FBWXBjb0U3Wld2STd3aVFiOHNFLTBBX3F3SUctUXBkUEg5X1hkRmk3VlNWN1ZGVURRcjUyTUxiSGhicWhDY2dqdUZzTzVEUkhzVnJkb3JoN2RFN3I4NTA3dEt6SEl3STFxSGFGV3lyLXdQckRaaE5ZY2ducEJZMkZiX3lPUQ?oc=5",
       "source": "LinkedIn",
@@ -737,14 +617,6 @@
       "category": "Lab Career Pages",
       "published": "Sat, 10 Oct 2026 21:19:11 GMT",
       "location": "India"
-    },
-    {
-      "title": "Agri Procurement & Supply Chain Job in Thankyou Farmer at Delhi",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSHR5M3JtSTRWOTRyTWJmOFBNNmdPb1l2Q1lKcHdyeGpOYU9tdGZPRGFGMERRUlZuUTZBcTZ2bC1hdXFWZ3RoSVdlQ1lUTVlpWEpqN0ktWEthNkJRemp6SEdGZVc3dERDZWtzeWtUaVVaejlsZndlc3EteU45RHNKd0JqMGJUM2RF?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sat, 10 Oct 2026 07:00:00 GMT",
-      "location": "Delhi"
     },
     {
       "title": "Openings currently listed — Srigomuki",
@@ -819,14 +691,6 @@
       "location": "India"
     },
     {
-      "title": "Head Quality Assurance & Quality Control Job in Aditya Flexipack Pvt Ltd at Kanpur",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUEzb2RjR29CcFNwakVCaDBIMDRPVTF0SDl5RlhxQkVsSWpveTJaQzd0bllvWlVVekQ4bjRtdEdJQzMtcVJBMHFGeDVPaHRyMUstV3U1T2dlQUQ0Q1NtQmkwZkpaX1VQMWk3VVZvZ0RQY2xQUGxXRjI2TDNFaklOZ1hkaU4zcVdPREFfWFlDVmFIdnZYY3Z4Rkw5anBaVHJO?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "location": "Kanpur"
-    },
-    {
       "title": "Openings currently listed — Ncml",
       "link": "https://ncml.com/career/",
       "source": "Ncml",
@@ -849,54 +713,6 @@
       "category": "Job Portals",
       "published": "Mon, 05 Oct 2026 07:00:00 GMT",
       "location": "Delhi"
-    },
-    {
-      "title": "Lab Assistant Job in Surgtic Pharma Private Limited at Lucknow",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY1ZaSmVfdXBBYTZNU3FHS21tY29nVUtTbFRJNllSbGxPSmhNUXk5Q29kV2duSlk0V2N2RUtEQTBhWmJBamxSOUphZExrdEJ0RDNsb2ZlY3VNSEhnLW1YVHRCUEhRTFBKSS1qdFZhWlB2NVFXSmNxVlJJa000b3FUR1lpcTJBMmc?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "location": "Lucknow"
-    },
-    {
-      "title": "Food And Beverage Service Faculty - SUN International Institute Job in Right Recruit HR at Hyderabad",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbnFaczNNSXF6RVpIejhwNk9hNXktazhydzlEQ19tMGd3dTByakdIckd6NGVBQ2tCcW5RU1UycFB3bEJsQTlnbVRSMHJIUVhlRXFDWDctOWtxd3Y0NXNPSHNtdjdCTnZSeHJLb01RejBpazB5SXBXZG5QRWFwdy1odnRCN3lJTDZuYlFyaHhDemJ6c0NQZUNDUjY3SkVkN2VXVU9lZWh1QlpNOXo0ZUdOcTBHMFU?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "location": "Hyderabad"
-    },
-    {
-      "title": "Quality Control Technician Job in Resort pvt ltd at Chennai",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN2RpOE52WmVTbW5wLTRha1F6cnd1Qmg5eEJsaENOQU9vUkxlWVd3aDh1UkNqQnhScmpHNEJYbFlpWTE3dDVmNGJQNk91T2hTdGllNEhCc2NndGtJSUpoM3MzVlN5YVlrd01YdFBGd2FsYW1YVWNiUUZyMzRpOHpVMGRjVQ?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "location": "Chennai"
-    },
-    {
-      "title": "Senior Officer Quality (Kurkumbh) Job in Henkel at Mumbai City",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YWENJeWItWFlxeHZNbjQ2RXJ2Y0tLSFYzcHltUGdnWEo2dlRRRzBpVnBFR1RZZzhGNWtjbTJmanJ5elUyZVp4emt1dkMzTTBTcF9QQ0xUNEEyMXctazE3WFdCWUU2YUdmVURaZzBTWVhHVVd4V2ZJU3dvdURUOTg?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "location": "Mumbai"
-    },
-    {
-      "title": "Experienced Quality Assurance Technician - Night Shift Opportunity in a Dynamic Job in remotepromsp at All India",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcW9ERHVJSkFOOEVObWVYbmJUbzJfSWlfcEcyVGVOSFQ1emRSRXRXYnpEWmZjUXNxbGctVmlBMTUxMkVOZmtXUWJVSTV2cjVSa2g1TVc3Qk11M0E5Q21vTHowbGlna0o5NF9lSEhrdUMyWG5SX2NQc0ZKNko5alZPd29OSEI4dWFNZVFoWURnc25uUU03VmFGTUt3T1o1bEtBdTRLWUlJZzA0aXZXUlJ1MmUxeGpmNEdpTEpiYjN4YllKekFY?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "location": "All India"
-    },
-    {
-      "title": "Quality Incharge Job in Times Enterprises at Hosur",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRX3EzQVdwM2pjLTNpYUdfNlV0c05ZRGE2N2xoSDNaeXIzY2pYQ0sxVHBMQjJmVVY0cWUyVjJHUmtqLW5aTzZfTWh3RWJ2N1hVaktfcnZXajd1WlJiU3liR2xaQm1vSm4xaXByMWdCbG8yZjRvSlI0cHRB?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "location": "India"
     },
     {
       "title": "Senior Analyst – Environment More Details — Envirocarelabs",
