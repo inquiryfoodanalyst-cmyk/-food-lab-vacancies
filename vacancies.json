@@ -1,7 +1,143 @@
 {
-  "generated_at": "2026-11-09T00:38:16.897091+00:00",
-  "count": 88,
+  "generated_at": "2026-11-09T11:01:51.128516+00:00",
+  "count": 98,
   "items": [
+    {
+      "title": "Openings currently listed — Srigomuki",
+      "link": "https://srigomuki.com/",
+      "source": "Srigomuki",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Einfrac",
+      "link": "https://www.einfrac.in/career",
+      "source": "Einfrac",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Analytical Chemist / Senior Analytical Chemist — Eurekaserv",
+      "link": "https://eurekaserv.com/careers/",
+      "source": "Eurekaserv",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Junior analyst-2 years experience — Ifl",
+      "link": "https://www.ifl.in/careers/",
+      "source": "Ifl",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Senior chemist-5 years experience — Ifl",
+      "link": "https://www.ifl.in/careers/",
+      "source": "Ifl",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Junior microbiologist-2 years — Ifl",
+      "link": "https://www.ifl.in/careers/",
+      "source": "Ifl",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Sales Executive - Ahmedabad / Chennai / Noida — TUV Nord",
+      "link": "https://www.tuv-nord.com/in/en/career-with-us/",
+      "source": "TUV Nord",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "Ahmedabad"
+    },
+    {
+      "title": "Assistant Manager / Deputy Manager -Business Development (Material Testing) — TUV Nord",
+      "link": "https://www.tuv-nord.com/in/en/career-with-us/",
+      "source": "TUV Nord",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Common Resource Pool Manager - Inspection Services — TUV Nord",
+      "link": "https://www.tuv-nord.com/in/en/career-with-us/",
+      "source": "TUV Nord",
+      "category": "Lab Career Pages",
+      "published": "Mon, 09 Nov 2026 11:01:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:42 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:37 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — CFTRI (CSIR)",
+      "link": "https://recruitment.cftri.res.in/",
+      "source": "CFTRI (CSIR)",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:34 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:29 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:23 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:19 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:16 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Mon, 09 Nov 2026 10:59:14 GMT",
+      "location": "India"
+    },
     {
       "title": "Manager Lab — Hthlabs",
       "link": "https://hthlabs.com/careers/",
@@ -24,70 +160,6 @@
       "source": "Hthlabs",
       "category": "Lab Career Pages",
       "published": "Mon, 09 Nov 2026 00:38:16 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:36:13 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:36:05 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — CFTRI (CSIR)",
-      "link": "https://recruitment.cftri.res.in/",
-      "source": "CFTRI (CSIR)",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:36:03 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:35:58 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:35:52 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:35:49 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:35:46 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Mon, 09 Nov 2026 00:35:43 GMT",
       "location": "India"
     },
     {
@@ -152,22 +224,6 @@
       "source": "Ncml",
       "category": "Lab Career Pages",
       "published": "Thu, 05 Nov 2026 01:22:18 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Reposts by The Business Research Company (@tbrc_info)",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9RdVgzenRoRHNURXRQZmV0d0xPbDVEd0k4V2ZMYlJpd0lQbEZ2U1JqOVh1VXJjLURFSkd1Q3ktSHRDdFV0MXc?oc=5",
-      "source": "X",
-      "category": "Twitter / X",
-      "published": "Wed, 04 Nov 2026 21:29:02 GMT",
-      "location": "India"
-    },
-    {
-      "title": "#KolkataJobs",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tZDVhYUJITUFpVGpPXzNaSXNpazhBN3dpQlEzdnlQRzcyREl3eFVUTzJ4dDZlb3NpLUFEbmsycUtRWEtlZU9PUw?oc=5",
-      "source": "X",
-      "category": "Twitter / X",
-      "published": "Wed, 04 Nov 2026 06:41:30 GMT",
       "location": "India"
     },
     {
@@ -291,6 +347,22 @@
       "location": "India"
     },
     {
+      "title": "🚀 PepsiCo is Hiring !! 🤵 Position : R&D Digital Platforms Asst. Analyst 🏢 Company: PepsiCo 📍 Location: Hyderabad, Telangana 🏭 Department: Research & Development (R&D) 💼 Experience Required: • 2–3 years of experience in Regulatory, QA/QC, Food An",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORkYzWGQ0dFhjMlZieUpwRklMM3ZiRnRfbFBuUzVyeFMzTWdzYk9rZTRTT1l5dFNiRXF5NkJVNjRTNl85dml6a3F4MGZLVUY3RWlKZkNKNkhtRkZzbG05bDl1VlB6Uk9SZy1jUXdlUy14ZFNKMkhHXy1HcHVjZHJLd2pVZGwzS2FPX1I5SzNGekduWl9Dd28xRkFMVTZCWkh1NEJhaA?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Wed, 28 Oct 2026 12:01:54 GMT",
+      "location": "Hyderabad"
+    },
+    {
+      "title": "Lab Chemist Job in Mother Earth Environ Tech Pvt Ltd at Bangalore",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXRqd3hhSEgtbFl1REcwbEt0X0pJbUNvMlRJa1gydC1sUU4teUR6N1BYMEVRMWZ4emxTellfWERtMGxXRjFrTDdUOGFfYzNwS0ZkWmJhRmNFX0xHZ010cmJVSDJacC1nR1dRM29jY0tVNXh6eE1talF3SmIxazVkMnB5ZnExSnZI?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Wed, 28 Oct 2026 10:15:35 GMT",
+      "location": "Bangalore"
+    },
+    {
       "title": "IIT Jammu Project OfficerRecruitment 2026 – Apply Online",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdWwwLWhNTmtaUWluZ2R3cnpmNzc5SkRMekdrLUtfRGtNeU5FT2dTTThqSWZwWUJCNFdXdVltSmVMaDBlYlg4T1dSWGx0cDVTRXFQQzd0dkJvQTI0Z2V1Z0o3SHhvXzNhUHgtdVFfQUc5SVl6dzREQjlaNWZFMHJCTEdiVE84UXR3S2pUcXpCcE1NRXVhUWFnV3J5SmFaMlluQnc?oc=5",
       "source": "FreeJobAlert.Com",
@@ -401,6 +473,14 @@
       "category": "Govt Jobs",
       "published": "Thu, 22 Oct 2026 07:00:00 GMT",
       "location": "India"
+    },
+    {
+      "title": "Senior Microbiologist Job in Yors HR Services Private Limited at Maharashtra",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbzhRanU2WnpLVW9MMXNvQlMxMnlpWnQzQWxwWW5MZ21HelBVd0JLSTBVRnhnR2hVdWtNZUJhQ0ZxQjM0ME9iNFpGTlpyRTc2cTZKLUZnQi03QXBTZ2czUFM1SVBmc3BGUE1xZnd0U05mZk5ocG5JakozUmhuQy1QdW55cVRTQ3ZpSXk1T3hzUWx0WGNC?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "location": "Maharashtra"
     },
     {
       "title": "Immediate Hiring Quality Assurance Technician - Entry Level Job in remotepromsp at All India",
