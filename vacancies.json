@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-11-20T19:43:54.951630+00:00",
-  "count": 94,
+  "generated_at": "2026-11-21T02:03:02.764137+00:00",
+  "count": 92,
   "items": [
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 02:00:26 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 02:00:23 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — CFTRI (CSIR)",
+      "link": "https://recruitment.cftri.res.in/",
+      "source": "CFTRI (CSIR)",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 02:00:21 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 02:00:17 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 02:00:02 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 01:59:59 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 01:59:56 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Sat, 21 Nov 2026 01:59:54 GMT",
+      "location": "India"
+    },
     {
       "title": "for the Management Trainee, Engineering trainees and Sales Officer Trainee Programs — Ltfoods",
       "link": "https://ltfoods.com/career",
@@ -107,62 +171,6 @@
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:41:28 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:41:23 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — CFTRI (CSIR)",
-      "link": "https://recruitment.cftri.res.in/",
-      "source": "CFTRI (CSIR)",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:41:20 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:40:57 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:40:54 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:40:51 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Fri, 20 Nov 2026 19:40:49 GMT",
-      "location": "India"
-    },
-    {
       "title": "Business Development Executive — Ashwamedh",
       "link": "https://ashwamedh.net/careers/",
       "source": "Ashwamedh",
@@ -177,6 +185,14 @@
       "category": "Lab Career Pages",
       "published": "Fri, 20 Nov 2026 11:01:50 GMT",
       "location": "India"
+    },
+    {
+      "title": "FSSAI-Approved Food Analyst at TechonautAI Talent Pvt Ltd — Hyderabad, Telangana, India | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUzF4TS1IbTBha0NEbUNJakJfWEpKVmlJQk1tZUFHbGhxdWJrOUFMWTJING5vZnFZM0h4YUc5N2J0TzIwUWR3LW1PSGtHNEE4aURtQzZGLWxpM1ZhM013RTRSZV9XS3lPWnI4NkRyYmFKemI1ZmU3ZTBlbGZqTi1XUEw2aVRBbTBac3Blb05sMGRwR011NkFnQzVsUlhDTVNZVDl1Rw?oc=5",
+      "source": "LinkedIn India",
+      "category": "LinkedIn",
+      "published": "Fri, 20 Nov 2026 06:56:18 GMT",
+      "location": "Hyderabad"
     },
     {
       "title": "Manager - Metallurgist Click to view or download document --> Open PDF &nearr; — Alexstewartindia",
@@ -198,30 +214,6 @@
       "title": "ISO 9001:2015 Internal Auditor — Alexstewartindia",
       "link": "https://alexstewartindia.com/career/",
       "source": "Alexstewartindia",
-      "category": "Lab Career Pages",
-      "published": "Thu, 19 Nov 2026 20:06:37 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Manager Lab — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Thu, 19 Nov 2026 20:06:37 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Sr. Analyst — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Thu, 19 Nov 2026 20:06:37 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Environment Chemist — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
       "category": "Lab Career Pages",
       "published": "Thu, 19 Nov 2026 20:06:37 GMT",
       "location": "India"
@@ -593,14 +585,6 @@
       "category": "Lab Career Pages",
       "published": "Fri, 30 Oct 2026 22:02:36 GMT",
       "location": "India"
-    },
-    {
-      "title": "QC Scientist - Chemistry Job in Als at Bangalore",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jcUdyenU5eVlXNWpEZ1l0NjYzZWg1dmRtR3dPVXVJRHM2MHNyUDNMOS1zSHBFanphbUJ1TU9LTkJTemNEWkxoc1U0dTloY1RUSHV1MFQyZ1d4akVIUHBUZGNRSlBGS2tDMDJodUhpZw?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Fri, 30 Oct 2026 07:00:00 GMT",
-      "location": "Bangalore"
     },
     {
       "title": "GSSSB Food Safety Officer Syllabus 2026 -Check Exam Pattern & Subject-Wise PDF",
