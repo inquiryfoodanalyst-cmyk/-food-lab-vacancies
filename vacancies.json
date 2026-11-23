@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-11-23T11:57:51.852310+00:00",
-  "count": 90,
+  "generated_at": "2026-11-23T23:31:50.175727+00:00",
+  "count": 97,
   "items": [
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:30:02 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NIFTEM",
+      "link": "https://niftem.ac.in/career/jobs?tab=openings",
+      "source": "NIFTEM",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:58 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — CFTRI (CSIR)",
+      "link": "https://recruitment.cftri.res.in/",
+      "source": "CFTRI (CSIR)",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:56 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — NDDB",
+      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
+      "source": "NDDB",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:51 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — APEDA",
+      "link": "https://apeda.gov.in/recruitment-appointment",
+      "source": "APEDA",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:46 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — MPEDA",
+      "link": "https://mpeda.gov.in/?page_id=1155",
+      "source": "MPEDA",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:42 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Tea Board India",
+      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
+      "source": "Tea Board India",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:39 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Spices Board India",
+      "link": "https://www.indianspices.com/opportunities.html",
+      "source": "Spices Board India",
+      "category": "Govt Jobs",
+      "published": "Mon, 23 Nov 2026 23:29:38 GMT",
+      "location": "India"
+    },
     {
       "title": "Careers – Lab Jobs: QC Chemist, Microbiologist | Accurate Lab — Accuratelaboratory",
       "link": "https://accuratelaboratory.in/career/",
@@ -67,67 +131,11 @@
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
-      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
-      "source": "Bureau of Indian Standards (BIS)",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:43 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NIFTEM",
-      "link": "https://niftem.ac.in/career/jobs?tab=openings",
-      "source": "NIFTEM",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:31 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — CFTRI (CSIR)",
-      "link": "https://recruitment.cftri.res.in/",
-      "source": "CFTRI (CSIR)",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:27 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — NDDB",
-      "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
-      "source": "NDDB",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:23 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — APEDA",
-      "link": "https://apeda.gov.in/recruitment-appointment",
-      "source": "APEDA",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:14 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — MPEDA",
-      "link": "https://mpeda.gov.in/?page_id=1155",
-      "source": "MPEDA",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:11 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Tea Board India",
-      "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
-      "source": "Tea Board India",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:08 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Openings currently listed — Spices Board India",
-      "link": "https://www.indianspices.com/opportunities.html",
-      "source": "Spices Board India",
-      "category": "Govt Jobs",
-      "published": "Mon, 23 Nov 2026 11:55:06 GMT",
+      "title": "The Food Safety and Standards Authority of India (FSSAI) has sanctioned prosecution against Bisleri International Pvt Ltd after a sample of its packaged drinking water was found to be \"unsafe\", the food regulator said on Sunday. In a social media post, the FSS",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4Uk5ieWp2d3RnRnpjRXVZbDFPcmxpeEU5Y2JRLUpEb0c4MXVwTDNMeE9fY1VrSXYySlBPNVFBVVYxNVFpOXlTelJjTDNPbmVsNURwUW4yVWNPYUdQZFE?oc=5",
+      "source": "X",
+      "category": "Twitter / X",
+      "published": "Sun, 22 Nov 2026 15:41:29 GMT",
       "location": "India"
     },
     {
@@ -299,14 +307,6 @@
       "location": "India"
     },
     {
-      "title": "Openings currently listed — Merieux NutriSciences",
-      "link": "https://www.merieuxnutrisciences.com/in/careers-at-merieux-nutrisciences/",
-      "source": "Merieux NutriSciences",
-      "category": "Lab Career Pages",
-      "published": "Fri, 20 Nov 2026 19:43:54 GMT",
-      "location": "India"
-    },
-    {
       "title": "Openings currently listed — Shivaanalyticals",
       "link": "https://www.shivaanalyticals.com/en/about/careers-at-shiva-analyticals",
       "source": "Shivaanalyticals",
@@ -361,6 +361,22 @@
       "category": "LinkedIn",
       "published": "Fri, 20 Nov 2026 07:23:02 GMT",
       "location": "Hyderabad"
+    },
+    {
+      "title": "Analytical Services Manager at Eurofins US Food, Feed, & Supplement Testing — Des Moines, IA | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaHloNWJjR2hCeEFVaFhJd2dHUGhOQnlmajBjTWFKM25xUjNtOFlkSy00bk9XTVFCQ0xZeGlFTTJCR0ZjSzAzdFJRYjliR29LN1Q4MGZfZjBhQU1hUTc1V2FiME8zcWlQTG5rMVc2d1hrbHJyNkJSUERHTHdTY0VkeU9zVTVMN053OU9ka0ltN2JqY2s1WGZtMGpLTC1fbl9acWg2UE1ueDRpdGtLWXQxcFFNTUV4RGl0?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Fri, 20 Nov 2026 05:45:44 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Client Service Representative at Eurofins US Food, Feed, & Supplement Testing — Des Moines, IA | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPTHVPUzNwVGwxVm12OXZ4bUhkNUxGRDBxcFFTT3loWW10a2JsVWJTYUx2VzBGWjJFUVpLcGJoRU84NXdkU2VKWmxXYjRvUkhISldNc0NQbkt2X2E0TjRPeXY3U1lWaHBSZDRhWWxqX09IckVPOUd4N3hzZjRGZndSTHNPaW1uWmZ6S3kwWDZWc0NBTmRneGJERnlXZ3lEdUxEWUJfZU9VY0oxc2M3ckUtM0stckhGMllMSVQ1U1IyTXBrSV9INWI2bmlWb21tcjRUeEZLYk1neWQ3RlpvLWEzYnBGTUZQaUwxM0JWMlpXUUtrSXJmb2wwS2IzYW4td2ZhVFZHLTBRdVBrWExhU1BITGphMDNGb3RkLTdyRHprazBKdw?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Thu, 19 Nov 2026 23:34:47 GMT",
+      "location": "India"
     },
     {
       "title": "Quality Assurance Officer Lab Full Time Goa More Details — Envirocarelabs",
@@ -419,11 +435,27 @@
       "location": "India"
     },
     {
+      "title": "Sample Registration Technician at Eurofins US Food, Feed, & Supplement Testing — Fresno, CA | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPNUc3djlBY0h2V3Fna3pOZmdCanFVcndweEM1cENwVFNHUmt4STdMWGVlN1NwRmdUQjBzZS0zdEhQRWlMWUJkU2JCd1RqSzdJeFYzZHhQVGRDeWJEak9hUmQ0UVlQSnVPUFVNRk81MkNMTjZRbzYtQTFZMm4xVEZWV2VCNWtFVFI2YUpFTXYtTXc1cldleXNZbWptQWtQTWh0Z0JZdXhnSFhwMm50OU9abVdJZjlURVBwbHpiTnVfN212TmIzd0NfcG9pZmx6ZGg3MGNDU0FhTUJhTGcySk1UNGZGZVdpMFd6SVE2VTI3LVd4ekJkS3JtVWZTT1oyQnZ1SGY3OWxrYkhLYXB5eDZvd21CSGp1X1ZFQUUwZjRYa05hUDlLR0tSQlNoV0FPLXQxMGt1Qi1JZ2lyVFVyVnJydjhGZw?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Mon, 16 Nov 2026 21:40:16 GMT",
+      "location": "India"
+    },
+    {
       "title": "Section In-Charge/Assistant Manager/ Manager — Smsla",
       "link": "https://smsla.global/careers-at-sms-labs/",
       "source": "Smsla",
       "category": "Lab Career Pages",
       "published": "Sun, 15 Nov 2026 18:37:09 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Part-time AI jobs",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV3o2N0h4YWx3Q21YME5oWUxQTTJGVTR3YzVTbFN3ZnBZa0hoNGdpa01wbjBtRW5ZeFM0a0R3UjgyajFGUlI2RnJhckRudHBpdU8zOENFZFFwamYxbHlWbHV0SG1wRUw4S1RWa2hTVXpKeVZMV3FDaTdyUmVmOEJ1VWxFY21zTVJXMjZVbXJGdm5nQzE3OURjYWwtbGk?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Sun, 15 Nov 2026 08:00:00 GMT",
       "location": "India"
     },
     {
@@ -433,6 +465,14 @@
       "category": "Job Portals",
       "published": "Sat, 14 Nov 2026 08:00:00 GMT",
       "location": "Ahmedabad"
+    },
+    {
+      "title": "LAB TECHNICIAN , Experienced Job in Redpath Diagnostics at All India",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTZ3TXRFSzNNRE0xLUZJYWVRWkQxWndJeV9JNjFmMWtzWTlrR3YwZDNCZFN5d010QlJpWWZjWDdpWHhaUXF3NDlUTXJIeTRWZHduOG81cVcwTWtHeEppdWxkbFFpcUJITEdMbm5NNzhwY1gyZnZ3S0Z0QjNHd2paYzB2R1JVQVNGZWc?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Sat, 14 Nov 2026 06:16:34 GMT",
+      "location": "All India"
     },
     {
       "title": "Chief Executive Officer — Delhitesthouse",
@@ -457,6 +497,14 @@
       "category": "Job Portals",
       "published": "Fri, 13 Nov 2026 08:00:00 GMT",
       "location": "All India"
+    },
+    {
+      "title": "Senior Executive Quality Analyst Job in Carlsberg at Bangalore",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZDhmUG1XYVhxcjFMX3hFNlNMYXBRSjVDTzBOMEpJM2dFZkVRSDlwcmpWYlFBaU5YVGt4SzI3bW1TZTcwVkJKdEVMVEx1RFhEYjJ1cUhzUk9lY2h2X2hnWU5VbEhnREtTYUVqTWVmdTlGRUdFdllMcS1xdVM0VFZHMG5xOWM?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "location": "Bangalore"
     },
     {
       "title": "Openings currently listed — Fhhl",
@@ -563,11 +611,11 @@
       "location": "India"
     },
     {
-      "title": "Imagine telling your boss you want to resign, and instead of accepting your resignation, he offers you an entire year off. That's exactly what happened to Anu Bharadwaj, who went on to become President of Atlassian. I came across her story and wanted to brea",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRldDdDhvOWpqWVhyNDlfei16Rl9rSFJWMXBZOW5WZUJzanRERkM1UlpGeHBXWGxXTVB1STBFUEx4bVlhU3haSUpRYlJseWtNNnVybktueTB0eTFMeWx0YlVuM29fbnExXzZsOTNaZ0ozSzdZMlNoaU5EdFVNWDd6UklaZHIxeE83WjBMNEVpM2NQTjZzZy1JeV9qNEVsemdvdlZCaWNRVmM0a0NPNzVVbWpuY2wwNEZBS3Q3ZmNISXdFdw?oc=5",
+      "title": "Laboratory Technician at Eurofins — Des Moines, IA | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONTV3Wk5KU2hKbjh4RkJ6LVVOTkhRT1FyVHhMUkdIMmFTRzk4eW5ibVRIUkVTRUlKaEk3cUVTeTN2RWxLc3JSbXo0ZkltTDdScElVTHZZVGUyc1REQTlENDNVSDFUQjVwTy1IbVo4UGVqbmRyc3BfS242bzZmSEJCTHJEV2hTUQ?oc=5",
       "source": "LinkedIn",
       "category": "LinkedIn",
-      "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+      "published": "Fri, 06 Nov 2026 08:00:00 GMT",
       "location": "India"
     },
     {
@@ -595,12 +643,12 @@
       "location": "India"
     },
     {
-      "title": "Senior Lab Executive - Food Technology Job in Croyance Executive Search Pvt. Ltd. at Mumbai City",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRnp2LU01N1gtVnN5WHh5U2FkSVhWUWRaNXFFSHB5Mm9sUGJ3WHBtMGdrcWkwMFJXYW84cFRmUWxTLWVGRmJYeENaejU0ZVRzd1hSdDF3U01nTFJjNnNMRzRjRzBaNk5rSjlCRW8zSVJLZ1lhWEpMSGFDNkYwb0JoRDZKcXRWQXltWXVQamhUdU1XRnFGUWstTnZtellaT2t4RFlBaHFPUWtVdw?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "location": "Mumbai"
+      "title": "On Call/Flex Laboratory Assistant at Eurofins US Food, Feed, & Supplement Testing — Des Moines, IA | LinkedIn Jobs",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLVQxWEo1dFBrWFRzZ2l0QWxfbHpQeWhPbnBqd3IzZ2w2d1NEMU1seWR1Z0hhOVY5TUpwZjJpMnFZMGNHd1ZQczFTaDUxWkRncjRvdHdLaldmRWZkSWM3VEk5VXRGblI3X0xTWkNHdG5JMUd1VlRmVkFxVzkyM0NYczJfRVJYMkxJS1NPb012OVN1bUJHM3I0cFlxempvdVBCel9vV0lZOG9LblNlWDd1bzVHZnVIcFFCRnozaGR4ZHc?oc=5",
+      "source": "LinkedIn",
+      "category": "LinkedIn",
+      "published": "Tue, 03 Nov 2026 05:45:55 GMT",
+      "location": "India"
     },
     {
       "title": "Senior Analyst – Environment More Details — Envirocarelabs",
@@ -712,6 +760,14 @@
       "source": "Equinoxlab",
       "category": "Lab Career Pages",
       "published": "Mon, 26 Oct 2026 12:27:55 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Reposts by Madhusudan Sahoo (@madhu_sahoo)",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9RM3RlTEpzcEZ3SzdpMUtEMFpyN1I1ZGxoT1AxNVZGSnFKd0pNUVJ1MU94RGM5RWh3NklfN1ozaFZJb2JFNFJTRw?oc=5",
+      "source": "X",
+      "category": "Twitter / X",
+      "published": "Sun, 25 Oct 2026 22:47:05 GMT",
       "location": "India"
     },
     {
