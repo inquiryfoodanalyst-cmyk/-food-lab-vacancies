@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-11-24T08:49:46.798196+00:00",
-  "count": 114,
+  "generated_at": "2026-11-24T20:03:01.826800+00:00",
+  "count": 105,
   "items": [
     {
-      "title": "Openings currently listed — Delhitesthouse",
-      "link": "https://www.delhitesthouse.com/",
-      "source": "Delhitesthouse",
+      "title": "Openings currently listed — Merieux NutriSciences",
+      "link": "https://www.merieuxnutrisciences.com/in/careers-at-merieux-nutrisciences/",
+      "source": "Merieux NutriSciences",
       "category": "Lab Career Pages",
-      "published": "Tue, 24 Nov 2026 08:49:46 GMT",
+      "published": "Tue, 24 Nov 2026 20:03:01 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Bureau of Indian Standards (BIS)",
+      "link": "https://www.bis.gov.in/career-opportunities/?lang=en",
+      "source": "Bureau of Indian Standards (BIS)",
+      "category": "Govt Jobs",
+      "published": "Tue, 24 Nov 2026 19:59:45 GMT",
       "location": "India"
     },
     {
@@ -15,7 +23,7 @@
       "link": "https://niftem.ac.in/career/jobs?tab=openings",
       "source": "NIFTEM",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:47:12 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:41 GMT",
       "location": "India"
     },
     {
@@ -23,7 +31,7 @@
       "link": "https://recruitment.cftri.res.in/",
       "source": "CFTRI (CSIR)",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:47:10 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:38 GMT",
       "location": "India"
     },
     {
@@ -31,7 +39,7 @@
       "link": "http://careers.nddb.coop/SitePages/Career-Opportunities-Jobs.aspx",
       "source": "NDDB",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:47:06 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:34 GMT",
       "location": "India"
     },
     {
@@ -39,7 +47,7 @@
       "link": "https://apeda.gov.in/recruitment-appointment",
       "source": "APEDA",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:46:58 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:27 GMT",
       "location": "India"
     },
     {
@@ -47,7 +55,7 @@
       "link": "https://mpeda.gov.in/?page_id=1155",
       "source": "MPEDA",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:46:55 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:24 GMT",
       "location": "India"
     },
     {
@@ -55,7 +63,7 @@
       "link": "https://www.teaboard.gov.in/TEABOARDPAGE/MTQ=",
       "source": "Tea Board India",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:46:52 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:21 GMT",
       "location": "India"
     },
     {
@@ -63,7 +71,15 @@
       "link": "https://www.indianspices.com/opportunities.html",
       "source": "Spices Board India",
       "category": "Govt Jobs",
-      "published": "Tue, 24 Nov 2026 08:46:50 GMT",
+      "published": "Tue, 24 Nov 2026 19:59:19 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Openings currently listed — Delhitesthouse",
+      "link": "https://www.delhitesthouse.com/",
+      "source": "Delhitesthouse",
+      "category": "Lab Career Pages",
+      "published": "Tue, 24 Nov 2026 08:49:46 GMT",
       "location": "India"
     },
     {
@@ -139,30 +155,6 @@
       "location": "India"
     },
     {
-      "title": "Manager Lab — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sun, 22 Nov 2026 10:52:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Sr. Analyst — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sun, 22 Nov 2026 10:52:30 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Environment Chemist — Hthlabs",
-      "link": "https://hthlabs.com/careers/",
-      "source": "Hthlabs",
-      "category": "Lab Career Pages",
-      "published": "Sun, 22 Nov 2026 10:52:30 GMT",
-      "location": "India"
-    },
-    {
       "title": "Openings currently listed — Anaconlaboratories",
       "link": "https://anaconlaboratories.com/careers/",
       "source": "Anaconlaboratories",
@@ -177,30 +169,6 @@
       "category": "Job Portals",
       "published": "Sat, 21 Nov 2026 21:35:02 GMT",
       "location": "Delhi"
-    },
-    {
-      "title": "Manager - Metallurgist Click to view or download document --> Open PDF &nearr; — Alexstewartindia",
-      "link": "https://alexstewartindia.com/career/",
-      "source": "Alexstewartindia",
-      "category": "Lab Career Pages",
-      "published": "Sat, 21 Nov 2026 18:49:36 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Position: Branch Manager, Krishnapatnam Branch Office — Alexstewartindia",
-      "link": "https://alexstewartindia.com/career/",
-      "source": "Alexstewartindia",
-      "category": "Lab Career Pages",
-      "published": "Sat, 21 Nov 2026 18:49:36 GMT",
-      "location": "India"
-    },
-    {
-      "title": "ISO 9001:2015 Internal Auditor — Alexstewartindia",
-      "link": "https://alexstewartindia.com/career/",
-      "source": "Alexstewartindia",
-      "category": "Lab Career Pages",
-      "published": "Sat, 21 Nov 2026 18:49:36 GMT",
-      "location": "India"
     },
     {
       "title": "Technical Manager — Accuratelaboratory",
@@ -371,6 +339,14 @@
       "location": "Nagpur"
     },
     {
+      "title": "Executive - Quality Job in Varun Beverages at Jabalpur – Shine.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd0F0M213TEt2djhlbU50eXIxUVpZWnRRc01TNDV5SzJoOFJkOXdLVjR4V3Z4ZFNCWTNLWW1hZDAycm5TQzJSZjIwa2NYdURIVVFvYzVPZE96cEljLVZpMVFDdmtvakx5OXc5ZzBla0VxVEtHRFlpVGt6eVpjazZ4Ty12UFNQZ1diRG1OUzl2WjJuMXR3UnlmQW55X0hoLS1YVjlYSzFR?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Fri, 20 Nov 2026 08:00:00 GMT",
+      "location": "Jabalpur"
+    },
+    {
       "title": "Executive-Quality Job in VARUN BEVERAGES LIMITED at All India – Shine.com",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVl9YMkxKU1RjNVpyXzBCa1ZZVndkTlFTRDhyc3hmQ202aG1PakZHdmRKYWl4c1hNRV90Ymh4U0k0a2RYdm1zd2k2WTFHdms3dG82alcxaGFudV9kUGoxel9wejAtemhEUnZrMUx2Y3BUNVhhS1gtVDhiQjBEX0RBUU5ESDJFLTE4MGN5ZmE0OWJ6aDdZVldNZVdVOVlJT2JwS05CYnpkVWJscHp4Z3Y0?oc=5",
       "source": "shine.com",
@@ -411,14 +387,6 @@
       "location": "All India"
     },
     {
-      "title": "Pharma Biotech jobs in Agartala",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zYlNqMVFFTHo2eGJCSHFkU0xxSlZ0UkN3cHJfMHFRUENCVFBFOWw4NkRUc2h6R3Z0eDVneGpmWHFuZmhhcWpWTWFKbEhucmg5ZmpJLVh3SERNMGtlZm9LTFYweFR3anpZbmJyQmZ2OUhFSTJZ?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Wed, 18 Nov 2026 17:22:46 GMT",
-      "location": "India"
-    },
-    {
       "title": "Intern — Abctechnolab",
       "link": "https://abctechnolab.com/careers/",
       "source": "Abctechnolab",
@@ -440,14 +408,6 @@
       "source": "Sealab",
       "category": "Lab Career Pages",
       "published": "Wed, 18 Nov 2026 11:18:42 GMT",
-      "location": "India"
-    },
-    {
-      "title": "November Mandarin Opportunity We are offering 2 opportunities limited to 40 selected applicants who want to master Mandarin communication skills for career development or learning purposes. From Chinese companies in Jakarta and other areas to internati",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNXNFWU9rSkR6dHdBUmZRNlZ0YkdwaUlZRjNuX2VHNGtxQVA1VUhtNGpqWDBuaWtpU2lQbmd4dm9YMFdtczN3U3p1VjAtcF82NVViOUdPU19RVGtsMmd3UUZVd2UxUEpvQWEwWGlvcUlCd3g4T2lNSk41MXAyY2VzWXdzTzlNU3BPbXRTRmJ1cVhrYTI5UEJMSWZPVVNfdUdvbXZvY3c1cUdTTGV2V3lkajdFeEtLUQ?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Wed, 18 Nov 2026 09:56:15 GMT",
       "location": "India"
     },
     {
@@ -483,28 +443,12 @@
       "location": "India"
     },
     {
-      "title": "Part-time AI jobs",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV3o2N0h4YWx3Q21YME5oWUxQTTJGVTR3YzVTbFN3ZnBZa0hoNGdpa01wbjBtRW5ZeFM0a0R3UjgyajFGUlI2RnJhckRudHBpdU8zOENFZFFwamYxbHlWbHV0SG1wRUw4S1RWa2hTVXpKeVZMV3FDaTdyUmVmOEJ1VWxFY21zTVJXMjZVbXJGdm5nQzE3OURjYWwtbGk?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Sun, 15 Nov 2026 08:00:00 GMT",
-      "location": "India"
-    },
-    {
       "title": "business development executive Job in nawal analytical labs India private limited at Ahmedabad",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMjZDMjdYRmxzYmxFMTVJUFQ0RThiSXhoRU84bkdIN1M5NTdtdnIwXzVaeXpiYy1FMjRhY0hua0Ztam5SNGdhNUVPZmFLdldkR3ZEb0pRSzQ0dmlHd3pXRldnbUw4WndlRzdRX0N5N0JUSWRLVHE0QlNuNzF5eS0zOUlDQUlCUTF1Q2NBQ3lBU1lGTTI3bzBtSm9mSVdPdVA1ZVprcC03dkNLUnpyUkpF?oc=5",
       "source": "shine.com",
       "category": "Job Portals",
       "published": "Sat, 14 Nov 2026 08:00:00 GMT",
       "location": "Ahmedabad"
-    },
-    {
-      "title": "LAB TECHNICIAN , Experienced Job in Redpath Diagnostics at All India",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTZ3TXRFSzNNRE0xLUZJYWVRWkQxWndJeV9JNjFmMWtzWTlrR3YwZDNCZFN5d010QlJpWWZjWDdpWHhaUXF3NDlUTXJIeTRWZHduOG81cVcwTWtHeEppdWxkbFFpcUJITEdMbm5NNzhwY1gyZnZ3S0Z0QjNHd2paYzB2R1JVQVNGZWc?oc=5",
-      "source": "shine.com",
-      "category": "Job Portals",
-      "published": "Sat, 14 Nov 2026 06:16:34 GMT",
-      "location": "All India"
     },
     {
       "title": "Lab Chemist (Food Industry) Job in Patel Retail Pvt. Ltd at All India",
@@ -555,6 +499,14 @@
       "location": "India"
     },
     {
+      "title": "Auditors Resources Manager Job in Eurofins at Delhi",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03NUQ4SDIyc2xESW9ueE04NDA1S1FlZzlrS0dGMkw1QUVGcGR6aVhoMEJjVWNfb0VHbzlGcjgyanlMSG1ZcHVFcHR1WHZGc2NJeFNtUnlHeUFUb19NRGN4SndWeEUtWlpWNmw0V0VTVU13clpnZkk4a2d0OA?oc=5",
+      "source": "shine.com",
+      "category": "Job Portals",
+      "published": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "location": "Delhi"
+    },
+    {
       "title": "Lab Assistant Trainee Job in PRIYA IT & HR SOLUTIONS at Dombivali",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM1lCbkgtMV9EeEZ0dXRRcjRVVHdnRmJVbGx2cWh1MnBvLVI5MlFra2NpV1FWS25MeVo2Y1VZcklTeWlhaUZ4LVBMWVVJdmRuLWVPWkpSOWEyNlFyR0tDQ2NxNFNlN2ZlV01zRmZvb2pmblo4VGt4ZkJ2amRWOWJKV2djaldkQQ?oc=5",
       "source": "shine.com",
@@ -576,14 +528,6 @@
       "source": "LinkedIn",
       "category": "LinkedIn",
       "published": "Mon, 09 Nov 2026 15:22:45 GMT",
-      "location": "India"
-    },
-    {
-      "title": "Vacuum measurements and technology have been a driving force behind technology for hundreds of years.! So Pleased to be attending the opening Plenary talk of #AVS72 entitled “Vacuum Science and Technology: Enabling the Next Era of Industrial Transfo",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS2hmT0M5YkFjY2RESTUxai04TXJ6d19vdG1palpKS3JxNUFzeXFQRjRBanlYUlE5R3VXZ2RQSk0yQndRLVVqenJYLTdZblpwMzNIN2QyNEh0bUhHZ0xBcmF6OUhicjZEUm5YOHMxYnJQaDNURVBiREZmX2FjRVltZHpDclhnSmZMWmtnTw?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Mon, 09 Nov 2026 13:49:12 GMT",
       "location": "India"
     },
     {
@@ -683,14 +627,6 @@
       "location": "Pune"
     },
     {
-      "title": "Lab Technician at LANXESS — East Hanover, NJ | LinkedIn Jobs",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yRmpnS3RubXI4ZHVZOGdkU2U0em1aQ3FqOWttRUpnd0x5bTdrY21RLU05MXpqQjh4Y3BOSWM3dUw2N3VBeXh5VkJYNEFsNkdEbVhWZVQ4OUxrWjNqMklOWHZTb1JMa2VPZXFTQ19mZFVJZHFkc1AzYkFrTQ?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Thu, 05 Nov 2026 23:15:59 GMT",
-      "location": "India"
-    },
-    {
       "title": "Fresher / Trainee — Farelabs",
       "link": "https://farelabs.com/careers/",
       "source": "Farelabs",
@@ -739,6 +675,22 @@
       "location": "India"
     },
     {
+      "title": "Milto Food Produts Jobs - 24441 Milto Food Produts Job Vacancies In November 2026",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fZXVxVjF3T0dZYkE1MHRZNnlWWUtOazh0LTdPb3A5ZXA1aHU0dUlVS2NPRlZfN0ZZT2ZKdnc4UlVFT2d4WF9vMWlXanFwRm9XOG5YNnRNR1FGZw?oc=5",
+      "source": "Naukri.com",
+      "category": "Job Portals",
+      "published": "Mon, 02 Nov 2026 09:45:24 GMT",
+      "location": "India"
+    },
+    {
+      "title": "Mh Food Jobs - 24993 Mh Food Job Vacancies In November 2026",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13MEUwbTdVRzU2UEtEOVlUNTEtVFJybTRsVllVemw2QkQzV0NkeFhsbjZCOGkyTWpjNkpWX0JkaWJ0elVJdHViYmFTcw?oc=5",
+      "source": "Naukri.com",
+      "category": "Job Portals",
+      "published": "Sun, 01 Nov 2026 15:42:51 GMT",
+      "location": "India"
+    },
+    {
       "title": "Openings currently listed — Bureau Veritas",
       "link": "https://www.bureauveritas.co.in/working-bureau-veritas",
       "source": "Bureau Veritas",
@@ -753,14 +705,6 @@
       "category": "Job Portals",
       "published": "Sat, 31 Oct 2026 07:00:00 GMT",
       "location": "Sonipat"
-    },
-    {
-      "title": "Laboratory Technician at Eurofins Clinical Trial Solutions — Lenexa, KS | LinkedIn Jobs",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWUljOTVUd2JZNlpHQ3VnYzQ2NUVYcUNlMy1JNjRmcmlpUE5LN0ZxdGhnMnVCU0NmZlV3WEFBa3laOWJnaHllc2cyWmRjd2dmanYySm1nZEp3azNnZU9QbUNyaEFIV1c3dWFlcm5hSldfTFBYVzl5eGpiSjZpN2tBaWl2cGRqLTZKSER5aVF2YzlhNTkxdnk5MlFNemE3aTRPVGVpajhJRQ?oc=5",
-      "source": "LinkedIn",
-      "category": "LinkedIn",
-      "published": "Sat, 31 Oct 2026 07:00:00 GMT",
-      "location": "India"
     },
     {
       "title": "Openings currently listed — Vimta Labs",
@@ -897,22 +841,6 @@
       "category": "Job Portals",
       "published": "Mon, 26 Oct 2026 07:00:00 GMT",
       "location": "Sonipat"
-    },
-    {
-      "title": "Reposts by Madhusudan Sahoo (@madhu_sahoo)",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9RM3RlTEpzcEZ3SzdpMUtEMFpyN1I1ZGxoT1AxNVZGSnFKd0pNUVJ1MU94RGM5RWh3NklfN1ozaFZJb2JFNFJTRw?oc=5",
-      "source": "X",
-      "category": "Twitter / X",
-      "published": "Sun, 25 Oct 2026 22:47:05 GMT",
-      "location": "India"
-    },
-    {
-      "title": "📌 Position: Project Associate &#8211; 01 — Kiitincubator",
-      "link": "https://kiitincubator.in/career/",
-      "source": "Kiitincubator",
-      "category": "Lab Career Pages",
-      "published": "Sun, 25 Oct 2026 15:43:13 GMT",
-      "location": "India"
     }
   ]
 }
